@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key>
 
-<string>https://dl.dropboxuercontent.com/s/8bobc0zkxn30mms/Garena%202.9.1.ipa?dl=1</string>
+<string>https://dl.dropboxusercontent.com/s/w1csmn3m4f9wby1/Cercube.ipa?dl=1</string>
 
 </dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>com.readdle.Calendars</string><key>bundle-version</key><string>3800</string><key>kind</key><string>software</string><key>subtitle</key><string>InstallApps</string><key>title</key>
 
 
-<string>Garena</string>
+<string>Cercube</string>
 
 </dict></dict></array></dict></plist>
