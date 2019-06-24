@@ -1,4 +1,4 @@
-# Title: Hosts
+# Title: Adguard Pro hosts
 # Last modified: 29 Dec 2018
 # Please report any ads or problems by github
 # Home: https://github.com/ThinhBBQ/Developer
@@ -7,7 +7,6 @@
 #
 # =====================================================
 
-# BEGIN hostsVN ---
 # --- Group block ---
 #[google]
 0.0.0.0 doubleclick.net
