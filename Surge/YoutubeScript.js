@@ -1,6 +1,6 @@
 /*
 [Script]
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/ThinhBBQ/Developer/master/Surge/YoutubeScript.js
 
 [MITM]
 hostname = *.googlevideo.com
