@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key>
 
-<stringhttps://dl.dropboxusercontent.com/s/t9qoknmtwpnqosb/Zalo%205.33.ipa?dl=1</string>
+<string>https://dl.dropboxusercontent.com/s/t9qoknmtwpnqosb/Zalo%205.33.ipa?dl=1</string>
 
 </dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>com.readdle.Calendars</string><key>bundle-version</key><string>3800</string><key>kind</key><string>software</string><key>subtitle</key><string>InstallApps</string><key>title</key>
 
