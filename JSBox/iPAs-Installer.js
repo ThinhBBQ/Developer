@@ -4,7 +4,7 @@ IPA 文件安装器
 - 支持主程序运行选择文件安装
 - 安装完成后请返回运行界面选择后续操作
 
-作者联系：https://t.me/axel_burks
+作者联系：longthinhiphone@gmail.com
 */
 
 var port_number = 8080
@@ -13,20 +13,13 @@ var plist_url = "itms-services://?action=download-manifest&url=https://raw.githu
 $app.strings = {
   "en": {
     "starterror": "Not support running in this way",
-    "ftypeerror": " is not ipa file",
+    "ftypeerror": " is not *.ipa file",
     "installtitle": "Installing...",
-    "installmsg": "\n\nYou can check on Homescreen.\nPlease tap \"Done\" button after finished",
-    "inerrtitle": "IPA file import error",
-    "inerrmsg": "Please rerun the script"
+    "installmsg": "\n\nYou can check on Homescreen\nPlease tap \"Done\" button after finished",
+    "inerrtitle": "*.ipa file import error",
+    "inerrmsg": "Please rerun the Script"
   },
-  "zh-Hans": {
-    "starterror": "不支持此方式运行！",
-    "ftypeerror": " 非 ipa 文件！",
-    "installtitle": "正在安装…",
-    "installmsg": "\n\n可前往桌面查看安装进度\n完成后请点击\"Done\"按钮",
-    "inerrtitle": "IPA文件导入失败",
-    "inerrmsg": "请重新运行此脚本"
-  }
+  
 }
 
 // 从应用内启动
@@ -108,7 +101,7 @@ function install(fileName, file) {
     } else {
       $ui.alert({
         title: "Open itms-services scheme failed",
-        message: "Please contact the author @axel_burks",
+        message: "Please contact the Author: Long Thinh",
         actions: [{
           title: "Cancel",
           style: "Cancel",
@@ -119,7 +112,7 @@ function install(fileName, file) {
         {
           title: "OK",
           handler: function() {
-            $app.openURL("tg://resolve?domain=axel_burks")
+            $app.openURL("tg://resolve?domain=longthinhiphone@gmail.com")
           }
         }]
       })
