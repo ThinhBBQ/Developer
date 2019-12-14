@@ -21,7 +21,7 @@ $app.strings = {
   },
 }
 
-// 从应用内启动
+// Launch from within the app
 if ($app.env == $env.app) {
   $drive.open({
     handler: function(data) {
@@ -29,7 +29,7 @@ if ($app.env == $env.app) {
     }
   })
 }
-// 从 Action Entension 启动
+// 从 Action Entension
 else if ($app.env == $env.action) {
   fileCheck($context.data)
 }
@@ -100,7 +100,7 @@ function install(fileName, file) {
     } else {
       $ui.alert({
         title: "Open itms-services scheme failed",
-        message: "Please contact the author @axel_burks",
+        message: "Please contact the Author: Long Thinh",
         actions: [{
           title: "Cancel",
           style: "Cancel",
