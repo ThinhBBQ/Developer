@@ -1,27 +1,35 @@
 /*
-  IPA File Installer
-- Support file sharing installation
-- Support program activities to install files
-- After the installation is complete, please return to the operation interface and select the subsequent operations
+IPA 文件安装器
+- 支持文件分享安装
+- 支持主程序运行选择文件安装
+- 安装完成后请返回运行界面选择后续操作
 
-Author: Long Thinh
+作者联系：https://t.me/axel_burks
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Developer/master/JSBox/Code.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://coding.net/u/suisr/p/PlistServer/git/raw/master/universal_jsbox.plist"
 
 $app.strings = {
   "en": {
     "starterror": "Not support running in this way",
-    "ftypeerror": " is not *.ipa file",
+    "ftypeerror": " is not ipa file",
     "installtitle": "Installing...",
-    "installmsg": "\n\nYou can check on Homescreen\nPlease tap \"Done\" button after finished",
-    "inerrtitle": "*.ipa file import error",
-    "inerrmsg": "Please rerun the Script"
+    "installmsg": "\n\nYou can check on Homescreen.\nPlease tap \"Done\" button after finished",
+    "inerrtitle": "IPA file import error",
+    "inerrmsg": "Please rerun the script"
   },
+  "zh-Hans": {
+    "starterror": "不支持此方式运行！",
+    "ftypeerror": " 非 ipa 文件！",
+    "installtitle": "正在安装…",
+    "installmsg": "\n\n可前往桌面查看安装进度\n完成后请点击\"Done\"按钮",
+    "inerrtitle": "IPA文件导入失败",
+    "inerrmsg": "请重新运行此脚本"
+  }
 }
 
-// Launch from within the app
+// 从应用内启动
 if ($app.env == $env.app) {
   $drive.open({
     handler: function(data) {
@@ -29,7 +37,7 @@ if ($app.env == $env.app) {
     }
   })
 }
-// 从 Action Entension
+// 从 Action Entension 启动
 else if ($app.env == $env.action) {
   fileCheck($context.data)
 }
@@ -100,7 +108,7 @@ function install(fileName, file) {
     } else {
       $ui.alert({
         title: "Open itms-services scheme failed",
-        message: "Please contact the Author: Long Thinh",
+        message: "Please contact the author @axel_burks",
         actions: [{
           title: "Cancel",
           style: "Cancel",
