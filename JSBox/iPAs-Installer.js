@@ -8,7 +8,7 @@ IPA 文件安装器
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=https://coding.net/u/suisr/p/PlistServer/git/raw/master/universal_jsbox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Developer/master/JSBox/Code.plist"
 
 $app.strings = {
   "en": {
