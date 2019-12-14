@@ -1,10 +1,10 @@
 /*
-IPA 文件安装器
-- 支持文件分享安装
-- 支持主程序运行选择文件安装
-- 安装完成后请返回运行界面选择后续操作
+  IPA File Installer
+- Support file sharing installation
+- Support program activities to install files
+- After the installation is complete, please return to the operation interface and select the subsequent operations
 
-作者联系：https://t.me/axel_burks
+Author: Long Thinh
 */
 
 var port_number = 8080
