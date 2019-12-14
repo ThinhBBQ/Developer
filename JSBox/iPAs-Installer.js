@@ -8,25 +8,17 @@ Author: Long Thinh
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=https://coding.net/u/suisr/p/PlistServer/git/raw/master/universal_jsbox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Developer/master/JSBox/Code.plist"
 
 $app.strings = {
   "en": {
     "starterror": "Not support running in this way",
-    "ftypeerror": " is not ipa file",
+    "ftypeerror": " is not *.ipa file",
     "installtitle": "Installing...",
-    "installmsg": "\n\nYou can check on Homescreen.\nPlease tap \"Done\" button after finished",
-    "inerrtitle": "IPA file import error",
-    "inerrmsg": "Please rerun the script"
+    "installmsg": "\n\nYou can check on Homescreen\nPlease tap \"Done\" button after finished",
+    "inerrtitle": "*.ipa file import error",
+    "inerrmsg": "Please rerun the Script"
   },
-  "zh-Hans": {
-    "starterror": "不支持此方式运行！",
-    "ftypeerror": " 非 ipa 文件！",
-    "installtitle": "正在安装…",
-    "installmsg": "\n\n可前往桌面查看安装进度\n完成后请点击\"Done\"按钮",
-    "inerrtitle": "IPA文件导入失败",
-    "inerrmsg": "请重新运行此脚本"
-  }
 }
 
 // 从应用内启动
