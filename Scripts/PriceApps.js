@@ -1,5 +1,5 @@
 const region = "us"
-const appIds = ["1312014438", "1423330822", "1085978097"]
+const appIds = []
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
