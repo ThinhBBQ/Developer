@@ -1,12 +1,3 @@
-# Title: Adguard Pro hosts
-# Last modified: 14 Dec 18:24
-# Please report any ads or problems by github
-# Home: https://github.com/LongThinh/Developer
-# Github: https://github.com/LongThinh/Developer
-# Download: https://raw.githubusercontent.com/LongThinh/Developer/master/Adguard/hosts
-# =====================================================
-
-# --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
 0.0.0.0 api.adtimaserver.vn
@@ -1274,7 +1265,6 @@
 0.0.0.0 z2.zbet.com
 0.0.0.0 z3.zbet.com
 0.0.0.0 www.zbet.com
-# --- Block scamVN ---
 0.0.0.0 fuckbookvietnam.com
 0.0.0.0 www.fuckbookvietnam.com
 0.0.0.0 xmobliefacebook.com
