@@ -8,7 +8,7 @@ Author：longthinhiphone@gmail.com
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/JSBox/Code.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/JSBox/CodeJSBox.plist"
 
 $app.strings = {
   "en": {
