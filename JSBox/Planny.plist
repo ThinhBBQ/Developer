@@ -1,9 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>items</key><array><dict><key>assets</key><array><dict><key>kind</key><string>software-package</string><key>url</key>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"> 
+<dict>
 
+<key>items</key>
+<array>
+<dict>
+
+<key>assets</key>
+<array>
+<dict>
+
+<key>kind</key>
+
+<string>software-package</string>
+
+<key>url</key>
 <string>https://dl.dropboxusercontent.com/s/x6nmvrmcoabq3zt/Planny%202.4.10.ipa?dl=1</string>
 
-</dict></array><key>metadata</key><dict><key>bundle-identifier</key><string>com.readdle.Calendars</string><key>bundle-version</key><string>3800</string><key>kind</key><string>software</string><key>subtitle</key><string>JSBox</string><key>title</key>
+</dict>
+</array>
+
+<key>metadata</key>
+<dict>
+
+<key>bundle-identifier</key>
+
+<string>com.readdle.Calendars</string>
+
+<key>bundle-version</key>
+
+<string>3800</string>
+
+<key>kind</key>
+
+<string>software</string>
+
+<key>subtitle</key>
+
+<string>JSBox</string>
+
+<key>title</key>
 
 <string>Planny 2.4.10</string>
 
-</dict></dict></array></dict></plist>
+</dict>
+</dict>
+</array>
+</dict>
+</plist>
