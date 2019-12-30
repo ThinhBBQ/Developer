@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.readdle.Calendars</string>
+<string>*</string>
 
 <key>bundle-version</key>
 
-<string>3800</string>
+<string>*</string>
 
 <key>kind</key>
 
@@ -46,7 +46,7 @@
 
 <key>title</key>
 
-<string>Planny 2.4.10</string>
+<string>App</string>
 
 </dict>
 </dict>

@@ -34,7 +34,7 @@
 
 <key>bundle-version</key>
 
-<string>1.0</string>
+<string>*</string>
 
 <key>kind</key>
 
