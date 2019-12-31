@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>*</string>
+<string>com.kevinreutter.Callisto</string>
 
 <key>bundle-version</key>
 
-<string>*</string>
+<string>1238</string>
 
 <key>kind</key>
 
