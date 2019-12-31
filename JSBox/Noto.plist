@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.kevinreutter.Callisto</string>
+<string>com.lkzhao.editor</string>
 
 <key>bundle-version</key>
 
-<string>1238</string>
+<string>5</string>
 
 <key>kind</key>
 
