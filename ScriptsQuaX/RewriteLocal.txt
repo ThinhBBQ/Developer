@@ -1,5 +1,3 @@
-[rewrite_local]
-
 #PicsArt
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 

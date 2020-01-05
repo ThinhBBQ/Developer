@@ -1,5 +1,3 @@
-[rewrite_remote]
-
 #PicsArt
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripts/PicsArt.js
 
