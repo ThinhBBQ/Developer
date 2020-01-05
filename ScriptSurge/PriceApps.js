@@ -1,4 +1,4 @@
-/*using surge cron*/
+/*using Surge cron*/
 
 const region = "us"
 const appIds = []
