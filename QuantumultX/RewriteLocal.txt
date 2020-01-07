@@ -15,3 +15,6 @@
 
 #Documents
 ^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js
+
+#WorkingCopy
+^https:\/\/education\.github\.com\/api\/user$ url script-response-body url script-response-body WorkingCopy.js
