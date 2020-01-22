@@ -101,7 +101,7 @@ function install(fileName, file) {
     } else {
       $ui.alert({
         title: "Open itms-services scheme failed",
-        message: "Please contact the Author: Long Thinh",
+        message: "Please contact the Long Thinh",
         actions: [{
           title: "Cancel",
           style: "Cancel",
@@ -112,7 +112,7 @@ function install(fileName, file) {
         {
           title: "OK",
           handler: function() {
-            $app.openURL("tg://resolve?domain=longthinhiphone@gmail.com")
+            $app.openURL("tg://resolve?domain=https://t.me/LongThinh")
           }
         }]
       })
