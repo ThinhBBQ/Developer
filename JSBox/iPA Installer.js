@@ -1,25 +1,23 @@
-/*
-IPA File Installer
-- Support file sharing installation
-- Support for file installation
-- After the installation is complete, please return to the operation interface and select the subsequent operations
-
-Author：longthinhiphone@gmail.com
-*/
-
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/JSBox/CodeJSBox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/JSBox/iPACode.plist"
 
 $app.strings = {
   "en": {
     "starterror": "Not support running in this way",
-    "ftypeerror": " is not *.ipa file",
+    "ftypeerror": " is not ipa file",
     "installtitle": "Installing...",
-    "installmsg": "\n\nYou can check on Homescreen\nPlease tap \"Done\" button after finished",
-    "inerrtitle": "*.ipa file import error",
-    "inerrmsg": "Please rerun the Script"
+    "installmsg": "\n\nYou can check on Homescreen.\nPlease tap \"Done\" button after finished",
+    "inerrtitle": "IPA file import error",
+    "inerrmsg": "Please rerun the script"
   },
-  
+  "zh-Hans": {
+    "starterror": "not support！",
+    "ftypeerror": " non ipa！",
+    "installtitle": "Installing…",
+    "installmsg": "\n\nLet's go\nPlease click when you are finished\"Done\"Click",
+    "inerrtitle": "IPA flase",
+    "inerrmsg": "please re run"
+  }
 }
 
 // Launch from within the app
@@ -30,7 +28,7 @@ if ($app.env == $env.app) {
     }
   })
 }
-// 从 Action Entension
+// Action Entension
 else if ($app.env == $env.action) {
   fileCheck($context.data)
 }
@@ -101,7 +99,7 @@ function install(fileName, file) {
     } else {
       $ui.alert({
         title: "Open itms-services scheme failed",
-        message: "Please contact the Long Thinh",
+        message: "Please contact Long Thinh",
         actions: [{
           title: "Cancel",
           style: "Cancel",
@@ -112,7 +110,7 @@ function install(fileName, file) {
         {
           title: "OK",
           handler: function() {
-            $app.openURL("tg://resolve?domain=https://t.me/LongThinh")
+            $app.openURL("https://t.me/LongThinh")
           }
         }]
       })
@@ -144,6 +142,3 @@ function delayClose(time) {
       }
     })
 }
-
-
-
