@@ -19,7 +19,7 @@
 
 <key>url</key>
 
-<string>https://dl.dropboxusercontent.com/s/5qvf63v634akufe/Boom%201.4.9.ipa?dl=1</string>
+<string>https://dl.dropboxusercontent.com/s/t79u97ceh1c81w3/JSBox%201.58.0.ipa?dl=1</string>
 
 </dict>
 </array>
@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.globaldelight.iBoom</string>
+<string>*</string>
 
 <key>bundle-version</key>
 
-<string>1.4.90002</string>
+<string>*</string>
 
 <key>kind</key>
 
