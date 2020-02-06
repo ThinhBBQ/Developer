@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.keyboard.colorkeyboard</string>
+<string>*</string>
 
 <key>bundle-version</key>
 
-<string>4.2.3.2</string>
+<string>*</string>
 
 <key>kind</key>
 
@@ -46,7 +46,7 @@
 
 <key>title</key>
 
-<string>App</string>
+<string>RainbowKey</string>
 
 </dict>
 </dict>
