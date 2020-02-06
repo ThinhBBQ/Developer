@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.globaldelight.iBoom</string>
+<string>*</string>
 
 <key>bundle-version</key>
 
-<string>1.4.90002</string>
+<string>*</string>
 
 <key>kind</key>
 
