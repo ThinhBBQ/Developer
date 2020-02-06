@@ -30,11 +30,11 @@
 
 <key>bundle-identifier</key>
 
-<string>com.kevinreutter.Callisto</string>
+<string>*</string>
 
 <key>bundle-version</key>
 
-<string>1238</string>
+<string>*</string>
 
 <key>kind</key>
 
@@ -46,7 +46,7 @@
 
 <key>title</key>
 
-<string>App</string>
+<string>Planny 3</string>
 
 </dict>
 </dict>
