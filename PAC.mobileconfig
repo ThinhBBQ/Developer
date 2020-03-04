@@ -22,15 +22,15 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://www.dropbox.com/s/c22axonllxycr55/Antirevoke%2BAds.js?dl=1</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/Scripts/AntiRevokeOTA.plist</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
 		<dict>
 			<key>LockScreenFootnote</key>
-			<string>This iPhone is supervised and managed by Lãng Khách</string>
+			<string>This iPhone is supervised and managed by #LongThinh</string>
 <key>OrganizationName</key>
-			<string>Lãng Khách</string>
+			<string>Long Thinh</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Settings</string>
 			<key>PayloadIdentifier</key>
@@ -44,7 +44,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>Proxy's Hiep(Mar 4, 2020 at 13:18)</string>
+	<string>PAC Proxy's(Mar 4, 2020 at 13:18)</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
 	<key>PayloadRemovalDisallowed</key>
