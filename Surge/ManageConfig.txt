@@ -1,5 +1,0 @@
-Enable
-//#!MANAGED-CONFIG https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/SurgePremium.conf interval=10800 strict=true
-
-Disable
-//#!MANAGED-CONFIG https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/SurgePremium.conf interval=10800 strict=true
