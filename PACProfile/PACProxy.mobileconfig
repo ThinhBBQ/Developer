@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>Global HTTP Proxy, Revoke blocked & OTA</string>
+			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
 			<string>PAC AntiRevoke/OTA</string>
 			<key>PayloadIdentifier</key>
