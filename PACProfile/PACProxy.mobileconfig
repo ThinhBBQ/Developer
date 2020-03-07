@@ -8,7 +8,7 @@
 			<key>PayloadDescription</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
-			<string>Global HTTP Proxy</string>
+			<string>PAC AntiRevoke/OTA</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.proxy.http.global.6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
 			<key>PayloadType</key>
@@ -18,7 +18,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyCaptiveLoginAllowed</key>
-			<false/>
+			<true/>
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
@@ -29,8 +29,6 @@
 		<dict>
 			<key>LockScreenFootnote</key>
 			<string>This iPhone is supervised and managed by #LongThinh</string>
-<key>OrganizationName</key>
-			<string>Long Thinh</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Settings</string>
 			<key>PayloadIdentifier</key>
@@ -47,10 +45,12 @@
 	<string>PAC AntiRevoke/OTA</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
-	<key>PayloadRebootSuggested</key>
-<true/>
+    <key>PayloadOrganization</key>
+    <string>Long Thinh</string>
+    <key>PayloadRebootSuggested</key>
+    <true/>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
