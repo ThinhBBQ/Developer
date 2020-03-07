@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/AntiRevokeOTA.js</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/OTALite.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
