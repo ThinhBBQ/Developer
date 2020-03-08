@@ -1,5 +1,5 @@
 var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.0.1:8080";
+var PROXY = "PROXY 127.0.0.1:80";
 var blacklist = {"su.itunes.apple.com":1,"appldnld.apple.com":1,"appldnld.apple.com.akadns.net":1,"appldnld.g.aaplimg.com":1,"mesu.apple.com":1,"mesu-cdn.apple.com.akadns.net":1,"mesu-cdn.origin-apple.com.akadns.net":1,"mesu.g.aaplimg.com":1,"gdmf.apple.com":1,"gdmf.apple.com.akadns.net":1,"ocsp.apple.com":1};
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
