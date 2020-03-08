@@ -27,6 +27,7 @@
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
+		<dict>
 		<key>LockScreenFootnote</key>
 			<string>This iPhone is supervised and managed by #LongThinh</string>
 			<key>PayloadDisplayName</key>
