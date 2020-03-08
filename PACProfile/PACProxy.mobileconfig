@@ -27,6 +27,15 @@
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
+		<dict>
+		<string>This iPhone is supervised and managed by #LongThinh</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.serverdbs.lockscreentext</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>PAC Antirevoke/OTA</string>
@@ -45,12 +54,5 @@
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>LockScreenFootnote</key>
-			<string>This iPhone is supervised and managed by #LongThinh</string>
-			<key>PayloadDisplayName</key>
-			<string>Lock Screen Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>com.serverdbs.lockscreentext</string>
-			<key>PayloadType</key>
-			<string>com.apple.shareddeviceconfiguration</string>
 </dict>
 </plist>
