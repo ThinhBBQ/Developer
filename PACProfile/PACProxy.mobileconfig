@@ -27,16 +27,9 @@
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
-		<dict>
-		<string>This iPhone is supervised and managed by #LongThinh</string>
-			<key>PayloadDisplayName</key>
-			<string>Lock Screen Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>com.serverdbs.lockscreentext</string>
-			<key>PayloadType</key>
-			<string>com.apple.shareddeviceconfiguration</string>
-			</dict>
 	</array>
+	<key>PayloadDescription</key>
+<string>Chặn cập nhật phiên bản iOS, chống thu hồi chứng chỉ và chặn kiểm tra cập nhật ứng dụng trong AppStore.</string>
 	<key>PayloadDisplayName</key>
 	<string>PAC Antirevoke/OTA</string>
 	<key>PayloadIdentifier</key>
