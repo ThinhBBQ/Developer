@@ -46,6 +46,15 @@
 	<string>05310982-9E13-4A65-B5E9-9B523B2D2DE7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<dict>
 	<key>LockScreenFootnote</key>
+	<string>This iPhone is supervised and managed by #LongThinh</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.serverdbs.lockscreentext</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			</dict>
 </dict>
 </plist>
