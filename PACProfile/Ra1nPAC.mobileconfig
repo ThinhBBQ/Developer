@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 		<dict>
 			<key>default</key>
-			<string>The configuration has a function of blocking certificate revocation, blocking iOS updates and blocking checking for application updates in the Appstore./nhttps://t.me/LongThinh</string>
+			<string>The configuration has a function of blocking certificate revocation, blocking iOS updates and blocking checking for application updates in the Appstore. https://t.me/LongThinh</string>
 		</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -47,7 +47,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>Chặn cập nhật phiên bản iOS, chống thu hồi chứng chỉ và chặn kiểm tra cập nhật ứng dụng trong Appstore./nhttps://t.me/LongThinh</string>
+	<string>Chặn cập nhật phiên bản iOS, chống thu hồi chứng chỉ và chặn kiểm tra cập nhật ứng dụng trong Appstore. https://t.me/LongThinh</string>
 	<key>PayloadDisplayName</key>
 	<string>Ra1nPAC</string>
 	<key>PayloadIdentifier</key>
