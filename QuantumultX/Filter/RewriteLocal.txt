@@ -1,0 +1,17 @@
+#Documents
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js
+
+#Eggzy
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
+
+#PDFExpert
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
+
+#PicsArt
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
+
+#VerifyReceipt
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
+
+#WorkingCopy
+^https:\/\/education\.github\.com\/api\/user$ url script-response-body url script-response-body WorkingCopy.js
