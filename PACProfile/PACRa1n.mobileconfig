@@ -5,14 +5,14 @@
 	<key>ConsentText</key>
 		<dict>
 			<key>default</key>
-			<string>  PACRa1n® Beta 1.0
-				- Blocking iOS updates (OTA)
-				- The configuration has a function of blocking certificate revocation
-				- Blocking checking for application updates in the Appstore
+			<string>PACRa1n® Beta 1.0
+	- Blocking iOS updates (OTA)
+	- The configuration has a function of blocking certificate revocation
+	- Blocking checking for application updates in the Appstore
 				
-				- Contact us: t.me/LongThinh
+	- Contact us: t.me/LongThinh
 				
-				  © Long Thinh</string>
+			© Long Thinh</string>
 		</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -54,7 +54,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>  PACRa1n® Beta 1.0
+	<string>PACRa1n® Beta 1.0
 		- Chặn cập nhật phiên bản iOS (OTA)
 		- Chống thu hồi chứng chỉ
 		- Chặn kiểm tra cập nhật ứng dụng trong Appstore
