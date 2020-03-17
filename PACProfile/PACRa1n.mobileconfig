@@ -5,7 +5,13 @@
 	<key>ConsentText</key>
 		<dict>
 			<key>default</key>
-			<string>The configuration has a function of blocking certificate revocation, blocking iOS updates and blocking checking for application updates in the Appstore. https://t.me/LongThinh</string>
+			<string>- Blocking iOS updates (OTA)
+				- The configuration has a function of blocking certificate revocation
+				- Blocking checking for application updates in the Appstore
+				
+				- Contact us: t.me/LongThinh
+				
+				  © Long Thinh</string>
 		</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -27,17 +33,17 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1nLite.js</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/LiteRa1n.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
 		<dict>
 			<key>LockScreenFootnote</key>
-			<string>This iPhone is supervised and managed by #LongThinh</string>
+			<string>This iPhone is supervised and managed by © Long Thinh</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Settings</string>
 			<key>PayloadIdentifier</key>
-			<string>com.hcsavn.lockscreen</string>
+			<string>com.longthinh.lockscreen</string>
 			<key>PayloadType</key>
 			<string>com.apple.shareddeviceconfiguration</string>
 			<key>PayloadUUID</key>
@@ -47,13 +53,19 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>Chặn cập nhật phiên bản iOS, chống thu hồi chứng chỉ và chặn kiểm tra cập nhật ứng dụng trong Appstore. https://t.me/LongThinh</string>
+	<string>- Chặn cập nhật phiên bản iOS (OTA)
+		- Chống thu hồi chứng chỉ
+		- Chặn kiểm tra cập nhật ứng dụng trong Appstore
+		
+		- Contact us: t.me/LongThinh
+		
+		  © Long Thinh</string>
 	<key>PayloadDisplayName</key>
-	<string>Ra1nPAC</string>
+	<string>PACRa1n</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
-    <string>Long Thinh</string>
+    <string>© Long Thinh</string>
     <key>PayloadRebootSuggested</key>
     <true/>
 	<key>PayloadRemovalDisallowed</key>
@@ -67,9 +79,11 @@
     <key>ConsentText</key>
     <dict>
 		<key>default</key>
-		<string>Cài đặt cấu hình này có nghĩa là bạn cho phép cấu hình này kiểm soát các kết nối truy cập internet của bạn. Quan trọng: Không có dữ liệu cá nhân nào bị thu thập</string>
+		<string>- Cài đặt cấu hình này có nghĩa là bạn cho phép cấu hình này kiểm soát các kết nối truy cập internet của bạn
+			* Quan trọng: Không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
-		<string>This configuration setting means you allow this profile to control your internet access connections. Important: No personal data was collected</string>
+		<string>- This configuration setting means you allow this profile to control your internet access connections
+			* Important: No personal data was collected</string>
 		</dict>
 </dict>
 </plist>
