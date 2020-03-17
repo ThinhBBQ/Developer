@@ -5,7 +5,8 @@
 	<key>ConsentText</key>
 		<dict>
 			<key>default</key>
-			<string>- Blocking iOS updates (OTA)
+			<string>  PACRa1n® Beta 1.0
+				- Blocking iOS updates (OTA)
 				- The configuration has a function of blocking certificate revocation
 				- Blocking checking for application updates in the Appstore
 				
@@ -53,7 +54,8 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>- Chặn cập nhật phiên bản iOS (OTA)
+	<string>  PACRa1n® Beta 1.0
+		- Chặn cập nhật phiên bản iOS (OTA)
 		- Chống thu hồi chứng chỉ
 		- Chặn kiểm tra cập nhật ứng dụng trong Appstore
 		
@@ -61,7 +63,7 @@
 		
 		  © Long Thinh</string>
 	<key>PayloadDisplayName</key>
-	<string>PACRa1n</string>
+	<string>PACRa1n®</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
@@ -79,11 +81,11 @@
     <key>ConsentText</key>
     <dict>
 		<key>default</key>
-		<string>- Cài đặt cấu hình này có nghĩa là bạn cho phép cấu hình này kiểm soát các kết nối truy cập internet của bạn
-			* Quan trọng: Không có dữ liệu cá nhân nào bị thu thập</string>
+		<string>- Cài đặt cấu hình này có nghĩa là bạn đã cho phép cấu hình này kiểm soát các kết nối truy cập Internet của bạn
+			* Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
-		<string>- This configuration setting means you allow this profile to control your internet access connections
-			* Important: No personal data was collected</string>
+		<string>- This configuration setting means you allow this profile to control your Internet access connections
+			* Important: no personal data was collected</string>
 		</dict>
 </dict>
 </plist>
