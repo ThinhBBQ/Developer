@@ -6,13 +6,12 @@
 		<dict>
 			<key>default</key>
 			<string>PACRa1n® Beta 1.0
-	- Blocking iOS updates (OTA)
-	- The configuration has a function of blocking certificate revocation
-	- Blocking checking for application updates in the Appstore
+			- Blocking iOS updates (OTA)
+			- The configuration has a function of blocking certificate revocation
+			- Blocking checking for application updates in the Appstore
 				
-	- Contact us: t.me/LongThinh
-				
-			© Long Thinh</string>
+			- Contact us: t.me/LongThinh
+				</string>
 		</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -59,9 +58,7 @@
 		- Chống thu hồi chứng chỉ
 		- Chặn kiểm tra cập nhật ứng dụng trong Appstore
 		
-		- Contact us: t.me/LongThinh
-		
-		  © Long Thinh</string>
+		- Contact us: t.me/LongThinh</string>
 	<key>PayloadDisplayName</key>
 	<string>PACRa1n®</string>
 	<key>PayloadIdentifier</key>
@@ -82,10 +79,10 @@
     <dict>
 		<key>default</key>
 		<string>- Cài đặt cấu hình này có nghĩa là bạn đã cho phép cấu hình này kiểm soát các kết nối truy cập Internet của bạn
-			* Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
+* Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
 		<string>- This configuration setting means you allow this profile to control your Internet access connections
-			* Important: no personal data was collected</string>
+* Important: no personal data was collected</string>
 		</dict>
 </dict>
 </plist>
