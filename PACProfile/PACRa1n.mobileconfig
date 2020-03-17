@@ -4,7 +4,7 @@
 <dict>
 	<key>ConsentText</key>
 		<dict>
-			<key>default</key>
+			<key>en</key>
 			<string>PACRa1n® Beta 1.0
 			- Blocking iOS updates (OTA)
 			- The configuration has a function of blocking certificate revocation
@@ -53,6 +53,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
+      <key>vi</key>
 	<string>PACRa1n® Beta 1.0
 		- Chặn cập nhật phiên bản iOS (OTA)
 		- Chống thu hồi chứng chỉ
@@ -77,7 +78,7 @@
 	<integer>1</integer>
     <key>ConsentText</key>
     <dict>
-		<key>default</key>
+		<key>vi</key>
 		<string>- Cài đặt cấu hình này có nghĩa là bạn đã cho phép cấu hình này kiểm soát các kết nối truy cập Internet của bạn
 * Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
