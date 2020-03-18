@@ -4,7 +4,7 @@
 <dict>
 	<key>ConsentText</key>
 		<dict>
-			<key>en</key>
+			<key>default</key>
 			<string>   PACRa1n® Beta 1
 
 - Blocking iOS updates (OTA)
@@ -53,6 +53,16 @@
 			<integer>1</integer>
 		</dict>
 	</array>
+      <key>PayloadDescription</key>
+	<string>   PACRa1n® Beta 1
+
+- Chặn cập nhật phiên bản iOS (OTA)
+- Chặn thu hồi chứng chỉ
+- Chặn cập nhật ứng dụng trên Appstore
+- Tính năng mới: Coming soon...
+
+* Contact us: t.me/LongThinh</string>
+	
 	<key>PayloadDisplayName</key>
 	<string>PACRa1n®</string>
 	<key>PayloadIdentifier</key>
@@ -71,16 +81,6 @@
 	<integer>1</integer>
     <key>ConsentText</key>
     <dict>
-	    <key>vi</key>
-	    <key>PayloadDescription</key>
-	<string>   PACRa1n® Beta 1
-
-- Chặn cập nhật phiên bản iOS (OTA)
-- Chặn thu hồi chứng chỉ
-- Chặn cập nhật ứng dụng trên Appstore
-- Tính năng mới: Coming soon...
-
-* Contact us: t.me/LongThinh</string>
 		<key>vi</key>
 		<string>Please note:
 
