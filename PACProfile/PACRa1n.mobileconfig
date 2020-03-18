@@ -5,14 +5,14 @@
 	<key>ConsentText</key>
 		<dict>
 			<key>default</key>
-			<string>   PACRa1n® Beta 1.0
+			<string>   PACRa1n® Beta 1
 
-- Chặn cập nhật phiên bản iOS (OTA)
-- Chặn thu hồi chứng chỉ
-- Chặn cập nhật ứng dụng trên Appstore
-- Tính năng mới: Coming soon...
+- Blocking iOS updates (OTA)
+- Revoke a blocked certificate
+- Blocked app updates on the Appstore
+- New feature: Coming soon...
 
-* Contact us: t.me/LongThinh</string>
+*  Contact us: t.me/LongThinh</string>
 		</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -40,8 +40,7 @@
 		</dict>
 		<dict>
 			<key>LockScreenFootnote</key>
-			<string>This iPhone is supervised and managed by
-                     © Long Thinh Inc.</string>
+			<string>This iPhone is supervised and managed by © Long Thinh Inc.</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Settings</string>
 			<key>PayloadIdentifier</key>
@@ -55,15 +54,15 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>   PACRa1n® Beta 1.0
+	<string>   PACRa1n® Beta 1
 
-- Blocking iOS updates (OTA)
-- Revoke a blocked certificate
-- Blocked app updates on the Appstore
-- New feature: Coming soon...
+- Chặn cập nhật phiên bản iOS (OTA)
+- Chặn thu hồi chứng chỉ
+- Chặn cập nhật ứng dụng trên Appstore
+- Tính năng mới: Coming soon...
 
-*  Contact us: t.me/LongThinh</string>
-
+* Contact us: t.me/LongThinh</string>
+	
 	<key>PayloadDisplayName</key>
 	<string>PACRa1n®</string>
 	<key>PayloadIdentifier</key>
