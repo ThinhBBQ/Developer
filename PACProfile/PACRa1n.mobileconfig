@@ -2,18 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ConsentText</key>
-		<dict>
-			<key>default</key>
-			<string>   PACRa1n® Beta 1
-
-- Blocking iOS updates (OTA)
-- Revoke a blocked certificate
-- Blocked app updates on the Appstore
-- New feature: Coming soon...
-
-*  Contact us: t.me/LongThinh</string>
-		</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -56,12 +44,12 @@
       <key>PayloadDescription</key>
 	<string>   PACRa1n® Beta 1
 
-- Chặn cập nhật phiên bản iOS (OTA)
-- Chặn thu hồi chứng chỉ
-- Chặn cập nhật ứng dụng trên Appstore
-- Tính năng mới: Coming soon...
+- Blocking iOS updates (OTA)
+- Revoke a blocked certificate
+- Blocked app updates on the Appstore
+- New feature: Coming soon...
 
-* Contact us: t.me/LongThinh</string>
+*  Contact us: t.me/LongThinh</string>
 	
 	<key>PayloadDisplayName</key>
 	<string>PACRa1n®</string>
