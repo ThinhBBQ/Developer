@@ -123,7 +123,7 @@ function weather() {
     $httpClient.get(info, async function (error, response, data) {
         if (error) {
             console.log(error);
-            $notification.post("Đồng Nai, Việt Nam.", lat_lon + 'bad connection', error);
+            $notification.post("Đồng Nai City", lat_lon + 'bad connection', error);
         } else {
             var obj = JSON.parse(data);
             console.log(obj);
@@ -143,6 +143,6 @@ function weather() {
             var daily_prec_chance = obj.daily.data[0].precipProbability;
             var daily_maxtemp = obj.daily.data[0].temperatureMax;
             var daily_mintemp = obj.daily.data[0].temperatureMin;
-            $notification.post("Đồng Nai, Việt Nam.", icon + " " + Math.round(daily_mintemp) + " - " + Math.round(daily_maxtemp) + "  ☔️ " + (Number(daily_prec_chance) * 100).toFixed(1)+ "%", hour_summary);        }
+            $notification.post("Đồng Nai City", icon + " " + Math.round(daily_mintemp) + " - " + Math.round(daily_maxtemp) + "  ☔️ " + (Number(daily_prec_chance) * 100).toFixed(1)+ "%", hour_summary);        }
     });
 }
