@@ -1,4 +1,4 @@
-//ScriptSmart Surge & QuantumultX
+//Smart Qx&Surge 
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
