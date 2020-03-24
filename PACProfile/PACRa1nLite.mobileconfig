@@ -42,7 +42,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>   PACRa1n® iOS Profile
+	<string>   PACRa1n® (A & Ω)
 
 - Blocking iOS updates (OTA)
 - Revoke a blocked certificate
@@ -52,10 +52,10 @@
 
 💸 Donate: paypal.me/longthinh
 
-✉️ Contact us: t.me/LongThinh</string>
+✍︎ Contact us: t.me/LongThinh</string>
 	
 	<key>PayloadDisplayName</key>
-	<string>PACRa1n®</string>
+	<string>PACRa1n® iOS Profile</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
