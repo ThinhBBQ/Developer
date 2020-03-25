@@ -42,17 +42,27 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>   PACRa1n® Beta 1
+	<string>   PACRa1n® (AΩ)
 
 - Blocking iOS updates (OTA)
-- Revoke a blocked certificate
+- Revoke a blocked Certificate
 - Blocked app updates on the Appstore
-- New feature: Coming soon...
 
-*  Contact us: t.me/LongThinh</string>
+* New feature: Coming soon...
+
+              💸 Donate 💸
+
+        166 234 646 (VPBank)
+
+    paypal.me/longthinh (PayPal)
+
+9704 2292 2615 6482 (ViettelPay)
+
+
+** Contact us: t.me/LongThinh</string>
 	
 	<key>PayloadDisplayName</key>
-	<string>PACRa1n®</string>
+	<string>PACRa1n® iOS Profile</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
@@ -72,13 +82,13 @@
 		<key>vi</key>
 		<string>Please note:
 
-- Thiết lập cấu hình này, đồng nghĩa bạn đã có quyền kiểm soát các kết nối truy cập Internet
+- Thiết lập Profile này, bạn đã có quyền kiểm soát các kết nối truy cập Internet
 
 * Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
 		<string>Please note:
 
-- Setting up this configuration means you have control over Internet access connections
+- Setting up this Profile, you have the right to control Internet access connections
 
 * Important: no personal data was collected</string>
 		</dict>
