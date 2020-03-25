@@ -22,6 +22,10 @@ itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/
 
 itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Fantastical.plist
 
+#FilzaEscaped
+
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/FilzaEscaped.plist
+
 #iRemembered. 1.2
 
 itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/iRemembered.plist
