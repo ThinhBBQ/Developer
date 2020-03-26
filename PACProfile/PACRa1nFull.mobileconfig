@@ -28,7 +28,7 @@
 		</dict>
 		<dict>
 			<key>LockScreenFootnote</key>
-			<string>This iPhone is supervised and managed by (AΩ) Long Thinh Inc.</string>
+			<string>This iPhone is supervised and managed by (AΩ) Long Thinh</string>
 			<key>PayloadDisplayName</key>
 			<string>Lock Screen Settings</string>
 			<key>PayloadIdentifier</key>
@@ -50,16 +50,11 @@
 
 * New feature: Coming soon...
 
-              💸 Donate 💸
+                 💸 Donate 💸
 
-        166 234 646 (VPBank)
+         paypal.me/longthinh (PayPal)
 
-    paypal.me/longthinh (PayPal)
-
-9704 2292 2615 6482 (ViettelPay)
-
-
-** Contact us: t.me/LongThinh</string>
+** Contact us: t.me/LongThinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
 	<string>PACRa1n® iOS Profile</string>
