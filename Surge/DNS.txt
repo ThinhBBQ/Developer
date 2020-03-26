@@ -1,0 +1,18 @@
+NextDNS
+
+My account
+
+Google DNS
+
+8.8.8.8
+8.8.4.4
+
+Cloudflare
+
+1.1.1.1
+1.0.0.1
+
+Adguard DNS
+
+176.103.130.130
+176.103.130.131
