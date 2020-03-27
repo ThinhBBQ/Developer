@@ -104,7 +104,6 @@ if (isSurge) {
     }
 }
 //end
-
 /*using surge cron*/
 
 const region = "us"
