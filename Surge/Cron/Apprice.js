@@ -107,7 +107,7 @@ if (isSurge) {
 /*using surge cron*/
 
 const region = "us"
-const appIds = ["797395252",]
+const appIds = [""]
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
