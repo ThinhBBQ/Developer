@@ -133,11 +133,11 @@ function weather() {
             if (icon_text == "clear-day") icon = "☀️";
             if (icon_text == "partly-cloudy-day") icon = "🌤";
             if (icon_text == "cloudy") icon = "☁️";
-            if (icon_text == "rain") icon = "🌧";
-            if (icon_text == "snow") icon = "☃️";
+            if (icon_text == "rain") icon = "⛈";
+            if (icon_text == "snow") icon = "❄️";
             if (icon_text == "sleet") icon = "🌨";
             if (icon_text == "wind") icon = "🌬";
-            if (icon_text == "fog") icon = "🌫";
+            if (icon_text == "fog") icon = "💨";
             if (icon_text == "partly-cloudy-night") icon = "🌑";
             if (icon_text == "clear-night") icon = "🌑";
             var daily_prec_chance = obj.daily.data[0].precipProbability;
