@@ -106,7 +106,7 @@ if (isSurge) {
 //end
 
 console.log("Apprice+");
-let apps=["961390574","517329357","1434207799","833406430","1373567447","1344204781","1470774095","288113403","1282297037","1404384367","979274575","1407249786","1446549608","1459055246","1443988620","1442620678","946930094","896694807","1236583707","1436251125"];
+let apps=["999025824","961390574","517329357","1434207799","833406430","1373567447","1344204781","1470774095","288113403","1282297037","1404384367","979274575","1407249786","1446549608","1459055246","1443988620","1442620678","946930094","896694807","1236583707","1436251125"];
 let reg="us";
 let notifys=[];
 format_apps(apps);
@@ -176,14 +176,14 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)} 🎉 ${x.trackName} - ${x.version}`)
+                                    notifys.push(`${flag(k)} 🔘 ${x.trackName} - ${x.version}`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
                                     notifys.push(`${flag(k)} 💸 ${x.trackName} - ${x.formattedPrice}`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)} 🎉 ${x.trackName} - ${x.version}`);
+                            notifys.push(`${flag(k)} 🔘 ${x.trackName} - ${x.version}`);
                             notifys.push(`${flag(k)} 💸 ${x.trackName} - ${x.formattedPrice}`)
                         }
                     }));
