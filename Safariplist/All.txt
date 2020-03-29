@@ -1,67 +1,67 @@
 #BooMusic 1.4.9
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/BooMusic.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/BooMusic.plist
 
 #Cake 5.1
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Cake.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Cake.plist
 
 #Canary 3.02
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Canary.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Canary.plist
 
 #Darkroom 3.8.1
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Darkroom.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Darkroom.plist
 
 #Facebook 82.0
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Facebook.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Facebook.plist
 
 #Fanstatical 2.11.5
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Fantastical.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Fantastical.plist
 
 #iRemembered. 1.2
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/iRemembered.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/iRemembered.plist
 
 #JSBox 1.60.0
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/JSBox.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/JSBox.plist
 
 #Mate 4.2.3
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Mate.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Mate.plist
 
 #Messenger 91.0
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Messenger.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Messenger.plist
 
 #Neon It 1.5
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/NeonIt.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/NeonIt.plist
 
 #Planny 2.4.10
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Planny.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Planny.plist
 
 #Quantumult X 1.0.2
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/QuantumultX.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/QuantumultX.plist
 
 #RainbowKey 4.2.3
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/RainbowKey.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/RainbowKey.plist
 
 #Time to Events 1.14
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/TOE.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/TOE.plist
 
 #Working Copy 3.9.9
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/WorkingCopy.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/WorkingCopy.plist
 
 #Zalo 5.33
 
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/SafariPlist/Zalo.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Zalo.plist
