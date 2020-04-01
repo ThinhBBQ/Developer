@@ -139,7 +139,7 @@ function weather() {
             if (icon_text == "wind") icon = "🌬";
             if (icon_text == "fog") icon = "💨";
             if (icon_text == "partly-cloudy-night") icon = "🌑";
-            if (icon_text == "clear-night") icon = "🌑";
+            if (icon_text == "clear-night") icon = "🌜✨";
             var daily_prec_chance = obj.daily.data[0].precipProbability;
             var daily_maxtemp = obj.daily.data[0].temperatureMax;
             var daily_mintemp = obj.daily.data[0].temperatureMin;
