@@ -1,2 +1,0 @@
-#Apprice++
-cron "*/15 */1 * * *" debug=0,timeout=20,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Cron/Apprice.js,script-update-interval=7200
