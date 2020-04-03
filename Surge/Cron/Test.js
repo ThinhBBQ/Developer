@@ -107,7 +107,7 @@ if (isSurge) {
 //end
 
 console.log("Apprice++");
-let apps=["1441490807","961390574","517329357","1407249786","1289070327","1446549608","1459055246","1443988620","1442620678","1436251125","1477376905","833406430","1344204781","1282297037","1470774095","1163553130","288113403","1373567447","1404384367","979274575","1454921448","1465749029","1498218685","539397400","1434207799"];
+let apps=["951598770","1461666739","1441490807","961390574","517329357","1407249786","1289070327","1446549608","1459055246","1443988620","1442620678","1436251125","1477376905","833406430","1344204781","1282297037","1470774095","1163553130","288113403","1373567447","1404384367","979274575","1454921448","1465749029","1498218685","539397400","1434207799"];
 let reg="us";
 let notifys=[];
 format_apps(apps);
@@ -139,11 +139,11 @@ function format_apps(x) {
                 }
             }
             else{
-                notifys.push(`ID error: ${n}`)
+                notifys.push(`ID error:${n}`)
             }
         }
         else{
-            notifys.push(`ID error: ${n}`)
+            notifys.push(`ID error:${n}`)
         }
     });
     if(Object.keys(apps_f).length>0){
@@ -177,15 +177,15 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀ ${x.version}`)
+                                    notifys.push(`${flag(k)}𓅂${x.trackName}❀${x.version}`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
-                                    notifys.push(`${flag(k)} 💸 ${x.trackName} ❀ ${x.formattedPrice}`)
+                                    notifys.push(`${flag(k)}💸${x.trackName}❀${x.formattedPrice}`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀ ${x.version}`);
-                            notifys.push(`${flag(k)} 💸 ${x.trackName} ❀ ${x.formattedPrice}`)
+                            notifys.push(`${flag(k)}𓅂${x.trackName}❀${x.version}`);
+                            notifys.push(`${flag(k)}💸${x.trackName}❀${x.formattedPrice}`)
                         }
                     }));
                 }
