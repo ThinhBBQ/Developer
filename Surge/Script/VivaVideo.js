@@ -1,11 +1,6 @@
-/*
-Vivavideo unlock vip
-Script data comes from @hiepkimcdtk55
-
-*/
-
 var obj = JSON.parse($response.body);
-obj = {
+
+obj= {
   "autoRenewProductId": "premium_platinum_yearly",
   "iosDeviceProductVo": {
     "premiumVipWeekly": 3,
