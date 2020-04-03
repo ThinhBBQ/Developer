@@ -139,11 +139,11 @@ function format_apps(x) {
                 }
             }
             else{
-                notifys.push(`ID error:《${n}》`)
+                notifys.push(`ID error:${n}`)
             }
         }
         else{
-            notifys.push(`ID error:《${n}》`)
+            notifys.push(`ID error: ${n}`)
         }
     });
     if(Object.keys(apps_f).length>0){
@@ -177,15 +177,15 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀《${x.version}》`)
+                                    notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀ ${x.version}`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
-                                    notifys.push(`${flag(k)} 💸 ${x.trackName} ❀《${x.formattedPrice}》`)
+                                    notifys.push(`${flag(k)} 💸 ${x.trackName} ❀ ${x.formattedPrice}`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀《${x.version}》`);
-                            notifys.push(`${flag(k)} 💸 ${x.trackName} ❀《${x.formattedPrice}》`)
+                            notifys.push(`${flag(k)} 𓅂 ${x.trackName} ❀ ${x.version}`);
+                            notifys.push(`${flag(k)} 💸 ${x.trackName} ❀ ${x.formattedPrice}`)
                         }
                     }));
                 }
@@ -200,7 +200,7 @@ async function post_data(d) {
             notify(notifys)
         }
         else{
-            console.log("Apprice++：No change")
+            console.log("Apprice++：🥳 No change")
         }
     }catch (e) {
         console.log(e);
