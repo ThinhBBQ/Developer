@@ -4,5 +4,5 @@ CamScanner unlocks pro, Cloud scanning is not available.
 */
 
 let obj = JSON.parse($response.body);
-obj = {"data":{"psnl_vip_property":{"expiry":"1643731200"}}};
+obj = {"data":{"psnl_vip_property":{"expiry":"4073275762"}}};
 $done({body: JSON.stringify(obj)});
