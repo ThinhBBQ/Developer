@@ -1,4 +1,4 @@
-//Smart Qx&Surge + @Neurogam
+//Smart Quantumult X & Surge
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
@@ -106,8 +106,8 @@ if (isSurge) {
 //end
 
 console.log("🟢 APPPRICE");
-let apps=["453170202","355460798","1116905928","1373567447","1312014438","990591885","1141312799","1073473333","432850144","896694807","924695435","680469088","869346854","935754064","1035331258","904237743","946930094","1373567447","916366645","1382419586","1299735217","1460078746","333710667","1049254261","1489780246","1407367202","436577167","1481018071","1315744137","1436650069","980368562","1007355333","1126386264","492648096","950519698","317107309","539397400","1444671526","1416894836","1117998129","1462386180","558818638","691121579","1474856599","436577167","641613694","1312014438","1416894836","1117998129","1462386180","558818638","691121579","1474856599","436577167","641613694","1312014438","1443988620"];
-let reg="vn";
+let apps=["1176774218","1504268557","388627783","492648096","951598770","1461666739","1441490807","961390574","517329357","1407249786","1289070327","1446549608","1459055246","1443988620","1442620678","1436251125","1477376905","833406430","1344204781","1282297037","1470774095","1163553130","288113403","1373567447","1404384367","979274575","1454921448","1465749029","1498218685","539397400","1434207799"];
+let reg="us";
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
@@ -138,11 +138,11 @@ function format_apps(x) {
                 }
             }
             else{
-                notifys.push(`ID error:【${n}】`)
+                notifys.push(`ID error:《${n}》`)
             }
         }
         else{
-            notifys.push(`ID error:【${n}】`)
+            notifys.push(`ID error:《${n}》`)
         }
     });
     if(Object.keys(apps_f).length>0){
@@ -176,15 +176,15 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)}🧩${x.trackName}:version【${x.version}】`)
+                                    notifys.push(`${flag(k)}🔘${x.trackName}:version《${x.version}》`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
-                                    notifys.push(`${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`)
+                                    notifys.push(`${flag(k)}💸${x.trackName}:price《${x.formattedPrice}》`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)}🧩${x.trackName}:version【${x.version}】`);
-                            notifys.push(`${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`)
+                            notifys.push(`${flag(k)}🔘${x.trackName}:version《${x.version}》`);
+                            notifys.push(`${flag(k)}💸${x.trackName}:price《${x.formattedPrice}》`)
                         }
                     }));
                 }
@@ -199,7 +199,7 @@ async function post_data(d) {
             notify(notifys)
         }
         else{
-            console.log("APPPRICE：No change 🔕")
+            console.log("APPPRICE：🥳 No change")
         }
     }catch (e) {
         console.log(e);
