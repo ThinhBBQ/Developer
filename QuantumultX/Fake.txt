@@ -16,6 +16,9 @@
 #MoneyLover
 ^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js
 
+#Kine Master
+^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
+
 #Shopee
 ^https:\/\/shopee\.vn\/me\/setting url script-response-body ShopeeCookie.js
 
