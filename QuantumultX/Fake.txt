@@ -1,0 +1,48 @@
+//Request
+
+#Shopee
+^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
+
+//Response
+
+#BooMusic
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body BooMusic.js
+
+#CamScaner
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
+
+#Documents
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js
+
+#Eggzy
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
+
+#PDFExpert
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
+
+#PicsArt
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
+
+#MoneyLover
+^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js
+
+#Kine Master
+^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
+
+#iTranslate
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
+
+#Tangerine
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
+
+#Textnow
+^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js
+
+#Termius
+^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
+
+#VerifyReceipt
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
+
+#VivaVideo
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js
