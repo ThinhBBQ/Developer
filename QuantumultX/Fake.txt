@@ -29,9 +29,6 @@
 #Kine Master
 ^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
 
-#iTranslate
-^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
-
 #Tangerine
 ^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
 
