@@ -1,1 +1,1 @@
-© Copyright #LongThinh, #BigDargon, #LangKhach
+© Copyright #LongThinh, #BigDargon, #LangKhach #Manh Duong
