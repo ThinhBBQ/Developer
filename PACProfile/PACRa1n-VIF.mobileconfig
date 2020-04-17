@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1nLite.js</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1nVIF.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
