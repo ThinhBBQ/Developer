@@ -38,10 +38,6 @@ itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/
 
 itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Messenger.plist
 
-#Neon It 1.5
-
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/NeonIt.plist
-
 #Planny 2.4.10
 
 itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/LongThinh/Programer/master/Safariplist/Planny.plist
