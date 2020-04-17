@@ -50,9 +50,9 @@
 
 * New feature: Coming soon...
 
-                  💸 Donate 💸
-
-         paypal.me/longthinh (PayPal)
++ Proxy with Loopback Address
++ TCP Connection = False
++ Skip Server Certificate Verification = True
 
 Contact us: t.me/LongThinh (Nicegram)</string>
 	
