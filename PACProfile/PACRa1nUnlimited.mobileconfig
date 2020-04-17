@@ -49,7 +49,7 @@
 
 * New feature: Coming soon...
 
-+ VIF Only
++ Proxy with Loopback Address/VIF Only
 + TCP Connection = True
 + Skip Server Certificate Verification = True
 
