@@ -1,7 +1,7 @@
 /* 
 event network-changed
 [Script]
-Outbound Mode = type=event,event-name=network-changed,debug=1,script-path=Outbound-changed.js
+Outbound Mode = type=event,event-name=network-changed,debug=1,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Script/OutboundMode.js,script-update-interval=7200
 */
 
 //The Notification Format.
