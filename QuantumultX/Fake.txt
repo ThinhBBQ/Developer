@@ -17,6 +17,9 @@
 #Eggzy
 ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
 
+#Fanstatical
+^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
+
 #PDFExpert
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
 
