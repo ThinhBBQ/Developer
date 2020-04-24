@@ -23,6 +23,9 @@
 #PDFExpert
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
 
+#iTranslate
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
+
 #PicsArt
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 
