@@ -1,7 +1,7 @@
 //Request
 
 #DataFlow
-DataFlowLogin = type=http-request,pattern=^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ script-request-header DataFlowLogin.js
+^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ script-request-header DataFlowLogin.js
 
 #Shopee
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
