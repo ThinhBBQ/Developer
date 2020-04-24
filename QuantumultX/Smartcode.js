@@ -1,3 +1,4 @@
+//Smart Quantumult X & Surge
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
@@ -102,3 +103,4 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
+//end
