@@ -1,3 +1,7 @@
+/*
+hostname = shopee.vn
+*/
+
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};

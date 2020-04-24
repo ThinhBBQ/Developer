@@ -1,3 +1,7 @@
+/*
+hostname = api.revenuecat.com
+*/
+
 let obj=JSON.parse($response.body);
 let url=$request.url;
             // Tangarine Premium

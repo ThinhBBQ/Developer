@@ -1,3 +1,7 @@
+/*
+hostname = revoapi.moneylover.me
+*/
+
 var twicevn = JSON.parse($response.body);
 
 twicevn.data.rwExpire = "2099-10-04T12:59:59.000Z"

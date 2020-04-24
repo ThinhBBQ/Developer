@@ -1,3 +1,7 @@
+/*
+hostname = buy.itunes.apple.com
+*/
+
 let body= $response.body;
 var obj = JSON.parse(body);
 if (body.indexOf("expires") !=-1) {

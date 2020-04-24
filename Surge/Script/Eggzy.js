@@ -1,3 +1,7 @@
+/*
+hostname = subs.platforms.team
+*/
+
 var obj = JSON.parse($response.body);
 
 obj= {
@@ -27,5 +31,3 @@ obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-//

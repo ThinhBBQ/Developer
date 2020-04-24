@@ -1,3 +1,6 @@
+/*
+hostname = license.pdfexpert.com
+*/
 
 var obj= {
   "originalTransactionId" : "20000625420102",
@@ -11,5 +14,3 @@ var obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-// Descriptions

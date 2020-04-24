@@ -1,3 +1,7 @@
+/*
+hostname = api.picsart.com
+*/
+
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};

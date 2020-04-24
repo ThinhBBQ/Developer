@@ -1,3 +1,7 @@
+/*
+hostname = license.pdfexpert.com
+*/
+
 var obj= {
   "originalTransactionId": "20000618444996",
   "subscriptionState": "trial",
@@ -10,5 +14,3 @@ var obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-//

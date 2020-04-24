@@ -1,3 +1,7 @@
+/*
+hostname = viva-asia1.vvbrd.com
+*/
+
 var obj = JSON.parse($response.body);
 
 obj= {
@@ -22,5 +26,3 @@ obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-// Descriptions

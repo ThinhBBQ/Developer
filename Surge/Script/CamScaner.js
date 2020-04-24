@@ -1,6 +1,5 @@
 /*
-CamScanner unlocks pro, Cloud scanning is not available.
-
+hostname = ap*.intsig.net
 */
 
 let obj = JSON.parse($response.body);

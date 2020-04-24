@@ -1,3 +1,7 @@
+/*
+hostname = api-kinemaster-assetstore.*
+*/
+
 var obj = JSON.parse($response.body);
 
 obj= {
@@ -10,5 +14,3 @@ obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-// Descriptions
