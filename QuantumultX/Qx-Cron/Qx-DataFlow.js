@@ -105,7 +105,6 @@ if (isSurge) {
 }
 //end
 
-if($network.v4.primaryInterface == "pdp_ip0"){
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain',
@@ -123,7 +122,7 @@ $httpClient.post(dataremain, function(error, response, data){
 console.log('error');
   } else {
 console.log(data);
-if(response.status == 200){
+if(response.statusCode == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
@@ -136,5 +135,4 @@ $notification.post("LTE Cellular token expired", "", "Please login again in the 
 }
  $done();
 });
-}
 }
