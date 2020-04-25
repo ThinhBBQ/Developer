@@ -1,7 +1,7 @@
 //Request
 
-#DataFlow
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-header Qx-DataFlowLogin.js
+#DataFlowLogin
+^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-response-body Qx-DataFlowLogin.js
 
 #Shopee
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header Qx-ShopeeCookie.js
