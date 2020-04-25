@@ -2,6 +2,7 @@
 hostname = api.picsart.com
 */
 
+//Smart Quantumult X & Surge
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
@@ -106,6 +107,8 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
+//end
+
   var shopeeUrl = {
     url: 'https://shopee.vn/mkt/coins/api/v2/checkin',
     headers: {
