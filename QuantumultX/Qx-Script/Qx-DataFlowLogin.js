@@ -110,6 +110,6 @@ if (isSurge) {
 //End
 
 let body= $request.body;
-$notification.post("Data Flow write cache token done", "", "")
+$notification.post("Data Flow, write cache token: Done! Success", "", "")
 $persistentStore.write(body, "bodytoken");
 $done({});

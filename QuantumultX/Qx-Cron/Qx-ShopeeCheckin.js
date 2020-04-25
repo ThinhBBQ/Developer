@@ -117,7 +117,7 @@ if (isSurge) {
   }
 $httpClient.post(shopeeUrl, function(error, response, data){
   if (error) {
-$notification.post("Shopee checkin", "", "Lỗi kết nối")
+$notification.post("Shopee Checkin", "", "Lỗi kết nối")
     $done(); 
   } 
  else{
@@ -128,12 +128,12 @@ if(obj["data"]["success"])
 {
 var user = obj["data"]["username"];
 var coins = obj["data"]["increase_coins"];
-$notification.post("Shopee " + user, "", "Đã nhận được " + coins + "💰");
+$notification.post("Shopee " + user, "", "🎉 Chúc mừng! bạn đã nhận được " + coins + "Xu");
     $done();
 }
 }
 else{
-$notification.post("Shopee cookie đã hết hạn", "", "Hãy đăng nhập lại");
+$notification.post("Shopee Cookie đã hết hạn", "", "Xin vui lòng đăng nhập lại");
 }
 }
 });
