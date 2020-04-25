@@ -12,7 +12,7 @@ var shopeeUrl = {
   }
 $httpClient.post(shopeeUrl, function(error, response, data){
   if (error) {
-$notification.post("Shopee Checkin", "", "Lỗi kết nối")
+$notification.post("Shopee checkin", "", "Lỗi kết nối")
     $done(); 
   } 
  else{
@@ -28,7 +28,7 @@ $notification.post("Shopee " + user, "", "🎉 Chúc mừng! bạn đã nhận �
 }
 }
 else{
-$notification.post("Shopee Cookie đã hết hạn", "", "Xin vui lòng đăng nhập lại");
+$notification.post("Shopee cookie đã hết hạn", "", "Xin vui lòng đăng nhập lại");
 }
 }
 });
