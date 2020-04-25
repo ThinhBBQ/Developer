@@ -1,7 +1,8 @@
 /*
-hostname = shopee.vn
+hostname = apivtp.vietteltelecom.vn:0
 */
 
+//Smart Quantumult X & Surge
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
@@ -106,15 +107,9 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-if ($request.headers['Cookie']) {
-    var headerSP = $request.headers['Cookie'];
-    var cookie = $persistentStore.write(headerSP, "CookieSP");
-    if (!cookie){
-      $notification.post("Shopee cookie lỗi", "", "Đăng nhập lại")
-    } else {
-      $notification.post("Shopee  cookie: Success!", "", "")
-    }
-  } else {
-    $notification.post("Shopee lỗi đọc cookie", "", "Đăng nhập lại")
-  }
-  $done({})
+//end
+
+let body= $request.body;
+$notification.post("Data Flow write cache token done", "", "")
+$persistentStore.write(body, "bodytoken");
+$done({});

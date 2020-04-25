@@ -1,3 +1,7 @@
+/*
+hostname = shopee.vn
+*/
+
 //Smart Quantumult X & Surge
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
@@ -105,7 +109,20 @@ if (isSurge) {
 }
 //end
 
-let body= $request.body;
-$notification.post("Data Flow write cache token done", "", "")
-$persistentStore.write(body, "bodytoken");
-$done({});
+if (isSurge) {
+    $notify = function (title, subTitle, detail) {
+        $notification.post(title, subTitle, detail);
+    }
+}
+if ($request.headers['Cookie']) {
+    var headerSP = $request.headers['Cookie'];
+    var cookie = $persistentStore.write(headerSP, "CookieSP");
+    if (!cookie){
+      $notification.post("Shopee cookie lỗi", "", "Đăng nhập lại")
+    } else {
+      $notification.post("Shopee  cookie: Success!", "", "")
+    }
+  } else {
+    $notification.post("Shopee lỗi đọc cookie", "", "Đăng nhập lại")
+  }
+  $done({})
