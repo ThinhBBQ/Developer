@@ -2,7 +2,7 @@
 hostname = api.picsart.com
 */
 
-  var shopeeUrl = {
+var shopeeUrl = {
     url: 'https://shopee.vn/mkt/coins/api/v2/checkin',
     headers: {
       Cookie: $persistentStore.read("CookieSP"),
