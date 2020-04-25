@@ -1,5 +1,5 @@
 /*
-Old_iPA_Downloader by LangKhach
+Old_iPA_Downloader by Lang Khach
 */
 var url = $request.url;
 var obj = $request.body;
