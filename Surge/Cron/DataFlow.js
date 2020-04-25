@@ -1,3 +1,5 @@
+/*Using Surge Cron*/
+
 if($network.v4.primaryInterface == "pdp_ip0"){
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {

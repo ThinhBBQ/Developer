@@ -1,3 +1,5 @@
+/*Using Surge Cron*/
+
 const lang = "vi"
 var lat_lon = "11.07641837795593,107.2654109254687"
 var api = "3d70c64edae04ea7e679baf3d6384e89"

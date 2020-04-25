@@ -2,6 +2,8 @@
 hostname = api.picsart.com
 */
 
+/*Using Surge Cron*/
+
 var shopeeUrl = {
     url: 'https://shopee.vn/mkt/coins/api/v2/checkin',
     headers: {
