@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 let body= $response.body;
 var obj = JSON.parse(body);

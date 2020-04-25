@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 let obj=JSON.parse($response.body)
 obj.account["pro_mode"] = true;

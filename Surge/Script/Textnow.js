@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 var obj = JSON.parse($response.body); 
 obj['show_ads'] = false;

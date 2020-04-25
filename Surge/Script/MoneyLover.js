@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 var twicevn = JSON.parse($response.body);
 

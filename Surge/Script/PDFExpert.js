@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 var obj= {
   "originalTransactionId": "20000618444996",

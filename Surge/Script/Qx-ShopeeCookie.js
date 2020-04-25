@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 if (isSurge) {
     $notify = function (title, subTitle, detail) {
