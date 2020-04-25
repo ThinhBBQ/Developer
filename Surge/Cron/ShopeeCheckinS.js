@@ -14,7 +14,7 @@ $notification.post("Shopee checkin", "", "Lỗi kết nối")
     $done(); 
   } 
  else{
- if(response.statusCode == 200)
+ if(response.status == 200)
 {
 let obj= JSON.parse(data);
 if(obj["data"]["success"])
