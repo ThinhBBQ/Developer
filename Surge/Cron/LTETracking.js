@@ -25,7 +25,7 @@ var data= obj["data"][0];
 $notification.post("LTE Cellular: " + data["pack_name"], "",  "Remain/Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\nExpire date: " + data["expireDate"]);
 }
 else{
-$notification.post("LTE-Tracking token expired", "", "Please login again in the My Viettel application");
+$notification.post("LTE Tracking token expired", "", "Re-Login in the My Viettel app, please!");
 }
 }
 }

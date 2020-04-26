@@ -117,7 +117,7 @@ if (isSurge) {
   }
 $httpClient.post(shopeeUrl, function(error, response, data){
   if (error) {
-$notification.post("Shopee checkin", "", "Lỗi kết nối")
+$notification.post("Shopee checkin", "", "Connection errors")
     $done(); 
   } 
  else{
@@ -133,7 +133,7 @@ $notification.post("Shopee " + user, "", "🎉 Chúc mừng! Bạn đã nhận �
 }
 }
 else{
-$notification.post("Shopee cookie đã hết hạn", "", "Xin vui lòng đăng nhập lại");
+$notification.post("Shopee cookie has expired", "", "Re-Login, please!");
 }
 }
 });

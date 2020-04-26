@@ -110,6 +110,6 @@ if (isSurge) {
 //End
 
 let body= $request.body;
-$notification.post("LTE-Tracking write cache token: Done! Success", "", "")
+$notification.post("LTE Tracking write cache token: 🎉 Done, success!", "", "")
 $persistentStore.write(body, "bodytoken");
 $done({});
