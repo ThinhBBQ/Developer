@@ -136,4 +136,3 @@ $notification.post("LTE-Tracking token expired", "", "Please login again in the 
  $done();
 });
 }
-}
