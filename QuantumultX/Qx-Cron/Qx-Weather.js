@@ -143,6 +143,7 @@ function weather() {
             var daily_prec_chance = obj.daily.data[0].precipProbability;
             var daily_maxtemp = obj.daily.data[0].temperatureMax;
             var daily_mintemp = obj.daily.data[0].temperatureMin;
-            $notification.post("Country: 🇻🇳 Vietnam/nĐồng Nai City", icon + " " + Math.round(daily_mintemp) + " - " + Math.round(daily_maxtemp) + "  ☔️ " + (Number(daily_prec_chance) * 100).toFixed(1)+ "%", hour_summary);        }
+            $notification.post("Country: 🇻🇳 Vietnam
+            Đồng Nai City", icon + " " + Math.round(daily_mintemp) + " - " + Math.round(daily_maxtemp) + "  ☔️ " + (Number(daily_prec_chance) * 100).toFixed(1)+ "%", hour_summary);        }
     });
 }
