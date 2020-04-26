@@ -22,7 +22,7 @@ if(response.status == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
-$notification.post("LTE Cellular " + data["pack_name"], "",  "Remain/Available: " + data["remain"] +" ~ " +Math.round(data["remain_mb"]/1024) + "GB\nExpire date: " + data["expireDate"]);
+$notification.post("LTE Cellular: " + data["pack_name"], "",  "Remain/Available: " + data["remain"] +" ~ " + Math.round(data["remain_mb"]/1024) + "GB\nExpire date: " + data["expireDate"]);
 }
 else{
 $notification.post("LTE-Tracking token expired", "", "Please login again in the My Viettel application");
