@@ -1,6 +1,6 @@
 //Request
 
-#DataFlowLogin
+#LTE Tracking Login
 ^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-LTETrackingLogin.js
 
 #Shopee
@@ -20,7 +20,7 @@
 #Fanstatical
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Qx-Fantastical.js
 
-#PDFExpert
+#PDF Expert
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body Qx-PDFExpert.js
 
 #iTranslate
@@ -29,7 +29,7 @@
 #PicsArt
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body Qx-PicsArt.js
 
-#MoneyLover
+#Money Lover+
 ^https://revoapi.moneylover.me/api/status url script-response-body Qx-MoneyLover.js
 
 #Kine Master
@@ -44,7 +44,7 @@
 #Termius
 ^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Qx-Termius.js
 
-#VerifyReceipt
+#Verify Receipt
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Qx-VerifyReceipt.js
 
 #VivaVideo
