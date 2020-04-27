@@ -105,9 +105,6 @@ if (isSurge) {
 }
 //End
 /*Using Surge Cron*/
-/*(Only Cellular)
-if($network.v4.primaryInterface == "pdp_ip0"){
-*/
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain',
@@ -139,4 +136,3 @@ $notification.post("LTE Tracking token expired", "", "Re-Login in the My Viettel
  $done();
 });
 }
-/*}*/
