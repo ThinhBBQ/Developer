@@ -119,7 +119,7 @@ if (!cacheData) {
 $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + region, function (error, response, data) {
     if (error) {
         console.log(error);
-        $notification.post("App Pricer", "bad connection")
+        $notification.post("Apprice", "bad connection")
         $done()
     } else {
         let appData = JSON.parse(data).results
@@ -140,10 +140,10 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
             }
         }
         if (priceChanged) {
-            $notification.post("Qx-Apprice：🥳 Price changed", "", priceChanged)
+            $notification.post("Apprice：🥳 Price changed", "", priceChanged)
         }
         if (newAppAdded) {
-            $notification.post("Qx-Apprice", "", newAppAdded)
+            $notification.post("Apprice", "", newAppAdded)
         }
         $persistentStore.write(JSON.stringify(cacheData))
         $done()

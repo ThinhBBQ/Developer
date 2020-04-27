@@ -107,7 +107,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
   var shopeeUrl = {
     url: 'https://shopee.vn/mkt/coins/api/v2/checkin',

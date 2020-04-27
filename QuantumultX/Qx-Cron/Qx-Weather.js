@@ -1,4 +1,4 @@
-//ScriptSmart Surge & QuantumultX
+//ScriptSmart Surge & Quantumult X
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
 var $task = isQuantumultX ? $task : {};
@@ -103,7 +103,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 const lang = "vi"
 var lat_lon = "11.07641837795593,107.2654109254687"

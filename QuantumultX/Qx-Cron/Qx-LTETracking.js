@@ -103,7 +103,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//end
+//End
 
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {
