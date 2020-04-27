@@ -1,10 +1,10 @@
 /*
-//DNS
 
 #DNSPod
-dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Script/DNSPod.js,script-update-interval=7200
+dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Script/DNSPod.js,script-update-interval=7200 //DNSPod
 
 [Host]
+
 #Special
 
 *nicegram* = script:DNSPod

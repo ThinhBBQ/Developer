@@ -1,51 +1,47 @@
-//Request
-
 #LTE Tracking Login
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-LTETrackingLogin.js
+^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body LTETrackingLogin.js //Request Body
 
 #Shopee
-^https:\/\/shopee\.vn\/me\/setting url script-request-header Qx-ShopeeCookie.js
-
-//Response
+^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js //Request Header
 
 #CamScaner
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body Qx-CamScaner.js
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js //Response Body
 
 #Documents
-^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Qx-Documents.js
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js //Response Body
 
 #Eggzy
-^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Qx-Eggzy.js
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js //Response Body
 
 #Fanstatical
-^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Qx-Fantastical.js
+^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js //Response Body
 
 #PDF Expert
-^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body Qx-PDFExpert.js
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js //Response Body
 
 #iTranslate
-^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body Qx-iTranslate.js
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js //Response Body
 
 #PicsArt
-^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body Qx-PicsArt.js
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js //Response Body
 
 #Money Lover+
-^https://revoapi.moneylover.me/api/status url script-response-body Qx-MoneyLover.js
+^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js //Response Body
 
 #Kine Master
-^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body Qx-KineMaster.js
+^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js //Response Body
 
 #Tangerine
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Qx-Tangerine.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js //Response Body
 
 #Textnow
-^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Qx-Textnow.js
+^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js //Response Body
 
 #Termius
-^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Qx-Termius.js
+^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js //Response Body
 
 #Verify Receipt
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Qx-VerifyReceipt.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js //Response Body
 
 #VivaVideo
-^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body Qx-VivaVideo.js
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js //Response Body
