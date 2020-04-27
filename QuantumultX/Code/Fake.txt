@@ -1,47 +1,47 @@
-#LTE Tracking Login
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body LTETrackingLogin.js //Request Body
+#LTE Tracking Login - Request Body
+^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body LTETrackingLogin.js
 
-#Shopee
-^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js //Request Header
+#Shopee - Request Header
+^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
 
-#CamScaner
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js //Response Body
+#CamScaner - Response Body
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
 
-#Documents
-^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js //Response Body
+#Documents - Response Body
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js
 
-#Eggzy
-^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js //Response Body
+#Eggzy - Response Body
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
 
-#Fanstatical
-^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js //Response Body
+#Fanstatical - Response Body
+^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
-#PDF Expert
-^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js //Response Body
+#PDF Expert - Response Body
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
 
-#iTranslate
-^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js //Response Body
+#iTranslate - Response Body
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
 
-#PicsArt
-^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js //Response Body
+#PicsArt - Response Body
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 
-#Money Lover+
-^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js //Response Body
+#Money Lover+ - Response Body
+^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js
 
-#Kine Master
-^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js //Response Body
+#Kine Master - Response Body
+^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
 
-#Tangerine
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js //Response Body
+#Tangerine - Response Body
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
 
-#Textnow
-^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js //Response Body
+#Textnow - Response Body
+^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js
 
-#Termius
-^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js //Response Body
+#Termius - Response Body
+^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
 
-#Verify Receipt
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js //Response Body
+#Verify Receipt - Response Body
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
 
-#VivaVideo
-^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js //Response Body
+#VivaVideo - Response Body
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js
