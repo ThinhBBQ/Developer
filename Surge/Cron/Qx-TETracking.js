@@ -122,7 +122,7 @@ $httpClient.post(dataremain, function(error, response, data){
 console.log('error');
   } else {
 console.log(data);
-if(response.status == 200){
+if(response.statusCode == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
