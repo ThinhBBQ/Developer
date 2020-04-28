@@ -1,5 +1,9 @@
 /*
 hostname = shopee.vn
+
+#Qx-Shopee Login - Request Header
+^https:\/\/shopee\.vn\/me\/setting url script-request-header Qx-Shopee-Login.js
+
 */
 
 //Smartcode Surge & Quantumult X
