@@ -1,3 +1,9 @@
+//#LTE Tracking Auto - Cronexp
+//LTE Tracking Auto = type=cron,cronexp=0 */2 * * *,timeout=20,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Cron/LTE-Tracking-Auto.js,script-update-interval=7200
+
+//Local
+
+
 //Author LangKhach
 Surge V4
 Script type Event network-changed; cron
