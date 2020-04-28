@@ -30,14 +30,14 @@ $httpClient.post(apiloginmobile, function(error, response, data){
 console.log('error');
   } else {
 console.log(data);
-if(response.status == 200){
+if(response.statusCode == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("Data Flow acount user/pass false‼️", "", "");
+$notification.post("LTE Tracking: Account Username/Pass false", "", "");
 console.log(data);
 }
 }
@@ -58,14 +58,14 @@ $httpClient.post(dataremain, function(error, response, data){
 console.log('error');
   } else {
 console.log(data);
-if(response.status == 200){
+if(response.statusCode == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
-$notification.post("Data Flow: " + data["pack_name"], "",  "Remain: " + data["remain"] +"( ~" + Math.round(data["remain_mb"]/1024) + " GB)\nExpiredate: " + data["expireDate"]);
+$notification.post("LTE Cellular: " + data["pack_name"], "",  "Remain/Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\nExpire date: " + data["expireDate"]);
 }
 else{
-$notification.post("Data Flow token expired‼️", "", "Try to login again in app My Viettel");
+$notification.post("LTE Tracking token expired", "", "Re-Login in the My Viettel app, please!");
 }
 }
 }
