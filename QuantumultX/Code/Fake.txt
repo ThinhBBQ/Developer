@@ -1,8 +1,8 @@
-#LTE Tracking Login - Request Body
+#Qx LTE Tracking Login - Request Body
 #^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-LTE-Tracking-Login.js
 
-#Shopee Login - Request Header
-^https:\/\/shopee\.vn\/me\/setting url script-request-header Shopee-Login.js
+#Qx Shopee Login - Request Header
+^https:\/\/shopee\.vn\/me\/setting url script-request-header Qx-Shopee-Login.js
 
 #CamScaner - Response Body
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
