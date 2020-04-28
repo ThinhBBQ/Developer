@@ -1,3 +1,5 @@
+/*hostname = apivtp.vietteltelecom.vn*/
+
 //Smartcode Surge & Quantumult X
 let isQuantumultX = $task !== undefined;
 let isSurge = $httpClient !== undefined;
