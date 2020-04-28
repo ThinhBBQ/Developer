@@ -110,8 +110,8 @@ if (isSurge) {
 
 //Your Account
 const account = {
-user: "0976909070",
-pass: "19021993",
+user: "",
+pass: "",
 };
 
 //APILoginMobile
