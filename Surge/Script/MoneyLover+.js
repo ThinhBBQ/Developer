@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/
 var twicevn = JSON.parse($response.body);
 
 twicevn.data.rwExpire = "2099-10-04T12:59:59.000Z"

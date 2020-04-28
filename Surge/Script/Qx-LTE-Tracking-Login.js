@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Quantumult X Script*/
 let body= $request.body;
 $notification.post("LTE Tracking write cache token: 🎉 Done, success!", "", "")
 $persistentStore.write(body, "bodytoken");

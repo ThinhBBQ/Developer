@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/
 var obj= {
   "originalTransactionId" : "20000625420102",
   "subscriptionState" : "trial",

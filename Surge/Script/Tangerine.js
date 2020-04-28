@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/
 let obj=JSON.parse($response.body);
 let url=$request.url;
             // Tangarine Premium

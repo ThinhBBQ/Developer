@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/
 var obj = JSON.parse($response.body);
 
 obj= {

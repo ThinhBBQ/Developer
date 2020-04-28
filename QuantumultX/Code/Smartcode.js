@@ -105,4 +105,6 @@ if (isSurge) {
 }
 //End
 /*Using Surge Cron*/
+/*Using Surge & Quantumult X Cron*/
 /*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/

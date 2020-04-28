@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Quantumult X Script*/
 if ($request.headers['Cookie']) {
     var headerSP = $request.headers['Cookie'];
     var cookie = $persistentStore.write(headerSP, "CookieSP");

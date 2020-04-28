@@ -108,7 +108,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Script*/
+/*Using Surge & Quantumult X Script*/
 let body= $response.body;
 var obj = JSON.parse(body);
 if (body.indexOf("expires") !=-1) {
