@@ -105,7 +105,7 @@ if (isSurge) {
 }
 //End
 /*Using Surge & Quantumult X Cron*/
-const ❀ lang = "vi"
+const lang = "vi"
 var lat_lon = "11.07641837795593,107.2654109254687"
 var api = "3d70c64edae04ea7e679baf3d6384e89"
 async function launch() {
@@ -117,29 +117,29 @@ launch()
 
 function weather() {
     let info = {
-        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + ❀ lang + "&units=si&exclude=currently,minutely",  //?lang=zh&units=si
+        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + lang + "&units=si&exclude=currently,minutely",  //?lang=zh&units=si
         headers: {},
     }
     $httpClient.get(info, async function (error, response, data) {
         if (error) {
             console.log(error);
-            $notification.post("Dark Sky", lat_lon + 'bad connection', error);
+            $notification.post("Dark Sky", lat_lon + 'Connection error', error);
         } else {
             var obj = JSON.parse(data);
             console.log(obj);
             var hour_summary = obj.hourly.summary;
             var icon_text = obj.hourly.icon;
             var icon = "❓"
-            if (icon_text == "clear-day") icon = "☀️";
-            if (icon_text == "partly-cloudy-day") icon = "🌤";
-            if (icon_text == "cloudy") icon = "☁️";
-            if (icon_text == "rain") icon = "⛈";
-            if (icon_text == "snow") icon = "❄️";
-            if (icon_text == "sleet") icon = "🌨";
-            if (icon_text == "wind") icon = "🌬";
-            if (icon_text == "fog") icon = "💨";
-            if (icon_text == "partly-cloudy-night") icon = "🌑";
-            if (icon_text == "clear-night") icon = "🌜✨";
+            if (icon_text == "Clear-day") icon = "☀️";
+            if (icon_text == "Partly cloudy day") icon = "🌤";
+            if (icon_text == "Cloudy") icon = "☁️";
+            if (icon_text == "Rain") icon = "⛈";
+            if (icon_text == "Snow") icon = "❄️";
+            if (icon_text == "Sleet") icon = "🌨";
+            if (icon_text == "Wind") icon = "🌬";
+            if (icon_text == "Fog") icon = "💨";
+            if (icon_text == "Partly cloudy night") icon = "🌑";
+            if (icon_text == "Clear night") icon = "🌜✨";
             var daily_prec_chance = obj.daily.data[0].precipProbability;
             var daily_maxtemp = obj.daily.data[0].temperatureMax;
             var daily_mintemp = obj.daily.data[0].temperatureMin;
