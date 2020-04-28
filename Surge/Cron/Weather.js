@@ -130,16 +130,16 @@ function weather() {
             var hour_summary = obj.hourly.summary;
             var icon_text = obj.hourly.icon;
             var icon = "❓"
-            if (icon_text == "Clear-day") icon = "☀️";
-            if (icon_text == "Partly cloudy day") icon = "🌤";
-            if (icon_text == "Cloudy") icon = "☁️";
-            if (icon_text == "Rain") icon = "⛈";
-            if (icon_text == "Snow") icon = "❄️";
-            if (icon_text == "Sleet") icon = "🌨";
-            if (icon_text == "Wind") icon = "🌬";
-            if (icon_text == "Fog") icon = "💨";
-            if (icon_text == "Partly cloudy night") icon = "🌑";
-            if (icon_text == "Clear night") icon = "🌜✨";
+            if (icon_text == "clear-day") icon = "☀️";
+            if (icon_text == "partly-cloudy-day") icon = "🌤";
+            if (icon_text == "cloudy") icon = "☁️";
+            if (icon_text == "rain") icon = "⛈";
+            if (icon_text == "snow") icon = "❄️";
+            if (icon_text == "sleet") icon = "🌨";
+            if (icon_text == "wind") icon = "🌬";
+            if (icon_text == "fog") icon = "💨";
+            if (icon_text == "partly-cloudy-night") icon = "🌑";
+            if (icon_text == "clear-night") icon = "🌜✨";
             var daily_prec_chance = obj.daily.data[0].precipProbability;
             var daily_maxtemp = obj.daily.data[0].temperatureMax;
             var daily_mintemp = obj.daily.data[0].temperatureMin;
