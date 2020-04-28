@@ -1,5 +1,5 @@
 /*
-hostname = api.picsart.com
+hostname = shopee.vn
 */
 
 //Smartcode Surge & Quantumult X

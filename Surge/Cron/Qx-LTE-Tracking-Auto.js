@@ -142,7 +142,7 @@ var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("LTE Tracking: Account Username/Password incorrect", "", "");
+$notification.post("LTE Tracking: Account Username/Password or Token incorrect", "", "");
 console.log(data);
 }
 }

@@ -4,8 +4,8 @@ Script type Event network-changed; cron
 
 //Your Account
 const account = {
-user: "Username",
-pass: "Password",
+user: "0976909070",
+pass: "19021993",
 };
 
 //APILoginMobile
@@ -36,7 +36,7 @@ var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("LTE Tracking: Account Username/Pass incorrect", "", "");
+$notification.post("LTE Tracking: Account Username/Password or Token incorrect", "", "");
 console.log(data);
 }
 }
