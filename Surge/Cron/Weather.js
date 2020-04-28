@@ -105,7 +105,7 @@ if (isSurge) {
 }
 //End
 /*Using Surge & Quantumult X Cron*/
-const lang = "vi"
+const ❀ lang = "vi"
 var lat_lon = "11.07641837795593,107.2654109254687"
 var api = "3d70c64edae04ea7e679baf3d6384e89"
 async function launch() {
@@ -117,7 +117,7 @@ launch()
 
 function weather() {
     let info = {
-        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + lang + "&units=si&exclude=currently,minutely",  //?lang=zh&units=si
+        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + ❀ lang + "&units=si&exclude=currently,minutely",  //?lang=zh&units=si
         headers: {},
     }
     $httpClient.get(info, async function (error, response, data) {
