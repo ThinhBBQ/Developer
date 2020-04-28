@@ -2,16 +2,15 @@
 //LTE Tracking Auto = type=cron,cronexp=0 */2 * * *,timeout=20,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Cron/LTE-Tracking-Auto.js,script-update-interval=7200
 
 //Local
-
+//#LTE Tracking Auto (Local) - Cronexp
+//LTE Tracking Auto = type=cron,cronexp=0 */2 * * *,script-path=LTE-Tracking-Auto.js
 
 //Author LangKhach
-Surge V4
-Script type Event network-changed; cron
 
 //Your Account
 const account = {
-user: "",
-pass: "",
+user: "Username",
+pass: "Password",
 };
 
 //APILoginMobile
