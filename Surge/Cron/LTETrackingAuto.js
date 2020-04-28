@@ -1,5 +1,4 @@
 //Author LangKhach
-
 Surge V4
 Script type Event network-changed; cron
 
