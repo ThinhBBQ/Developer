@@ -104,7 +104,7 @@ if (isSurge) {
     }
 }
 //End
-/*Using Surge Cron*/
+/*Using Quantumult X Cron*/
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain',
