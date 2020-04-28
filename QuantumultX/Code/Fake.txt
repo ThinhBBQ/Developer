@@ -1,8 +1,8 @@
 #LTE Tracking Login - Request Body
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body LTETrackingLogin.js
+#^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-LTE-Tracking-Login.js
 
-#Shopee - Request Header
-^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
+#Shopee Login - Request Header
+^https:\/\/shopee\.vn\/me\/setting url script-request-header Shopee-Login.js
 
 #CamScaner - Response Body
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
@@ -17,7 +17,7 @@
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
 #PDF Expert - Response Body
-^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDF-Expert.js
 
 #iTranslate - Response Body
 ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
@@ -26,7 +26,7 @@
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 
 #Money Lover+ - Response Body
-^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover.js
+^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover+.js
 
 #Kine Master - Response Body
 ^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
@@ -41,7 +41,7 @@
 ^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
 
 #Verify Receipt - Response Body
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Verify-Receipt.js
 
 #VivaVideo - Response Body
 ^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js
