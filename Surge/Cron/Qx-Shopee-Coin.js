@@ -128,7 +128,7 @@ if(obj["data"]["success"])
 {
 var user = obj["data"]["username"];
 var coins = obj["data"]["increase_coins"];
-$notification.post("Shopee " + user, "", "🎉 Chúc mừng! Bạn đã nhận được: " + coins + " Xu");
+$notification.post("Shopee " + ✮ user, "", "🎉 Chúc mừng! Bạn đã nhận được: " + coins + " Xu");
     $done();
 }
 }
