@@ -1,8 +1,8 @@
 /*
 hostname = apivtp.vietteltelecom.vn
 
-#Qx-LTE Tracking Login - Request Body
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-LTE-Tracking-Login.js
+#Qx-1CellularToken - Request Body
+^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-1CellularToken.js
 
 */
 
