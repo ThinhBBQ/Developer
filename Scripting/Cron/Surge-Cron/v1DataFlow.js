@@ -1,7 +1,5 @@
-//#LTE Tracking - Cronexp
-//LTE Tracking = type=cron,cronexp=0 */2 * * *,timeout=20,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Cron/LTE-Tracking.js,script-update-interval=7200
-
 /*Using Surge Cron*/
+
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain',
