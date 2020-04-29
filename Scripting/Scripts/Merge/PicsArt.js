@@ -1,7 +1,3 @@
-/*
-hostname = api.picsart.com
-*/
-
 var obj = JSON.parse($response.body);
 
 obj.subscription= {
