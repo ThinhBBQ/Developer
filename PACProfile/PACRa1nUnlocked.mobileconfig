@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1nUnlimited.js</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1nUnlocked.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -56,7 +56,7 @@
 Contact us: t.me/LongThinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
-	<string>PACRa1n Unlimited (AΩ)</string>
+	<string>PACRa1n Unlocked</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
