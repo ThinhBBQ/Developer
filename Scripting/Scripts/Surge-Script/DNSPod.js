@@ -1,18 +1,13 @@
 /*
 
 #DNSPod
-dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Script/DNSPod.js,script-update-interval=7200 //DNSPod
+dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Sripting/Scripts/Surge-Script/DNSPod.js,script-update-interval=7200 //DNSPod
 
 [Host]
 
 #Special
-
-*nicegram* = script:DNSPod
 iosnoops.com = script:DNSPod
 ipsw.me = script:DNSPod
-imap.gmail.com = script:DNSPod
-*googleapis.com = script:DNSPod
-*github* = script:DNSPod
 iosapps.itunes.apple.com = script:DNSPod
 
 */
