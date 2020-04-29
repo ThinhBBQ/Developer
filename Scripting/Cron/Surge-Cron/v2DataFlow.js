@@ -1,20 +1,13 @@
-//#LTE Tracking Auto - Cronexp
-//LTE Tracking Auto = type=cron,cronexp=0 */2 * * *,timeout=20,script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Surge/Cron/LTE-Tracking-Auto.js,script-update-interval=7200
-
-//Local
-//#LTE Tracking Auto (Local) - Cronexp
-//LTE Tracking Auto = type=cron,cronexp=0 */2 * * *,script-path=LTE-Tracking-Auto.js
-
 //Author LangKhach
 
 //Your Account
 const account = {
-user: "Username",
-pass: "Password",
+user: "0976909070",
+pass: "19021993",
 };
 
 //APILoginMobile
-var body = "account="+account.user + "&build_code=2020.4.15.2&cmnd=&device_id=00000000-0000-0000-0000-000000000000&device_name=L%20ng%20Kh%20ch%20s%20iPhone%20%28iPhone%20X%29&keyDeviceAcc=xxx&os_type=ios&os_version=13.300000&password="+account.pass + "&version_app=4.3.4";
+var body = "account="+account.user + "&build_code=2020.4.15.2&cmnd=&device_id=00000000-0000-0000-0000-000000000000&device_name=%23LongThinh%20iPhone%207%20%28GSM%29%20B%2FAkeyDeviceAcc=xxx&os_type=ios&os_version=13.300000&password="+account.pass + "&version_app=4.3.4";
 
 var apiloginmobile = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/loginMobile',
@@ -51,7 +44,7 @@ console.log(data);
 }
 
 function getdataremain(token){ 
-var body = "build_code=2020.4.15.2&device_id=00000000-0000-0000-0000-000000000000&device_name=L%20ng%20Kh%20ch%20s%20iPhone%20%28iPhone%20X%29&os_type=ios&os_version=13.300000&token=" + token+ "&version_app=4.3.4";
+var body = "build_code=2020.4.15.2&device_id=00000000-0000-0000-0000-000000000000&device_name=%23LongThinh%20iPhone%207%20%28GSM%29%20B%2FA&os_type=ios&os_version=13.300000&token=" + token+ "&version_app=4.3.4";
 var dataremain = {
 url: 'https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain',
 headers: {},
