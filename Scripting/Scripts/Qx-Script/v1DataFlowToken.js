@@ -1,9 +1,5 @@
 /*
 hostname = apivtp.vietteltelecom.vn
-
-#Qx-1CellularToken - Request Body
-^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body Qx-1CellularToken.js
-
 */
 
 //Smartcode Surge & Quantumult X
