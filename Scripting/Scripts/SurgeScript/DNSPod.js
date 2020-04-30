@@ -6,6 +6,8 @@ dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/mas
 [Host]
 
 #Special
+imap.gmail.com = script:DNSPod
+*googleapis.com* = script:DNSPod
 *github.com* = script:DNSPod
 iosnoops.com = script:DNSPod
 ipsw.me = script:DNSPod
