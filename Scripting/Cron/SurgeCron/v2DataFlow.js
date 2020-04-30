@@ -1,9 +1,11 @@
 //Author LangKhach
 
+/*Using Surge Cron*/
+
 //Your Account
 const account = {
-user: "Username",
-pass: "Password",
+user: "0976909070",
+pass: "19021993",
 };
 
 //APILoginMobile
