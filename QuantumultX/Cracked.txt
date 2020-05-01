@@ -4,6 +4,9 @@
 #Shopee Cookie - Request Header
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
 
+#AutoCrack - Response Body
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) url script-response-body AutoCrack.js
+
 #CamScaner - Response Body
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
 
