@@ -110,6 +110,6 @@ if (isSurge) {
 //End
 /*Using Quantumult X Script*/
 let body= $request.body;
-$notification.post("LTE Tracking write cache token: 🎉 Done, success!", "", "")
+$notification.post("v1DataFlow write cache token: 🎉 Done, success!", "", "")
 $persistentStore.write(body, "bodytoken");
 $done({});
