@@ -1,3 +1,5 @@
+//Author Lang Khach
+
 /*
 hostname = shopee.vn
 */

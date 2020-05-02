@@ -1,3 +1,5 @@
+//Author Lang Khach
+
 /*Using Surge Cron*/
 var bodytoken = $persistentStore.read("bodytoken");
 var dataremain = {

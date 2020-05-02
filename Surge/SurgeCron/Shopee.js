@@ -1,5 +1,7 @@
+//Author Lang Khach
+
 /*
-hostname = api.picsart.com
+hostname = shopee.vn
 */
 
 /*Using Surge Cron*/

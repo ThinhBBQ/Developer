@@ -1,5 +1,6 @@
-/*
+//Author Lang Khach
 
+/*
 #DNSPod
 dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Sripting/Scripts/Surge-Script/DNSPod.js,script-update-interval=7200 //DNSPod
 
@@ -12,7 +13,6 @@ imap.gmail.com = script:DNSPod
 iosnoops.com = script:DNSPod
 ipsw.me = script:DNSPod
 iosapps.itunes.apple.com = script:DNSPod
-
 */
 
 const url = 'http://119.29.29.29/d?dn=' + $domain;
