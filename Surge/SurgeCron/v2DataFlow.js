@@ -1,5 +1,3 @@
-//Author Lang Khach
-
 /*Using Surge Cron*/
 
 //Your Account
@@ -36,7 +34,7 @@ var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("OMG! Username/Password incorrect", "Token expired", "Trying to Re-Login! Please wait...");
+$notification.post("Username/Password incorrect", "Token expired", "Trying to Re-Login! Please wait...");
 console.log(data);
 }
 }
@@ -64,7 +62,7 @@ var data= obj["data"][0];
 $notification.post("❀ LTE Cellular: " + data["pack_name"], "",  "❀ Remain/Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\n❀ Expire date: " + data["expireDate"]);
 }
 else{
-$notification.post("OMG! Token expired", "", "Re-Login in the My Viettel app, please!");
+$notification.post("Token expired", "Re-Login in the My Viettel app", "Please!");
 }
 }
 }

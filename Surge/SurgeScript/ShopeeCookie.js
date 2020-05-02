@@ -1,5 +1,3 @@
-//Author Lang Khach
-
 /*
 hostname = shopee.vn
 */
@@ -11,7 +9,7 @@ if ($request.headers['Cookie']) {
     if (!cookie){
       $notification.post("Shopee cookie error", "", "Re-Login, please!")
     } else {
-      $notification.post("Shopee cookie: 🥳 Done, success!", "", "")
+      $notification.post("Shopee cookie", "Great!", "🥳 Done, success!")
     }
   } else {
     $notification.post("Shopee read the cookie faile", "", "Re-Login, please!")

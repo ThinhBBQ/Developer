@@ -1,5 +1,3 @@
-//Author Lang Khach
-
 /*
 #DNSPod
 dns DNSPod script-path=https://raw.githubusercontent.com/LongThinh/Programer/master/Sripting/Scripts/Surge-Script/DNSPod.js,script-update-interval=7200 //DNSPod
