@@ -4,9 +4,6 @@
 #Shopee Cookie - Request Header
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
 
-#AutoCrack - Response Body
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) url script-response-body AutoCrack.js
-
 #CamScaner - Response Body
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
 
@@ -21,6 +18,9 @@
 
 #PDF Expert - Response Body
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
+
+#Revenuecat - Response Body
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js
 
 #iTranslate - Response Body
 ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
