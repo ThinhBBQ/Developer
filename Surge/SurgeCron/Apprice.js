@@ -35,10 +35,10 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
             }
         }
         if (priceChanged) {
-            $notification.post(" Apprice","", "🥳 Price of apps has changed", priceChanged)
+            $notification.post(" Apprice", "🥳 Price of apps has changed", priceChanged)
         }
         if (newAppAdded) {
-            $notification.post(" Apprice","","🤩 New apps have been added to the list",newAppAdded)
+            $notification.post(" Apprice", "🤩 New apps have been added to the list", newAppAdded)
         }
         $persistentStore.write(JSON.stringify(cacheData))
         $done()
