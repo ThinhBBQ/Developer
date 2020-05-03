@@ -133,7 +133,7 @@ $notification.post("Shopee ✮ " + user, "", "🎉 Chúc mừng! Bạn đã nh�
 }
 }
 else{
-$notification.post("Shopee cookie has expired", "", "Re-Login, please!");
+$notification.post("", "Shopee cookie has expired", "Re-Login, please!");
 }
 }
 });

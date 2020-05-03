@@ -110,6 +110,6 @@ if (isSurge) {
 //End
 /*Using Quantumult X Script*/
 let body= $request.body;
-$notification.post("Rewrite token", "Great!", "🎉 Done, success!")
+$notification.post("", "Rewrite token: 🎉 Done, success!", "")
 $persistentStore.write(body, "bodytoken");
 $done({});
