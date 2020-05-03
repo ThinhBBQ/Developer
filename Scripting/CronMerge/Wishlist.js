@@ -106,7 +106,7 @@ if (isSurge) {
 //End
 /*Using Surge & Quantumult X Cron*/
 console.log(" Wishlist");
-let apps=["833406430"];
+let apps=["1450936447","993160329","833406430"];
 let reg="us";
 let notifys=[];
 format_apps(apps);
