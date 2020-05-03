@@ -117,7 +117,7 @@ launch()
 
 function weather() {
     let info = {
-        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + lang + "&units=si&exclude=currently,minutely",  //?lang=zh&units=si
+        url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + lang + "&units=si&exclude=currently,minutely",
         headers: {},
     }
     $httpClient.get(info, async function (error, response, data) {
