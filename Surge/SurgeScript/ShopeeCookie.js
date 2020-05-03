@@ -12,6 +12,6 @@ if ($request.headers['Cookie']) {
       $notification.post("", "Shopee cookie: 🥳 Done, success!", "")
     }
   } else {
-    $notification.post("Shopee read the cookie faile", "", "Re-Login, please!")
+    $notification.post("", "Shopee read the cookie faile", "Re-Login, please!")
   }
   $done({})

@@ -34,7 +34,7 @@ var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("Username/Password incorrect", "Token expired", "Trying to Re-Login! Please wait...");
+$notification.post("", "Login failed or the token has expired", "Trying to Re-Login! Please wait...");
 console.log(data);
 }
 }
@@ -59,7 +59,7 @@ if(response.status == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
-$notification.post("❀ LTE Cellular: " + data["pack_name"], "",  "❀ Remain/Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\n❀ Expire date: " + data["expireDate"]);
+$notification.post("❀ Cellular (2G/3G/LTE): " + data["pack_name"], "",  "✮ Available/Remain: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\n❀ Expire date: " + data["expireDate"]);
 }
 else{
 $notification.post("Token expired", "Re-Login in the My Viettel app", "Please!");
