@@ -124,12 +124,10 @@ if (isSurge) {
     }
 }
 //Endregion
-
 /*
 Example:
 apps=["833406430:hk","833406430/us","833406430-uk","833406430_jp","833406430 au","833406430|vn"] /:|_-
 */
-
 /*Using Surge & Quantumult X Cron*/
 console.log(" Wishlist");
 apps=["1450936447","993160329","833406430"]; //appid :hk /us -uk _jp au |vn
