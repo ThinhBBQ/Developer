@@ -1,4 +1,4 @@
-// test for surge
+//Test for Surge
 var domains = {
     "www.dropbox.com":1,
     "imap.gmail.com":1,
