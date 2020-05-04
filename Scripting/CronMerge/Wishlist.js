@@ -1,3 +1,4 @@
+//Smartcode
 let isQuantumultX = $task != undefined; 
 let isSurge = $httpClient != undefined; 
 //HTTP
@@ -130,7 +131,7 @@ apps=["833406430:hk","833406430/us","833406430-uk","833406430_jp","833406430 au"
 */
 /*Using Surge & Quantumult X Cron*/
 console.log(" Wishlist");
-apps=["1450936447","993160329","833406430"]; //appid :hk /us -uk _jp au |vn
+apps=["347345474","1450936447","993160329","833406430"]; //appid :hk /us -uk _jp au |vn
 let reg="us";
 let notifys=[];
 format_apps(apps);
