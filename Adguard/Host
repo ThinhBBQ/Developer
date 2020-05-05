@@ -1,4 +1,3 @@
-#[adtimaserver]
 0.0.0.0 adtimaserver.vn
 0.0.0.0 api.adtimaserver.vn
 0.0.0.0 log.adtimaserver.vn
@@ -8,7 +7,6 @@
 0.0.0.0 static2.adtimaserver.vn
 0.0.0.0 stream.adtimaserver.vn
 0.0.0.0 stream.org.adtimaserver.vn
-#[eclick]
 0.0.0.0 admin.iad.eclick.vn
 0.0.0.0 analytics.eclick.vn
 0.0.0.0 c.d.eclick.vn
@@ -53,7 +51,6 @@
 0.0.0.0 t.eclick.vn
 0.0.0.0 tracking.eclick.vn
 0.0.0.0 www.eclick.vn
-#[admicro]
 0.0.0.0 adi.admicro.vn
 0.0.0.0 admail.admicro.vn
 0.0.0.0 admarket.admicro.vn
@@ -109,7 +106,6 @@
 0.0.0.0 topkid.admicro.vn
 0.0.0.0 vccrm.admicro.vn
 0.0.0.0 www.admicro.vn
-#[vcmedia]
 0.0.0.0 admicro.vcmedia.com
 0.0.0.0 admicro1.vcmedia.vn
 0.0.0.0 admicro2.vcmedia.vn
@@ -121,7 +117,6 @@
 0.0.0.0 admicro8.vcmedia.vn
 0.0.0.0 admicro9.vcmedia.vn
 0.0.0.0 ads.hosting.vcmedia.vn
-#[adnetwork]
 0.0.0.0 adnetwork.vn
 0.0.0.0 client-pages.adnetwork.vn
 0.0.0.0 conv.adnetwork.vn
@@ -134,7 +129,6 @@
 0.0.0.0 s-cm.send.adnetwork.vn
 0.0.0.0 track.adnetwork.vn
 0.0.0.0 www.adnetwork.vn
-#[novanet]
 0.0.0.0 admin.novanet.vn
 0.0.0.0 ads.novanet.vn
 0.0.0.0 analytics.novanet.vn
@@ -154,7 +148,6 @@
 0.0.0.0 script.novanet.vn
 0.0.0.0 static.novanet.vn
 0.0.0.0 www.novanet.vn
-#[novaonads]
 0.0.0.0 novaonads.com
 0.0.0.0 www.novaonads.com
 0.0.0.0 novaon.asia
@@ -186,7 +179,6 @@
 0.0.0.0 staging.novaonx.com
 0.0.0.0 support.novaonx.com
 0.0.0.0 www.novaonx.com
-#[coccoc]
 0.0.0.0 ads-target.coccoc.com
 0.0.0.0 banners-gallery.coccoc.com
 0.0.0.0 catalog.qc.coccoc.com
@@ -208,7 +200,6 @@
 0.0.0.0 qc.coccoc.vn
 0.0.0.0 itim.vn
 0.0.0.0 spell.itim.vn
-#[rungrinh.vn]
 0.0.0.0 cdn.rungrinh.vn
 0.0.0.0 cdn1.rungrinh.vn
 0.0.0.0 dev-payment.rungrinh.vn
@@ -219,7 +210,6 @@
 0.0.0.0 static.rungrinh.vn
 0.0.0.0 tds.rungrinh.vn
 0.0.0.0 www.rungrinh.vn
-#[lavanetwork]
 0.0.0.0 ad.lavanetwork.net
 0.0.0.0 ad1.lavanetwork.net
 0.0.0.0 admin.lavanetwork.net
@@ -245,7 +235,6 @@
 0.0.0.0 video.lavanetwork.net
 0.0.0.0 www.lavanetwork.net
 0.0.0.0 xaxis.lavanetwork.net
-#[polyad]
 0.0.0.0 core.polyad.net
 0.0.0.0 cp.polyad.net
 0.0.0.0 cpx.polyad.net
@@ -259,7 +248,6 @@
 0.0.0.0 st.core.polyad.net
 0.0.0.0 st.html.polyad.net
 0.0.0.0 st.polyad.net
-#[ambientplatform]
 0.0.0.0 ambientplatform.vn
 0.0.0.0 campaigns.ambientplatform.vn
 0.0.0.0 cdn.ambientplatform.vn
@@ -272,7 +260,6 @@
 0.0.0.0 media.m.ambientplatform.vn
 0.0.0.0 metrics.m.ambientplatform.vn
 0.0.0.0 rd.ambientplatform.vn
-#[ants]
 0.0.0.0 a.ants.vn
 0.0.0.0 abs.ants.vn
 0.0.0.0 ad.ants.vn
@@ -300,7 +287,6 @@
 0.0.0.0 t.ants.vn
 0.0.0.0 t.d.ants.vn
 0.0.0.0 www.ants.vn
-#[adtima.vn]
 0.0.0.0 admin.billing.adtima.vn
 0.0.0.0 adtima.vn
 0.0.0.0 api.adtima.vn
@@ -316,7 +302,6 @@
 0.0.0.0 stc.adtima.vn
 0.0.0.0 www.adtima.vn
 0.0.0.0 xmas.adtima.vn
-#[ad360]
 0.0.0.0 ad360.vn
 0.0.0.0 advertiser.ad360.vn
 0.0.0.0 khuyenmaitet.ad360.vn
@@ -325,7 +310,6 @@
 0.0.0.0 tracking.ad360.vn
 0.0.0.0 www.ad360.vn
 0.0.0.0 xcache.ad360.vn
-#[vietnamnetad]
 0.0.0.0 client.vietnamnetad.vn
 0.0.0.0 f.vietnamnetad.vn
 0.0.0.0 img.vietnamnetad.vn
@@ -337,7 +321,6 @@
 0.0.0.0 vietnamnetad.vn
 0.0.0.0 widget.vietnamnetad.vn
 0.0.0.0 www.vietnamnetad.vn
-#[zing]
 0.0.0.0 ad.zing.vn
 0.0.0.0 log.news.zing.vn
 0.0.0.0 logv2.mp3.zing.vn
@@ -365,7 +348,6 @@
 0.0.0.0 zplayer.trk.zapps.vn
 0.0.0.0 log.zingmp3.vn
 0.0.0.0 zlog.zingmp3.vn
-#[vietad]
 0.0.0.0 ads.vietad.vn
 0.0.0.0 as.vietad.vn
 0.0.0.0 banner.vietad.vn
@@ -385,7 +367,6 @@
 0.0.0.0 www.vietad.vn
 0.0.0.0 z.vietad.vn
 0.0.0.0 zone.vietad.vn
-#[accesstrade]
 0.0.0.0 academy.accesstrade.vn
 0.0.0.0 accesstrade.vn
 0.0.0.0 ad.accesstrade.vn
@@ -413,7 +394,6 @@
 0.0.0.0 www.accesstrade.vn
 0.0.0.0 accesstrade.com.vn
 0.0.0.0 click.accesstrade.com.vn
-#[anthill]
 0.0.0.0 a.anthill.vn
 0.0.0.0 anthill.vn
 0.0.0.0 atrack-a.anthill.vn
@@ -443,7 +423,6 @@
 0.0.0.0 v3-st-vcdn.anthill.vn
 0.0.0.0 vcdn.anthill.vn
 0.0.0.0 www.anthill.vn
-#[gammaplatform]
 0.0.0.0 app.gammaplatform.com
 0.0.0.0 clk.gammaplatform.com
 0.0.0.0 cm.gammaplatform.com
@@ -459,7 +438,6 @@
 0.0.0.0 tag.gammaplatform.com
 0.0.0.0 track.gammaplatform.com
 0.0.0.0 www.gammaplatform.com
-#[yomedia]
 0.0.0.0 ad-deliver.yomedia.vn
 0.0.0.0 analytics.yomedia.vn
 0.0.0.0 delivery.yomedia.vn
@@ -472,13 +450,11 @@
 0.0.0.0 static.yomedia.vn
 0.0.0.0 tracking.yomedia.vn
 0.0.0.0 yomedia.vn
-#[pinetech]
 0.0.0.0 demo.pinetech.vn
 0.0.0.0 file.pinetech.vn
 0.0.0.0 newsletter.pinetech.vn
 0.0.0.0 pinetech.vn
 0.0.0.0 www.pinetech.vn
-#[cleverads.vn]
 0.0.0.0 business.cleverads.vn
 0.0.0.0 cleverads.vn
 0.0.0.0 crm.cleverads.vn
@@ -489,7 +465,6 @@
 0.0.0.0 wifiads.cleverads.vn
 0.0.0.0 www.cleverads.vn
 0.0.0.0 youtube.cleverads.vn
-#[ambient-platform]
 0.0.0.0 ambient-platform.com
 0.0.0.0 analytics.ambient-platform.com
 0.0.0.0 campaigns.ambient-platform.com
@@ -511,7 +486,6 @@
 0.0.0.0 retg.ambient-platform.com
 0.0.0.0 static.ambient-platform.com
 0.0.0.0 www.ambient-platform.com
-#[klick]
 0.0.0.0 adv.klick.vn
 0.0.0.0 demo.klick.vn
 0.0.0.0 euro.klick.vn
@@ -521,13 +495,11 @@
 0.0.0.0 wakeup.klick.vn
 0.0.0.0 wakeup247.klick.vn
 0.0.0.0 www.klick.vn
-#[cokhach.com]
 0.0.0.0 admin.cokhach.com
 0.0.0.0 c.cokhach.com
 0.0.0.0 cokhach.com
 0.0.0.0 w.cokhach.com
 0.0.0.0 www.cokhach.com
-#[fff.com.vn]
 0.0.0.0 a.fff.com.vn
 0.0.0.0 admin.fff.com.vn
 0.0.0.0 client.fff.com.vn
@@ -544,7 +516,6 @@
 0.0.0.0 tracking.fff.com.vn
 0.0.0.0 ws.fff.com.vn
 0.0.0.0 www.fff.com.vn
-#[ladipage]
 0.0.0.0 api.ladipage.vn
 0.0.0.0 builder.ladipage.vn
 0.0.0.0 dns.ladipage.vn
@@ -565,7 +536,6 @@
 0.0.0.0 builder.ladipage.com
 0.0.0.0 dns.ladipage.com
 0.0.0.0 la.ladipage.com
-#[ezimar.com]
 0.0.0.0 caohavan.ezimar.com
 0.0.0.0 ezdns.ezimar.com
 0.0.0.0 ezimar.com
@@ -574,14 +544,12 @@
 0.0.0.0 vietravel.ezimar.com
 0.0.0.0 www.ezimar.com
 0.0.0.0 youyou.ezimar.com
-#[vclick.vn]
 0.0.0.0 ads.vclick.vn
 0.0.0.0 clip.vclick.vn
 0.0.0.0 s.vclick.vn
 0.0.0.0 static.vclick.vn
 0.0.0.0 vclick.vn
 0.0.0.0 www.vclick.vn
-#[adpia.vn]
 0.0.0.0 ac.adpia.vn
 0.0.0.0 adpia.vn
 0.0.0.0 click.adpia.vn
@@ -594,7 +562,6 @@
 0.0.0.0 sendy.adpia.vn
 0.0.0.0 uptime.adpia.vn
 0.0.0.0 www.adpia.vn
-#[younetmedia.com]
 0.0.0.0 beta.younetmedia.com
 0.0.0.0 digital.younetmedia.com
 0.0.0.0 facebookid.younetmedia.com
@@ -619,7 +586,6 @@
 0.0.0.0 testing.younetmedia.com
 0.0.0.0 www.younetmedia.com
 0.0.0.0 younetmedia.com
-#[mangoads.vn]
 0.0.0.0 anc.mangoads.vn
 0.0.0.0 carpenter.mangoads.vn
 0.0.0.0 crm.mangoads.vn
@@ -652,14 +618,12 @@
 0.0.0.0 vsteel.mangoads.vn
 0.0.0.0 webcodau.mangoads.vn
 0.0.0.0 www.mangoads.vn
-#[ad.org.vn]
 0.0.0.0 ad.org.vn
 0.0.0.0 cdn.serving.ad.org.vn
 0.0.0.0 member.ad.org.vn
 0.0.0.0 serving.ad.org.vn
 0.0.0.0 static.ad.org.vn
 0.0.0.0 www.ad.org.vn
-#[cityads.com]
 0.0.0.0 adv.cityads.com
 0.0.0.0 ali.cityads.com
 0.0.0.0 aliexpress-summer.cityads.com
@@ -709,7 +673,6 @@
 0.0.0.0 cityadstrack.com
 0.0.0.0 p.cityadstrack.com
 0.0.0.0 stats.cityadstrack.com
-#[adsota]
 0.0.0.0 ads.appota.com
 0.0.0.0 adsota.com
 0.0.0.0 agency.adsota.com
@@ -719,7 +682,6 @@
 0.0.0.0 static.adsota.com
 0.0.0.0 track.adsota.com
 0.0.0.0 www.adsota.com
-#[masoffer.net]
 0.0.0.0 api.app.masoffer.net
 0.0.0.0 app.masoffer.net
 0.0.0.0 beta-go.masoffer.net
@@ -731,7 +693,6 @@
 0.0.0.0 static.masoffer.net
 0.0.0.0 tr.masoffer.net
 0.0.0.0 www.masoffer.net
-#[autoads.asia]
 0.0.0.0 api.autoads.asia
 0.0.0.0 autoads.asia
 0.0.0.0 cdn.autoads.asia
@@ -744,25 +705,21 @@
 0.0.0.0 tracking.autoads.asia
 0.0.0.0 www.autoads.asia
 0.0.0.0 xacthuc.autoads.asia
-#[phanquang.vn]
 0.0.0.0 click.phanquang.vn
 0.0.0.0 mail.phanquang.vn
 0.0.0.0 phanquang.vn
 0.0.0.0 quangcao.phanquang.vn
 0.0.0.0 www.phanquang.vn
-#[laydata.com]
 0.0.0.0 api.laydata.com
 0.0.0.0 cms.laydata.com
 0.0.0.0 databox.laydata.com
 0.0.0.0 facefone.laydata.com
 0.0.0.0 laydata.com
 0.0.0.0 www.laydata.com
-#[ohchat.net]
 0.0.0.0 ohchat.net
 0.0.0.0 app.ohchat.net
 0.0.0.0 hostmaster.ohchat.net
 0.0.0.0 www.ohchat.net
-#[mediaz.vn]
 0.0.0.0 adwords.mediaz.vn
 0.0.0.0 blog.mediaz.vn
 0.0.0.0 book.mediaz.vn
@@ -804,7 +761,6 @@
 0.0.0.0 js.mediaz.asia
 0.0.0.0 static.mediaz.asia
 0.0.0.0 www.mediaz.asia
-#[mediad.asia]
 0.0.0.0 mediad.asia
 0.0.0.0 adx.mediaz.asia
 0.0.0.0 blog.mediad.asia
@@ -812,7 +768,6 @@
 0.0.0.0 dsp.mediaz.asia
 0.0.0.0 guide.mediad.asia
 0.0.0.0 www.mediad.asia
-#[bidgear]
 0.0.0.0 astats.bidgear.com
 0.0.0.0 bidgear.com
 0.0.0.0 dsp.bidgear.com
@@ -828,11 +783,9 @@
 0.0.0.0 www.bidgear.com
 0.0.0.0 zabbix.bidgear.com
 0.0.0.0 bidgear-syndication.com
-#[sharks.vn]
 0.0.0.0 delivery.sharks.vn
 0.0.0.0 sharks.vn
 0.0.0.0 www.sharks.vn
-#[dable.io]
 0.0.0.0 ad-log.dable.io
 0.0.0.0 admin.dable.io
 0.0.0.0 adx.dable.io
@@ -852,13 +805,11 @@
 0.0.0.0 support.dable.io
 0.0.0.0 thumb.dable.io
 0.0.0.0 www.dable.io
-#[adbro]
 0.0.0.0 adbro.me
 0.0.0.0 api.adbro.me
 0.0.0.0 apis.adbro.me
 0.0.0.0 cdn.adbro.me
 0.0.0.0 portal.adbro.me
-#[adasiaholdings]
 0.0.0.0 adasiaholdings.com
 0.0.0.0 adnetwork.adasiaholdings.com
 0.0.0.0 adpa-dooh-prod-vpn.adasiaholdings.com
@@ -875,7 +826,6 @@
 0.0.0.0 publishers.adasiaholdings.com
 0.0.0.0 tags.adasiaholdings.com
 0.0.0.0 www.adasiaholdings.com
-#[aiservice.vn]
 0.0.0.0 aiservice.vn
 0.0.0.0 boxpr.aiservice.vn
 0.0.0.0 news.aiservice.vn
@@ -884,7 +834,6 @@
 0.0.0.0 ntimg.aiservice.vn
 0.0.0.0 recsys.aiservice.vn
 0.0.0.0 snews.aiservice.vn
-#[adsplay]
 0.0.0.0 admin.adsplay.net
 0.0.0.0 adsplay.net
 0.0.0.0 d.adsplay.net
@@ -905,13 +854,11 @@
 0.0.0.0 st.adsplay.net
 0.0.0.0 static.adsplay.net
 0.0.0.0 www.adsplay.net
-#[yoads.net]
 0.0.0.0 yoads.net
 0.0.0.0 push.yoads.net
 0.0.0.0 push2.yoads.net
 0.0.0.0 www.yoads.net
 0.0.0.0 yoads.network
-#[adsplay.xyz]
 0.0.0.0 a.adsplay.xyz
 0.0.0.0 a1.adsplay.xyz
 0.0.0.0 a3.adsplay.xyz
@@ -945,28 +892,23 @@
 0.0.0.0 wifi-api2.adsplay.xyz
 0.0.0.0 wifi-api3.adsplay.xyz
 0.0.0.0 wifi-api4.adsplay.xyz
-#[viam.com.vn]
 0.0.0.0 hc.viam.com.vn
 0.0.0.0 viam.com.vn
 0.0.0.0 www.viam.com.vn
-#[vads.vn]
 0.0.0.0 baogia.vads.vn
 0.0.0.0 images.vads.vn
 0.0.0.0 vads.vn
 0.0.0.0 www.vads.vn
-#[vads.net.vn]
 0.0.0.0 client.vads.net.vn
 0.0.0.0 log.vads.net.vn
 0.0.0.0 vads.net.vn
 0.0.0.0 www.vads.net.vn
-#[uniad.vn]
 0.0.0.0 click.uniad.vn
 0.0.0.0 pub.uniad.vn
 0.0.0.0 publisher.uniad.vn
 0.0.0.0 uniad.vn
 0.0.0.0 www.uniad.vn
 0.0.0.0 zone.uniad.vn
-# --- Block adsVN ---
 0.0.0.0 123c.vn
 0.0.0.0 ad-hcm.24hstatic.com
 0.0.0.0 ad-hn.24hstatic.com
@@ -1060,7 +1002,6 @@
 0.0.0.0 www.microad.vn
 0.0.0.0 www.vietbuzzad.com
 0.0.0.0 www.vietdorje.com
-# --- Block trackingVN ---
 0.0.0.0 alexajstrack.com
 0.0.0.0 amcdn.vn
 0.0.0.0 an.dongphim.net
@@ -1125,7 +1066,6 @@
 0.0.0.0 web.stagingf8.pycogroup.com
 0.0.0.0 widget.nhaccuatui.com
 0.0.0.0 www.trending.vn
-# --- Block betVN ---
 0.0.0.0 11bet.com
 0.0.0.0 lucky88.com
 0.0.0.0 m.lucky88.com
