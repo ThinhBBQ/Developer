@@ -4,6 +4,9 @@ var domains = {
     "imap.gmail.com":1,
     "smtp.gmail.com":1,
     "pop.gmail.com":1,
+    "speedify.com":1,
+    "airmailapp.com":1,
+    "canarymail.io":1,
 };
  
 var surge = "SOCKS5 127.0.0.1:6153; PROXY 127.0.0.1:6152;";
