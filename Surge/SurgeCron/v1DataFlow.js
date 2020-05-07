@@ -23,7 +23,7 @@ var data= obj["data"][0];
 $notification.post("❀ Cellular (2G/3G/LTE): " + data["pack_name"], "",  "❀ Available/Remain: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\n❀ Expire date: " + data["expireDate"]);
 }
 else{
-$notification.post("Token expired", "Re-Login in the My Viettel app", "Please!");
+$notification.post("Token expired", "Re-Login in the My Viettel app, please!", "");
 }
 }
 }
