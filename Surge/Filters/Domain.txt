@@ -5308,7 +5308,6 @@ bjdxhs.com
 bjhmt.com
 blueconic.net
 bugsense.com
-bugsnag.com
 burstly.com
 bvpdf9.u9a.wentserver.com
 bytedance.com
@@ -5445,7 +5444,6 @@ mybuzzmonitor.com
 newscorp.grapeshot.co.uk
 nexus.ensighten.com
 nonglirili.net
-notify.bugsnag.com
 nppmwatch.com
 npttech.com
 ns.zdbb.net
