@@ -1,6 +1,3 @@
-#v1DataFlow Token - Request Body
-#^https:\/\/apivtp\.vietteltelecom\.vn:6768\/myviettel\.php\/registerPush$ url script-request-body v1DataFlowToken.js
-
 #Shopee Cookie - Request Header
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
 
