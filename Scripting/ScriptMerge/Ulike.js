@@ -1,7 +1,14 @@
-var hcsavn = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
-hcsavn.data.start_time = 1591022354
-hcsavn.data.end_time = 253394611200
-hcsavn.data.flag = true
+obj= {
+  "data": {
+    "flag": true,
+    "start_time": 1572760027,
+    "end_time": 4102419599
+  },
+  "systime": "",
+  "errmsg": "Success",
+  "ret": "0"
+};
 
-$done({body: JSON.stringify(hcsavn)});
+$done({body: JSON.stringify(obj)});
