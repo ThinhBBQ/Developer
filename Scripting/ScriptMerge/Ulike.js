@@ -1,3 +1,5 @@
+/* hostname = commerce-i18n-api.faceu.mobi */
+
 var hcsavn = JSON.parse($response.body);
 
 hcsavn.data.start_time = 1591022354
