@@ -13,20 +13,17 @@
 #Eggzy - Response Body
 ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
 
-#Fanstatical - Response Body
+#Fantastical - Response Body
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
-#Mondly - Response Body
-^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body Fantastical.js
+#iTranslate - Response Body
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
 
 #PDF Expert - Response Body
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
 
 #Revenuecat - Response Body
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js
-
-#iTranslate - Response Body
-^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
 
 #PicsArt - Response Body
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
@@ -48,9 +45,6 @@
 
 #Termius - Response Body
 ^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
-
-#Ulike - Response Body
-^https://.+.faceu.mobi/.+/user_info.+ url script-response-body Termius.js
 
 #Verify Receipt - Response Body
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
