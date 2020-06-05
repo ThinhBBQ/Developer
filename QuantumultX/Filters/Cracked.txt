@@ -31,6 +31,9 @@
 #PicsArt - Response Body
 ^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 
+#RECGO
+^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body RECGO.js
+
 #Money Lover+ - Response Body
 ^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover+.js
 
