@@ -117,7 +117,7 @@ var shopeeUrl = {
   }
 $httpClient.post(shopeeUrl, function(error, response, data){
   if (error) {
-$notification.post("", "Shopee checkin", "Connection error")
+$notification.post("", "Shopee checkin", "Connection ERROR")
     $done(); 
   } 
  else{
