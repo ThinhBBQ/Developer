@@ -2,7 +2,7 @@
 ^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
 
 #AltStore - Response Body
-^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body AutoCrack.js
+^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body AltStore.js
 
 #CamScaner - Response Body
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
