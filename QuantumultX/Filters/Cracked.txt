@@ -16,6 +16,9 @@
 #Fantastical - Response Body
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
+#Google Endless
+^https?:\/\/www\.google\..* url script-response-body GoogleEndless.js
+
 #iTranslate - Response Body
 ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
 

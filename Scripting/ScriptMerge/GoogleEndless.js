@@ -1,9 +1,5 @@
 /*
-[Rewrite]
-^https?:\/\/www\.google\..* url script-response-body GoogleEndless.js
-
-[mitm]
-www.google.*
+hostname = www.google.*
 */
 
 let body = $response.body
