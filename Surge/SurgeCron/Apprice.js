@@ -2,7 +2,7 @@
 
 /*Using Surge Cron*/
 const region = "us"
-const appIds = ["502633252","1067596534","1295524988","1479572902","1491713518"]
+const appIds = ["1466120520","502633252","1067596534","1295524988","1479572902","1491713518"]
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
@@ -23,11 +23,11 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
         for (var i = 0; i < appData.length; i++) {
             if (cacheData[appData[i].trackId]) {
                 if (appData[i].formattedPrice != cacheData[appData[i].trackId].price) {
-                    priceChanged = priceChanged + "💵 " + appData[i].trackName + "  " + cacheData[appData[i].trackId].price + " → " + appData[i].formattedPrice + "\n"
+                    priceChanged = priceChanged + "💵 " + appData[i].trackName + " ❀ " + cacheData[appData[i].trackId].price + " → " + appData[i].formattedPrice + "\n"
                     cacheData[appData[i].trackId].price = appData[i].formattedPrice
                 }
             } else {
-                newAppAdded = newAppAdded + "💵 " + appData[i].trackName + "  " + appData[i].formattedPrice + "\n"
+                newAppAdded = newAppAdded + "💵 " + appData[i].trackName + " ❀ " + appData[i].formattedPrice + "\n"
                 cacheData[appData[i].trackId] = {
                     name: appData[i].trackName,
                     price: appData[i].formattedPrice
