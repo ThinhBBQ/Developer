@@ -42,17 +42,17 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>   PACRa1n iOS Profile
+	<string>   PACRa1n iOS Profile
 
-- Blocking iOS updates (OTA)
-- Revoke a blocked Certificate
-- Blocked app updates on the Appstore
+✮ Blocking iOS updates (OTA)
+✮ Revoke a blocked Certificate
+✮ Blocked app updates on the Appstore
 
-* New feature: Coming soon...
+✶ New feature: Coming soon...
 
-+ ffapple.com: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
+❀ ffapple.com: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
-Contact us: t.me/LongThinh (Nicegram)</string>
+✆ Contact us: t.me/LongThinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
 	<string>ffapple.com</string>
