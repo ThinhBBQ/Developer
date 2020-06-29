@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/Ra1n.js</string>
+			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/tfp0.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -49,12 +49,12 @@
 
 * New feature: Coming soon...
 
-+ PACRa1n: compatibility-mode = 1 or 3, tcp-connection = true, skip-server-cert-verify = true
++ tfp0: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
 Contact us: t.me/LongThinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
-	<string>PACRa1n</string>
+	<string>tfp0</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
