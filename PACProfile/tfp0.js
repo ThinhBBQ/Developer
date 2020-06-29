@@ -1,4 +1,4 @@
-//Global proxy Map Local by Lang Khach
+//Global proxy map Local
 
 var DIRECT="DIRECT";
 var PROXY_DIRECT="PROXY 127.0.0.1:6789; PROXY 127.0.0.1:6152; DIRECT";
