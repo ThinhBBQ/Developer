@@ -49,9 +49,8 @@
 
 * New feature: Coming soon...
 
-+ Proxy with Loopback Address/VIF Only
-+ TCP Connection = True
-+ Skip Server Certificate Verification = True
++ PACRa1n (Ra1n.js): compatibility-mode = 1 or 3, tcp-connection = true, skip-server-cert-verify = true
++ PACRa1n (tfp0.js): compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
 Contact us: t.me/LongThinh (Nicegram)</string>
 	

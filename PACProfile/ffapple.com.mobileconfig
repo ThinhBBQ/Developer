@@ -50,9 +50,7 @@
 
 * New feature: Coming soon...
 
-+ Disable
-+ TCP Connection = False
-+ Skip Server Certificate Verification = True
++ ffapple.com: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
 Contact us: t.me/LongThinh (Nicegram)</string>
 	
