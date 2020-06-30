@@ -1,8 +1,8 @@
 #Shopee Cookie - Request Header
 
-^https:\/\/shopee\.vn\/me\/setting url script-request-header https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/QxScript/ShopeeCookie.js
+^https:\/\/shopee\.vn\/me\/setting url script-request-header https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/QxScript/Cookie.js
 
-#^https:\/\/shopee\.vn\/me\/setting url script-request-header ShopeeCookie.js
+#^https:\/\/shopee\.vn\/me\/setting url script-request-header Cookie.js
 
 #AltStore - Response Body
 
@@ -60,7 +60,7 @@
 
 #Revenuecat - Response Body
 
-^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Revenuecat.js
+#^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Revenuecat.js
 
 #^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js
 
@@ -84,7 +84,7 @@
 
 #Tangerine - Response Body
 
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Tangerine.js
+#^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Tangerine.js
 
 #^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
 
