@@ -140,7 +140,7 @@ var token= obj["data"]["data"]["token"];
 getdataremain(token);
 }
 else{
-$notification.post("DataFlow", "Login failed or the token has expired", "Trying to Re-Login! Please wait...");
+$notification.post("Viettel", "Login failed or the token has expired", "Trying to Re-Login! Please wait...");
 }
 }
 }
