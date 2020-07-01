@@ -1,113 +1,113 @@
 #Shopee Cookie - Request Header
-^https:\/\/shopee\.vn\/me\/setting url script-request-header https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/QxScript/Cookie.js,tag=Cookie
+^https:\/\/shopee\.vn\/me\/setting url script-request-header https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/QxScript/Cookie.js
 
 #Local
-#^https:\/\/shopee\.vn\/me\/setting url script-request-header Cookie.js,tag=Cookie
+#^https:\/\/shopee\.vn\/me\/setting url script-request-header Cookie.js
 
 #AltStore - Response Body
-#^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/AltStore.js,tag=AltStore
+#^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/AltStore.js
 
 #Local
-^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body AltStore.js,tag=AltStore
+^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body AltStore.js
 
 #CamScaner - Response Body
-#^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/CamScaner.js,tag=CamScaner
+#^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/CamScaner.js
 
 #Local
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js,tag=CamScaner
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body CamScaner.js
 
 #Documents - Response Body
-#^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Documents.js,tag=Documents
+#^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Documents.js
 
 #Local
-^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js,tag=Documents
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body Documents.js
 
 #Eggzy - Response Body
-#^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Eggzy.js,tag=Eggzy
+#^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Eggzy.js
 
 #Local
-^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js,tag=Ezzgy
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body Eggzy.js
 
 #Fantastical - Response Body
-#^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Fantastical.js,tag=Fantastical
+#^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Fantastical.js
 
 #Local
-^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js,tag=Fantastical
+^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
 #Google Endless
-#^https?:\/\/www\.google\..* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/GoogleEndless.js,tag=GoogleEndless
+#^https?:\/\/www\.google\..* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/GoogleEndless.js
 
 #Local
-^https?:\/\/www\.google\..* url script-response-body GoogleEndless.js,tag=GoogleEndless
+^https?:\/\/www\.google\..* url script-response-body GoogleEndless.js
 
 #iTranslate - Response Body
-#^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/iTranslate.js,tag=iTranslate
+#^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/iTranslate.js
 
 #Local
-^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js,tag=iTranslate
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body iTranslate.js
 
 #PDF Expert - Response Body
-#^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/PDFExpert.js,tag=PDFExpert
+#^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/PDFExpert.js
 
 #Local
-^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js,tag=PDFExpert
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body PDFExpert.js
 
 #PicsArt - Response Body
-#^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/PicsArt.js,tag=PicsArt
+#^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/PicsArt.js
 
 #Local
-^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js,tag=PicsArt
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body PicsArt.js
 
 #Revenuecat - Response Body
-#^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Revenuecat.js,tag=Revenuecat
+#^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Revenuecat.js
 
 #Local
-^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js,tag=Revenuecat
+^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js
 
 #RECGO
-#^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/RECGO.js,tag=RECGO
+#^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/RECGO.js
 
 #Local
-^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body RECGO.js,tag=RECGO
+^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body RECGO.js
 
 #Money Lover+ - Response Body
-#^https://revoapi.moneylover.me/api/status url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/MoneyLover+.js,tag=MoneyLover+
+#^https://revoapi.moneylover.me/api/status url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/MoneyLover+.js
 
 #Local
-^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover+.js,tag=MoneyLover+
+^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover+.js
 
 #Kine Master - Response Body
-#^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/KineMaster.js,tag=KineMaster
+#^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/KineMaster.js
 
 #Local
-^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js,tag=KineMaster
+^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
 
 #Tangerine - Response Body
-#^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Tangerine.js,tag=Tangerine
+#^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Tangerine.js
 
 #Local
-^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Tangerine.js,tag=Tangerine
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
 
 #Textnow - Response Body
-#^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Textnow.js,tag=Textnow
+#^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Textnow.js
 
 #Local
-^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js,tag=Textnow
+^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body Textnow.js
 
 #Termius - Response Body
-#^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Termius.js,tag=Termius
+#^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Termius.js
 
 #Local
-^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js,tag=Termius
+^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
 
 #Verify Receipt - Response Body
-#^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/VerifyReceipt.js,tag=VerifyReceipt
+#^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/VerifyReceipt.js
 
 #Local
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js,tag=VerifyReceipt
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body VerifyReceipt.js
 
 #VivaVideo - Response Body
-#^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/VivaVideo.js,tag=VivaVideo
+#^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/VivaVideo.js
 
 #Local
-^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js,tag=VivaVideo
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip url script-response-body VivaVideo.js
