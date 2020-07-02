@@ -35,10 +35,10 @@
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body Fantastical.js
 
 #Google Endless
-#^https?:\/\/www\.google\..* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/GoogleEndless.js
+#^https?:\/\/www\.google\..*\/search url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/GoogleEndless.js
 
 #Local
-^https?:\/\/www\.google\..* url script-response-body GoogleEndless.js
+^https?:\/\/www\.google\..*\/search url script-response-body GoogleEndless.js
 
 #iTranslate - Response Body
 #^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/iTranslate.js
