@@ -4,7 +4,6 @@ var blacklist = {
     "ocsp.apple.com":1,
     "su.itunes.apple.com":1,
     "mesu.apple.com":1,
-    "ppq.apple.com":1,
     "gdmf.apple.com":1,
     "appldnld.apple.com":1,
 };
