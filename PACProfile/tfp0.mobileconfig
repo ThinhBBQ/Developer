@@ -58,7 +58,7 @@
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
-    <string>Long Thinh,. Inc.</string>
+    <string>Long Thinh Inc.</string>
     <key>PayloadRebootSuggested</key>
     <true/>
 	<key>PayloadRemovalDisallowed</key>
