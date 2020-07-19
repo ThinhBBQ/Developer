@@ -86,7 +86,7 @@
 #^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Tangerine.js
 
 #Local
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
+#^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body Tangerine.js
 
 #Textnow - Response Body
 #^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Textnow.js
@@ -99,6 +99,12 @@
 
 #Local
 ^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
+
+#Ulike - Response Body
+#https://.+.faceu.mobi/.+/user_info.+ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/Ulike.js
+
+#Local
+https://.+.faceu.mobi/.+/user_info.+ url script-response-body Ulike.js
 
 #Verify Receipt - Response Body
 #^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/LongThinh/Programer/master/Scripting/ScriptMerge/VerifyReceipt.js
