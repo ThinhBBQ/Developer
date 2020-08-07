@@ -53,15 +53,14 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-
 /*
-//30 7-22/1 * * * AppMonitor.js
-apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620_jp","1443988620 au"]
-/:|_-
+Example:
+apps=["833406430:hk","833406430/us","833406430-uk","833406430_jp","833406430 au","833406430|vn"] /:|_-
 */
-console.log("AppMonitor");
-let apps=["1442620678", "1015767349","1062022008","694647259","1312014438","436577167","1512911766","1443988620"];//appid
-let reg="vn";//:us cn hk
+/*Using Surge & Quantumult X Cron*/
+console.log(" Wishlist");
+apps=["1441490807","1495946973","1493256837","1517339257","584371036","1050576070","1512911766","1435082414","347345474","840190547","1483522561","951598770","1461666739","1488616799","1317522797","388624839","1502903102","1485594255","1291222612","502633252","961390574","517329357","1067596534","1295524988","1479572902","1491713518","1373567447","932747118","946930094","993160329","1155470386","1436251125","1466120520","1463315864","1482338564","1470774095","539397400","1282297037","1450936447","1423330822","1465749029","1407249786","1065511007","1490211589","1446549608","1289070327","1459055246","1443988620","1442620678","896694807","904237743","999025824","833406430"]; //appid :hk /us -uk _jp au |vn
+let reg="us";// vn us uk
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
@@ -92,11 +91,11 @@ function format_apps(x) {
                 }
             }
             else{
-                notifys.push(`ID error:【${n}】`)
+                notifys.push(`ID error: ${n}`)
             }
         }
         else{
-            notifys.push(`ID error:【${n}】`)
+            notifys.push(`ID error: ${n}`)
         }
     });
     if(Object.keys(apps_f).length>0){
@@ -130,15 +129,15 @@ async function post_data(d) {
                         if(app_monitor.hasOwnProperty(x.trackId)){
                             if(JSON.stringify(app_monitor[x.trackId])!==JSON.stringify(infos[x.trackId])){
                                 if(x.version!==app_monitor[x.trackId].v){
-                                    notifys.push(`${flag(k)}🧩${x.trackName}:version【${x.version}】`)
+                                    notifys.push(`${flag(k)} 🔘 ${x.trackName} ❀ ${x.version}`)
                                 }
                                 if(x.formattedPrice!==app_monitor[x.trackId].p){
-                                    notifys.push(`${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`)
+                                    notifys.push(`${flag(k)} 💵 ${x.trackName} ❀ ${x.formattedPrice}`)
                                 }
                             }}
                         else{
-                            notifys.push(`${flag(k)}🧩${x.trackName}:version【${x.version}】`);
-                            notifys.push(`${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`)
+                            notifys.push(`${flag(k)} 🔘 ${x.trackName} ❀ ${x.version}`);
+                            notifys.push(`${flag(k)} 💵 ${x.trackName} ❀ ${x.formattedPrice}`)
                         }
                     }));
                 }
@@ -153,7 +152,7 @@ async function post_data(d) {
             notify(notifys)
         }
         else{
-            console.log("AppMonitor: No changed")
+            console.log(" Wishlist：🥴 No change")
         }
     }catch (e) {
         console.log(e);
@@ -162,7 +161,7 @@ async function post_data(d) {
 function notify(notifys){
     notifys=notifys.join("\n");
     console.log(notifys);
-    $notify("AppMonitor","",notifys)
+    $notify(" Wishlist","👨🏼‍💻 Price or version app has changed ✮ New apps added",notifys)
 }
 $done
 function flag(x){
