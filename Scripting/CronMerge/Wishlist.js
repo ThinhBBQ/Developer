@@ -54,10 +54,9 @@ if (isSurge) {
     }
 }
 
-/*
-Example:
-apps=["833406430:hk","833406430/us","833406430-uk","833406430_jp","833406430 au","833406430|vn"] /:|_-
-*/
+/*Example:*/
+
+//apps=["833406430:hk","833406430/us","833406430-uk","833406430 au","833406430|vn"] /:|_-
 
 /*Using Surge & Quantumult X Cron*/
 console.log(" Wishlist");
@@ -154,7 +153,7 @@ async function post_data(d) {
             notify(notifys)
         }
         else{
-            console.log(" Wishlist：🥴 No change")
+            console.log("🥴 No change")
         }
     }catch (e) {
         console.log(e);
