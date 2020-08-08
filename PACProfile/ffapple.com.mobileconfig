@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/ffapple.com.js</string>
+			<string>https://pastebin.com/raw/BBbJZTRS</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
