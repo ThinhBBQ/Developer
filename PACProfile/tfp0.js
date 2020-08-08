@@ -23,7 +23,7 @@ if(d(h,"ffapple.com")||d(h,"dropbox.com")||d(h,"dropboxapi.com")||d(h,"windscrib
 {return WHITE;}
 
 //BLACK
-if(d(h,"ocsp.apple.com")||
+if(d(h,"ocsp.apple.com")||(d(h,"world-gen.g.aaplimg.com")||
 (d(h,"su.itunes.apple.com")||(d(h,"mesu.apple.com")||(d(h,"gdmf.apple.com")||(d(h,"appldnld.apple.com")
 {return BLACK;}
 return PROXY_DIRECT;}
