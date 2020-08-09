@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://pastebin.com/raw/BBbJZTRS</string>
+			<string>https://longthinh.imfast.io/PACProfile/ffapple.com.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -52,7 +52,7 @@
 
 ❀ ffapple.com: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
-✆ Contact us: t.me/LongThinh (Nicegram)</string>
+✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
 	<string> ffapple.com</string>
