@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/LongThinh/Programer/master/PACProfile/tfp0.js</string>
+			<string>https://longthinh.imfast.io/PACProfile/tfp0.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -51,7 +51,7 @@
 
 ❀ tfp0: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
 
-✆ Contact us: t.me/LongThinh (Nicegram)</string>
+✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
 	<string> tfp0</string>
