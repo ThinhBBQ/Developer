@@ -1,22 +1,3 @@
-/*
-Quantumult X
-————————————
-30 7-22 * * * https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js, tag=Appmonitor
-
-Surge
-—————
-Appmonitor = type=cron,cronexp="30 7-22 * * *",script-path=https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js,wake-system=true,timeout=600
-
-Loon
-————
-cron "30 7-22 * * *" script-path=https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js, timeout=600, tag=Appmonitor
-
-apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620_jp","1443988620 au"]
-
-Example:
-apps=["833406430:hk","833406430/us","833406430-uk","833406430 au","833406430|vn"] /:|-
-*/
-
 //Smartcode
 let isQuantumultX = $task != undefined; 
 let isSurge = $httpClient != undefined; 
@@ -144,6 +125,11 @@ if (isSurge) {
     }
 }
 //Endregion
+
+/*
+Example:
+apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620|vn","1443988620 au"] /:|-
+*/
 
 /*Using Surge & Quantumult X Cron*/
 const $ = new API(" Wishlist", true);
