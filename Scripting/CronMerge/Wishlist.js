@@ -17,6 +17,134 @@ Example:
 apps=["833406430:hk","833406430/us","833406430-uk","833406430 au","833406430|vn"] /:|-
 */
 
+//Smartcode
+let isQuantumultX = $task != undefined; 
+let isSurge = $httpClient != undefined; 
+//HTTP
+var $task = isQuantumultX ? $task : {};
+var $httpClient = isSurge ? $httpClient : {};
+//Cookie
+var $prefs = isQuantumultX ? $prefs : {};
+var $persistentStore = isSurge ? $persistentStore : {};
+// 
+var $notify = isQuantumultX ? $notify : {};
+var $notification = isSurge ? $notification : {};
+//Endregion
+//Region 
+if (isQuantumultX) {
+    var errorInfo = {
+        error: ''
+    };
+    $httpClient = {
+        get: (url, cb) => {
+            var urlObj;
+            if (typeof (url) == 'string') {
+                urlObj = {
+                    url: url
+                }
+            } else {
+                urlObj = url;
+            }
+            $task.fetch(urlObj).then(response => {
+                cb(undefined, response, response.body)
+            }, reason => {
+                errorInfo.error = reason.error;
+                cb(errorInfo, response, '')
+            })
+        },
+        post: (url, cb) => {
+            var urlObj;
+            if (typeof (url) == 'string') {
+                urlObj = {
+                    url: url
+                }
+            } else {
+                urlObj = url;
+            }
+            url.method = 'POST';
+            $task.fetch(urlObj).then(response => {
+                cb(undefined, response, response.body)
+            }, reason => {
+                errorInfo.error = reason.error;
+                cb(errorInfo, response, '')
+            })
+        }
+    }
+}
+if (isSurge) {
+    $task = {
+        fetch: url => {
+            return new Promise((resolve, reject) => {
+                if (url.method == 'POST') {
+                    $httpClient.post(url, (error, response, data) => {
+                        if (response) {
+                            response.body = data;
+                            resolve(response, {
+                                error: error
+                            });
+                        } else {
+                            resolve(null, {
+                                error: error
+                            })
+                        }
+                    })
+                } else {
+                    $httpClient.get(url, (error, response, data) => {
+                        if (response) {
+                            response.body = data;
+                            resolve(response, {
+                                error: error
+                            });
+                        } else {
+                            resolve(null, {
+                                error: error
+                            })
+                        }
+                    })
+                }
+            })
+
+        }
+    }
+}
+//Endregion
+//Region cookie
+if (isQuantumultX) {
+    $persistentStore = {
+        read: key => {
+            return $prefs.valueForKey(key);
+        },
+        write: (val, key) => {
+            return $prefs.setValueForKey(val, key);
+        }
+    }
+}
+if (isSurge) {
+    $prefs = {
+        valueForKey: key => {
+            return $persistentStore.read(key);
+        },
+        setValueForKey: (val, key) => {
+            return $persistentStore.write(val, key);
+        }
+    }
+}
+//Endregion
+//Region 
+if (isQuantumultX) {
+    $notification = {
+        post: (title, subTitle, detail) => {
+            $notify(title, subTitle, detail);
+        }
+    }
+}
+if (isSurge) {
+    $notify = function (title, subTitle, detail) {
+        $notification.post(title, subTitle, detail);
+    }
+}
+//Endregion
+
 /*Using Surge & Quantumult X Cron*/
 const $ = new API(" Wishlist", true);
 let apps = ["1441490807","1495946973","1493256837","1517339257","584371036","1050576070","1512911766","1435082414","347345474","840190547","1483522561","951598770","1461666739","1488616799","1317522797","388624839","1502903102","1485594255","1291222612","502633252","961390574","517329357","1067596534","1295524988","1479572902","1491713518","1373567447","932747118","946930094","993160329","1155470386","1436251125","1466120520","1463315864","1482338564","1470774095","539397400","1282297037","1450936447","1423330822","1465749029","1407249786","1065511007","1490211589","1446549608","1289070327","1459055246","1443988620","1442620678","896694807","904237743","999025824","833406430"]; /*appid :hk /us -uk au |vn*/
