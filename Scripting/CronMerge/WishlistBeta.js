@@ -1,26 +1,29 @@
 /*
-
-【Quantumult X】
-————————————————
+Quantumult X
+————————————
 30 7-22 * * * https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js, tag=Appmonitor
 
-【Surge】
-————————————————
+Surge
+—————
 Appmonitor = type=cron,cronexp="30 7-22 * * *",script-path=https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js,wake-system=true,timeout=600
 
-【Loon】
-————————————————
+Loon
+————
 cron "30 7-22 * * *" script-path=https://langkhach.imfast.io/scripts/langkhach/Appmonitor.js, timeout=600, tag=Appmonitor
 
 apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620_jp","1443988620 au"]
 
+Example:
+apps=["833406430:hk","833406430/us","833406430-uk","833406430 au","833406430|vn"] /:|-
 */
-const $ = new API("Appmonitor", true);
-let apps = ["1441490807","1495946973","1493256837","1517339257","584371036","1050576070","1512911766","1435082414","347345474","840190547","1483522561","951598770","1461666739","1488616799","1317522797","388624839","1502903102","1485594255","1291222612","502633252","961390574","517329357","1067596534","1295524988","1479572902","1491713518","1373567447","932747118","946930094","993160329","1155470386","1436251125","1466120520","1463315864","1482338564","1470774095","539397400","1282297037","1450936447","1423330822","1465749029","1407249786","1065511007","1490211589","1446549608","1289070327","1459055246","1443988620","1442620678","896694807","904237743","999025824","833406430"]; //appid
+
+/*Using Surge & Quantumult X Cron*/
+const $ = new API(" Wishlist", true);
+let apps = ["1441490807","1495946973","1493256837","1517339257","584371036","1050576070","1512911766","1435082414","347345474","840190547","1483522561","951598770","1461666739","1488616799","1317522797","388624839","1502903102","1485594255","1291222612","502633252","961390574","517329357","1067596534","1295524988","1479572902","1491713518","1373567447","932747118","946930094","993160329","1155470386","1436251125","1466120520","1463315864","1482338564","1470774095","539397400","1282297037","1450936447","1423330822","1465749029","1407249786","1065511007","1490211589","1446549608","1289070327","1459055246","1443988620","1442620678","896694807","904237743","999025824","833406430"]; /*appid :hk /us -uk au |vn*/
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
-let reg = "vn"; 
+let reg = "us"; /*vn us uk*/
 if ($.read("reg") != "" && $.read("reg") != undefined) {
   reg = $.read("reg");
 }
@@ -47,10 +50,10 @@ function format_apps(x) {
           apps_f[n_n[1]].push(n_n[0]);
         }
       } else {
-        notifys.push(`ID format error:【${n}】`);
+        notifys.push(`ID format error: ${n}`);
       }
     } else {
-      notifys.push(`ID Format error:【${n}】`);
+      notifys.push(`ID Format error: ${n}`);
     }
   });
   if (Object.keys(apps_f).length > 0) {
@@ -59,7 +62,7 @@ function format_apps(x) {
 }
 async function post_data(d) {
   try {
-    let app_monitor = $.read("Appmonitor");
+    let app_monitor = $.read(" Wishlist");
     if (app_monitor === "" || app_monitor === undefined) {
       app_monitor = {};
     } else {
@@ -90,21 +93,21 @@ async function post_data(d) {
                   ) {
                     if (x.version !== app_monitor[x.trackId].v) {
                       notifys.push(
-                        `${flag(k)}🧩${x.trackName}:v【${x.version}】`
+                        `${flag(k)} 🔘 ${x.trackName} ❀ ${x.version}`
                       );
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)}💰${x.trackName}:p【${x.formattedPrice}】`
+                        `${flag(k)} 💵 ${x.trackName} ❀ ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)}🧩${x.trackName}:v【${x.version}】`
+                    `${flag(k)} 🔘 ${x.trackName} ❀ ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)}💰${x.trackName}:p【${x.formattedPrice}】`
+                    `${flag(k)} 💵 ${x.trackName} ❀ ${x.formattedPrice}`
                   );
                 }
               });
@@ -117,11 +120,11 @@ async function post_data(d) {
       })
     );
     infos = JSON.stringify(infos);
-    $.write(infos, "Appmonitor");
+    $.write(infos, " Wishlist");
     if (notifys.length > 0) {
       notify(notifys);
     } else {
-      console.log("Appmonitor：No change");
+      console.log("🥴 No change");
       $.done;
     }
   } catch (e) {
@@ -131,7 +134,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify("Appmonitor", "", notifys);
+  $.notify(" Wishlist","👨🏼‍💻 Price or version app has changed ✮ New apps added",notifys);
   $.done;
 }
 function flag(x) {
