@@ -7,7 +7,6 @@ var $httpClient = isSurge ? $httpClient : {};
 //Cookie
 var $prefs = isQuantumultX ? $prefs : {};
 var $persistentStore = isSurge ? $persistentStore : {};
-// 
 var $notify = isQuantumultX ? $notify : {};
 var $notification = isSurge ? $notification : {};
 //Endregion
@@ -125,7 +124,6 @@ if (isSurge) {
     }
 }
 //Endregion
-
 /*
 Example:
 apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620|vn","1443988620 au"] /:|-
@@ -248,7 +246,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify(" Wishlist","👨🏼‍💻 Price or version app has changed ✮ New apps added",notifys);
+  $.notify(" Wishlist","👨🏼‍💻 Price or version app has changed ✮ Newapps added",notifys);
   $.done;
 }
 function flag(x) {
