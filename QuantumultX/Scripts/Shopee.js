@@ -2,15 +2,19 @@
 hostname = shopee.vn
 */
 
-//Smartcode Quantumult X
-let isQuantumultX = $task !== undefined;
-let isSurge = $httpClient !== undefined;
+//Smartcode
+let isQuantumultX = $task != undefined; 
+let isSurge = $httpClient != undefined; 
+//HTTP
 var $task = isQuantumultX ? $task : {};
 var $httpClient = isSurge ? $httpClient : {};
+//Cookie
 var $prefs = isQuantumultX ? $prefs : {};
 var $persistentStore = isSurge ? $persistentStore : {};
 var $notify = isQuantumultX ? $notify : {};
 var $notification = isSurge ? $notification : {};
+//Endregion
+//Region 
 if (isQuantumultX) {
     var errorInfo = {
         error: ''
@@ -57,17 +61,29 @@ if (isSurge) {
             return new Promise((resolve, reject) => {
                 if (url.method == 'POST') {
                     $httpClient.post(url, (error, response, data) => {
-                        response.body = data;
-                        resolve(response, {
-                            error: error
-                        });
+                        if (response) {
+                            response.body = data;
+                            resolve(response, {
+                                error: error
+                            });
+                        } else {
+                            resolve(null, {
+                                error: error
+                            })
+                        }
                     })
                 } else {
                     $httpClient.get(url, (error, response, data) => {
-                        response.body = data;
-                        resolve(response, {
-                            error: error
-                        });
+                        if (response) {
+                            response.body = data;
+                            resolve(response, {
+                                error: error
+                            });
+                        } else {
+                            resolve(null, {
+                                error: error
+                            })
+                        }
                     })
                 }
             })
@@ -75,6 +91,8 @@ if (isSurge) {
         }
     }
 }
+//Endregion
+//Region cookie
 if (isQuantumultX) {
     $persistentStore = {
         read: key => {
@@ -95,6 +113,8 @@ if (isSurge) {
         }
     }
 }
+//Endregion
+//Region 
 if (isQuantumultX) {
     $notification = {
         post: (title, subTitle, detail) => {
@@ -107,7 +127,7 @@ if (isSurge) {
         $notification.post(title, subTitle, detail);
     }
 }
-//End
+//Endregion
 /*Using Quantumult X Cron*/
 var shopeeUrl = {
     url: 'https://shopee.vn/mkt/coins/api/v2/checkin',
