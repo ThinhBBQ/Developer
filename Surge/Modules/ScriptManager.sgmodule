@@ -1,7 +1,54 @@
-#!name=Buy Itunes
-#!desc=Unlock many apps
+#!name=Fake IAP
+#!desc=Unlock In-app Purchase
 
 [MITM]
-hostname = %APPEND% buy.itunes.apple.com
+hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, commerce-i18n-api.faceu.mobi, *.softin-tech.com, *.patreon.com
 [Script]
-Many Apps (buy.itunes.apple.com) = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$|^https:\/\/www2\.https-proxy\.me\/verify$,requires-body=1,max-size=262144,script-path=https://langkhach.imfast.io/scripts/langkhach/verify_receipt.js,script-update-interval=0
+
+#Local
+AltStore Local = type=http-response,pattern=https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity?,requires-body=1,max-size=0,script-path=Scripts/AltStore.js
+
+#Local
+CamScaner Local = type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=Scripts/CamScaner.js
+
+#Local
+Documents 7 Local = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
+
+#Local
+Eggzy Local = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
+
+#Local
+Fantastical Local = type=http-response,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$,requires-body=1,max-size=0,script-path=Scripts/Fantastical.js
+
+#Local
+iTranslate Local = type=http-response,pattern=^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$,requires-body=1,max-size=0,script-path=Scripts/iTranslate.js
+
+#Local
+PDF Expert Local = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/PDFExpert.js
+
+#Local
+PicsArt Local= type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+
+#Local
+RECGO Local = type=http-response,pattern=^https:\/\/irecgo\.softin-tech\.com\/user\/info$,requires-body=1,max-size=0,script-path=Scripts/RECGO.js
+
+#Local
+Money Lover+ Local = type=http-response,pattern=^https://revoapi.moneylover.me/api/status,requires-body=1,max-size=0,script-path=Scripts/MoneyLover+.js
+
+#Local
+Mondly Local = type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$,requires-body=1,max-size=0,script-path=Scripts/Mondly.js
+
+#Local
+KineMaster Local = type=http-response,pattern=^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$,requires-body=1,max-size=0,script-path=Scripts/KineMaster.js
+
+#Local
+Textnow Local = type=http-response,pattern=https:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=Scripts/Textnow.js
+
+#Local
+Termius Local = type=http-response,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/,requires-body=1,max-size=0,script-path=Scripts/Termius.js
+
+#Local
+Ulike Local = type=http-response,pattern=https://.+.faceu.mobi/.+/user_info.+,requires-body=1,max-size=0,script-path=Scripts/Ulike.js
+
+#Local
+VivaVideo Local = type=http-response,pattern=^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip,requires-body=1,max-size=0,script-path=Scripts/VivaVideo.js
