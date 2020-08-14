@@ -4,7 +4,7 @@
 
 [MITM]
 
-hostname = api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, commerce-i18n-api.faceu.mobi, *.softin-tech.com, *.patreon.com
+hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, commerce-i18n-api.faceu.mobi, *.softin-tech.com, *.patreon.com
 
 [Script]
 
