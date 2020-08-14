@@ -6,7 +6,7 @@ var domains = {
     "pop.gmail.com":1,
 };
  
-var surge = "SOCKS5 127.0.0.1:6153; PROXY 127.0.0.1:6152;";
+var surge = "SOCKS5 127.0.0.1:6074; PROXY 127.0.0.1:6079;";
  
 var direct = 'DIRECT;';
  

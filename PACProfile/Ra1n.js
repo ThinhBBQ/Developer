@@ -1,5 +1,5 @@
 var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.0.1:7979";
+var PROXY = "PROXY 127.0.0.1:6074";
 var blacklist = {
     "ocsp.apple.com":1,
     "world-gen.g.aaplimg.com":1,
