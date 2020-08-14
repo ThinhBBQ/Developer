@@ -1,4 +1,4 @@
-#!name=Fake IAP
+#!name=Script Manager (Fake IAP)
 #!desc=Unlock In-app Purchase
 
 [MITM]
