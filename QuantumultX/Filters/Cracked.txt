@@ -94,12 +94,6 @@
 #Local
 ^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body Termius.js
 
-#Ulike - Response Body
-#https://.+.faceu.mobi/.+/user_info.+ url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Ulike.js
-
-#Local
-https://.+.faceu.mobi/.+/user_info.+ url script-response-body Ulike.js
-
 #Verify Receipt - Response Body
 #^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/VerifyReceipt.js
 

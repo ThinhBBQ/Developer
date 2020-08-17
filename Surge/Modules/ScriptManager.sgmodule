@@ -4,7 +4,7 @@
 
 [MITM]
 
-hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, commerce-i18n-api.faceu.mobi, *.softin-tech.com, *.patreon.com
+hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, *.softin-tech.com, *.patreon.com
 
 [Script]
 
@@ -49,9 +49,6 @@ Textnow Local = type=http-response,pattern=https:\/\/api\.textnow\.me\/api2.0\/u
 
 #Local
 Termius Local = type=http-response,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/,requires-body=1,max-size=0,script-path=Scripts/Termius.js
-
-#Local
-Ulike Local = type=http-response,pattern=https://.+.faceu.mobi/.+/user_info.+,requires-body=1,max-size=0,script-path=Scripts/Ulike.js
 
 #Local
 VivaVideo Local = type=http-response,pattern=^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip,requires-body=1,max-size=0,script-path=Scripts/VivaVideo.js

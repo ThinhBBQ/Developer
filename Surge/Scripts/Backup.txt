@@ -132,12 +132,6 @@ Textnow Local = type=http-response,pattern=https:\/\/api\.textnow\.me\/api2.0\/u
 #Local
 Termius Local = type=http-response,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/,requires-body=1,max-size=0,script-path=Scripts/Termius.js
 
-#Ulike - Script - Remote
-#Ulike = type=http-response,pattern=https://.+.faceu.mobi/.+/user_info.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Ulike.js,script-update-interval=7200
-
-#Local
-Ulike Local = type=http-response,pattern=https://.+.faceu.mobi/.+/user_info.+,requires-body=1,max-size=0,script-path=Scripts/Ulike.js
-
 #Verify Receipt - Script - Remote
 #Verify Receipt = type=http-response,pattern=^https:\/\/engbright\.com\/app-portal\/apple\/receipt$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/VerifyReceipt.js,script-update-interval=7200
 
