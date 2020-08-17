@@ -9,7 +9,6 @@ var blacklist = {
     "appldnld.apple.com":1,
     "mesu.apple.com":1,
     "su.itunes.apple.com":1,
-    "valid.apple.com":1,
     "gdmf.apple.com":1,
 };
 function FindProxyForURL(url, host) {
