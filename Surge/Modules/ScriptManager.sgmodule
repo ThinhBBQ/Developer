@@ -4,12 +4,9 @@
 
 [MITM]
 
-hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api-kinemaster-assetstore.*, api.flexibits.com, ssl-api.itranslateapp.com, api.mondlylanguages.com, *.softin-tech.com, *.patreon.com
+hostname = %APPEND% api.termius.com, license.pdfexpert.com, subs.platforms.team, api.picsart.com, ap*.intsig.net, viva-asia1.vvbrd.com, api.textnow.me, revoapi.moneylover.me, api.flexibits.com, ssl-api.itranslateapp.com
 
 [Script]
-
-#Local
-AltStore Local = type=http-response,pattern=https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity?,requires-body=1,max-size=0,script-path=Scripts/AltStore.js
 
 #Local
 CamScaner Local = type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=Scripts/CamScaner.js
@@ -33,16 +30,7 @@ PDF Expert Local = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com
 PicsArt Local= type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
 
 #Local
-RECGO Local = type=http-response,pattern=^https:\/\/irecgo\.softin-tech\.com\/user\/info$,requires-body=1,max-size=0,script-path=Scripts/RECGO.js
-
-#Local
 Money Lover+ Local = type=http-response,pattern=^https://revoapi.moneylover.me/api/status,requires-body=1,max-size=0,script-path=Scripts/MoneyLover+.js
-
-#Local
-Mondly Local = type=http-response,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$,requires-body=1,max-size=0,script-path=Scripts/Mondly.js
-
-#Local
-KineMaster Local = type=http-response,pattern=^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$,requires-body=1,max-size=0,script-path=Scripts/KineMaster.js
 
 #Local
 Textnow Local = type=http-response,pattern=https:\/\/api\.textnow\.me\/api2.0\/users\/.*,requires-body=1,max-size=0,script-path=Scripts/Textnow.js

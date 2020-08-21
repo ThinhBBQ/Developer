@@ -1,17 +1,5 @@
 [rewrite_local]
 
-#Shopee Cookie - Request Header
-^https:\/\/shopee\.vn\/me\/setting url script-request-header https://raw.githubusercontent.com/longthinh/Programer/master/QuantumultX/Scripts/Cookie.js
-
-#Local
-#^https:\/\/shopee\.vn\/me\/setting url script-request-header Cookie.js
-
-#AltStore - Response Body
-#^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/AltStore.js
-
-#Local
-^https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body AltStore.js
-
 #CamScaner - Response Body
 #^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/CamScaner.js
 
@@ -66,23 +54,11 @@
 #Local
 ^https:\/\/api\.revenuecat\.com\/.+\/(subscribers\/[a-zA-Z0-9_-]*$) url script-response-body Revenuecat.js
 
-#RECGO
-#^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/RECGO.js
-
-#Local
-^https:\/\/irecgo\.softin-tech\.com\/user\/info$ url script-response-body RECGO.js
-
 #Money Lover+ - Response Body
 #^https://revoapi.moneylover.me/api/status url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/MoneyLover+.js
 
 #Local
 ^https://revoapi.moneylover.me/api/status url script-response-body MoneyLover+.js
-
-#Kine Master - Response Body
-#^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/KineMaster.js
-
-#Local
-^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.+\/product\/verifyReceipt$ url script-response-body KineMaster.js
 
 #Textnow - Response Body
 #^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Textnow.js
@@ -119,10 +95,6 @@
 #0 */2 * * * https://raw.githubusercontent.com/longthinh/Programer/master/QuantumultX/Scripts/Viettel.js, enabled=true, tag=Viettel, img-url=https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/Images/DataFlow.png
 
 0 */2 * * * Cron/Viettel.js, tag=Viettel Local, enabled=true, img-url=https://raw.githubusercontent.com/longthinh/Programer/master/QuantumultX/Images/DataFlow.png
-
-* 5 * * * https://raw.githubusercontent.com/longthinh/Programer/master/QuantumultX/Scripts/Shopee.js, enabled=true, tag=Shopee, img-url=https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/Images/Shopee.png
-
-#* 5 * * * Cron/Shopee.js, tag=Shopee Local, enabled=true, img-url=https://raw.githubusercontent.com/longthinh/Programer/master/QuantumultX/Images/Shopee.png
 
 0 */2 * * * https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Weather.js, enabled=true, tag=Weather, img-url=https://raw.githubusercontent.com/LongThinh/Programer/master/QuantumultX/Images/Weather.png
 
