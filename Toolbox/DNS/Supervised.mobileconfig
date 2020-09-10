@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>DNS profile</string>
+    <key>PayloadOrganization</key>
+    <string>Manh Duong</string>
+    <key>PayloadIdentifier</key>
+    <string>Manh Duong</string>
+    <key>PayloadUUID</key>
+    <string>ed89c9fa-639f-4898-8e19-91a2faf92783</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false />
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>HasRemovalPasscode</key>
+    <true />
+    <key>TargetDeviceType</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Lock Screen Message</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.shareddeviceconfiguration</string>
+        <key>PayloadType</key>
+        <string>com.apple.shareddeviceconfiguration</string>
+        <key>PayloadUUID</key>
+        <string>2b0b200a-8482-4cbf-8a34-0103967835f8</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>IfLostReturnToMessage</key>
+        <string>Manh Duong</string>
+        <key>LockScreenFootnote</key>
+        <string>This device is owned</string>
+        <key>AssetTagInformation</key>
+        <string>by  Manh Duong</string>
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Next DNS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>550a0477-e04c-4117-94ee-1276ae3dfb49</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerName</key>
+          <string>Next DNS</string>
+          <key>ServerURL</key>
+          <string>https://dns.nextdns.io/358722</string>
+        </dict>
+        <key>ProhibitDisablement</key>
+        <false />
+      </dict>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>AdGuard DNS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>cbe84926-c9e3-45f8-9432-4b0e7ed53b89</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerName</key>
+          <string>AdGuard DNS</string>
+          <key>ServerURL</key>
+          <string>https://dns.adguard.com/dns-query</string>
+        </dict>
+        <key>ProhibitDisablement</key>
+        <false />
+      </dict>
+    </array>
+  </dict>
+</plist>
