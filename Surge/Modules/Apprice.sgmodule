@@ -1,0 +1,7 @@
+#!name=Revenuecat
+#!desc=Unlock many apps
+#!system=ios
+
+[Script]
+
+ Apprice = type=cron,cronexp=*/15 */1 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Scripts/Apprice.js,script-update-interval=7200
