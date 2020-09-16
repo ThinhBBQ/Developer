@@ -1,5 +1,5 @@
-#!name=Script Manager (Fake IAP)
-#!desc=Unlock In-app Purchase
+#!name= Wishlist
+#!desc=Track price movements and version of the application
 #!system=ios
 
 [Script]
