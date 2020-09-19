@@ -13,7 +13,7 @@ async function login(){
 const url = "https://apivtp.vietteltelecom.vn:6768/myviettel.php/loginMobile"
   const request = new Request(url)
   request.method = "post"
-  request.body = "account="+ user + "&build_code=2020.4.15.2&cmnd=&device_id=00000000-0000-0000-0000-000000000000&device_name=L%20ng%20Kh%20ch%20s%20iPhone%20%28iPhone%20X%29&keyDeviceAcc=xxx&os_type=ios&os_version=13.300000&password="+ pass+ "&version_app=4.3.4"
+  request.body = "account="+ user + "&build_code=2020.4.15.2&cmnd=&device_id=00000000-0000-0000-0000-000000000000&device_name=iPhone%207%20-%20MN8X2B%2FA&keyDeviceAcc=xxx&os_type=ios&os_version=13.300000&password="+ pass+ "&version_app=4.3.4"
   const resp = await request.loadJSON()
 
   const token = resp.data.data.token
@@ -24,7 +24,7 @@ async function getdata(token){
 const url = "https://apivtp.vietteltelecom.vn:6768/myviettel.php/getDataRemain"
   const request = new Request(url)
   request.method = "post"
-  request.body = "build_code=2020.4.15.2&device_id=00000000-0000-0000-0000-000000000000&device_name=L%20ng%20Kh%20ch%20s%20iPhone%20%28iPhone%20X%29&os_type=ios&os_version=13.300000&token=" + token+ "&version_app=4.3.4"
+  request.body = "build_code=2020.4.15.2&device_id=00000000-0000-0000-0000-000000000000&device_name=iPhone%207%20-%20MN8X2B%2FA&os_type=ios&os_version=13.300000&token=" + token+ "&version_app=4.3.4"
   const resp = await request.loadJSON()
   console.log(resp)
   var data = resp["data"][0]
