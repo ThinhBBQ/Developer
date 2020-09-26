@@ -110,7 +110,7 @@ function install(fileName, file) {
         {
           title: "OK",
           handler: function() {
-            $app.openURL("https://t.me/LongThinh")
+            $app.openURL("https://t.me/longthinh")
           }
         }]
       })
