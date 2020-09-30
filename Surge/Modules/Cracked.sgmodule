@@ -1,0 +1,15 @@
+#!name=Cracked In-app
+#!desc=Unlock In-app Purchase
+#!system=ios
+
+[MITM]
+
+hostname = %APPEND% api.picsart.com, viva-asia1.vvbrd.com, api.textnow.me
+
+[Script]
+
+#Local
+PicsArt Local= type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+
+#Local
+VivaVideo Local = type=http-response,pattern=^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip,requires-body=1,max-size=0,script-path=Scripts/VivaVideo.js
