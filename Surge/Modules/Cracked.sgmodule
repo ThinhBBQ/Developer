@@ -4,7 +4,7 @@
 
 [MITM]
 
-hostname = %APPEND% api.picsart.com, viva-asia1.vvbrd.com, api.textnow.me
+hostname = %APPEND% api.picsart.com, viva-asia1.vvbrd.com
 
 [Script]
 
