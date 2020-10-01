@@ -4,12 +4,12 @@
 
 [MITM]
 
-hostname = %APPEND% api.picsart.com, viva-asia1.vvbrd.com
+hostname = %APPEND% api.picsart.com, license.pdfexpert.com
 
 [Script]
 
 #Local
-PicsArt Local = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
 
 #Local
-VivaVideo Local = type=http-response,pattern=^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip,requires-body=1,max-size=0,script-path=Scripts/VivaVideo.js
+Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
