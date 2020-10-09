@@ -9,7 +9,7 @@ hostname = %APPEND% api.picsart.com, license.pdfexpert.com
 [Script]
 
 #Local
-PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
 
 #Local
-Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
+PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
