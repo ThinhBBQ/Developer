@@ -1,5 +1,4 @@
 .ocsp.apple.com
-.mesu.apple.com
 .gdmf.apple.com
 .su.itunes.apple.com
 .adjust
