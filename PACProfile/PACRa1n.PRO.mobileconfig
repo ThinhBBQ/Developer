@@ -44,13 +44,15 @@
       <key>PayloadDescription</key>
 	<string> PACRa1n PRO iOS Profile
 
-✮ Blocking iOS updates (OTA)
-✮ Revoke a blocked Certificate
-✮ Blocked app updates on the Appstore
+⚠ Blocking iOS updates (OTA)
+⚠ Revoke a blocked Certificate
+⚠ Blocked app updates on the Appstore
+⚑ New feature: Coming soon...
 
-✶ New feature: Coming soon...
-
-❀ Surge: compatibility-mode = 0, tcp-connection = false, skip-server-cert-verify = true
+◉ Surge Developer Tools
+☞ compatibility-mode = 0
+☞ tcp-connection = false
+☞ skip-server-cert-verify = true
 
 ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
