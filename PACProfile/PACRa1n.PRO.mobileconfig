@@ -50,9 +50,9 @@
 ⚑ New feature: Coming soon...
 
 🔝 Surge Developer Tools
-☞ compatibility-mode = 0
-☞ tcp-connection = false
-☞ skip-server-cert-verify = true
+ ☞ compatibility-mode = 0
+ ☞ tcp-connection = false
+ ☞ skip-server-cert-verify = true
 
 ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
