@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/ffapple.com.js</string>
+			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/PACRa1n.PRO.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -42,7 +42,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string> ffapple.com iOS Profile
+	<string> PACRa1n PRO iOS Profile
 
 ✮ Blocking iOS updates (OTA)
 ✮ Revoke a blocked Certificate
@@ -55,7 +55,7 @@
 ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
-	<string> ffapple.com</string>
+	<string> Leͥgeͣnͫd</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
