@@ -1,7 +1,4 @@
-.ocsp.apple.com
-.world-gen.g.aaplimg.com
-.appldnld.apple.com
-.appldnld.g.aaplimg.com
+.mesu.apple.com
 .gdmf.apple.com
 .su.itunes.apple.com
 .adjust
