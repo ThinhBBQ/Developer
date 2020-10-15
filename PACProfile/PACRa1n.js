@@ -3,6 +3,7 @@ var PROXY = "PROXY 127.0.0.1:1080";
 var blacklist = {
     "mesu.apple.com":1,
     "su.itunes.apple.com":1,
+    "ocsp.apple.com";1,
     "gdmf.apple.com":1,
 };
 function FindProxyForURL(url, host) {
