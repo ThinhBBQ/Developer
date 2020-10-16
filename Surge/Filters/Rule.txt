@@ -1,7 +1,3 @@
-.ocsp.apple.com
-.gdmf.apple.com
-.su.itunes.apple.com
-.mesu.apple.com
 .adjust
 .admarvel
 .admaster

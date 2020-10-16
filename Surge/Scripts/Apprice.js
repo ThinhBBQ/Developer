@@ -13,7 +13,7 @@ if (!cacheData) {
 $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + region, function (error, response, data) {
     if (error) {
         console.log(error);
-        $notification.post(" Apprice", "bad connection")
+        $notification.post(" Apprice", "Bad network connection")
         $done()
     } else {
         let appData = JSON.parse(data).results
@@ -22,7 +22,7 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
         for (var i = 0; i < appData.length; i++) {
             if (cacheData[appData[i].trackId]) {
                 if (appData[i].formattedPrice != cacheData[appData[i].trackId].price) {
-                    priceChanged = priceChanged + "💵 " + appData[i].trackName + " ✮ " + cacheData[appData[i].trackId].price + " → " + appData[i].formattedPrice + "\n"
+                    priceChanged = priceChanged + "💵 " + appData[i].trackName + " ✮ " + cacheData[appData[i].trackId].price + " ➵ " + appData[i].formattedPrice + "\n"
                     cacheData[appData[i].trackId].price = appData[i].formattedPrice
                 }
             } else {

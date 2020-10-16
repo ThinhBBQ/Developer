@@ -1,0 +1,18 @@
+#!name=Cracked
+#!desc=Unlock In-app Purchase
+#!system=ios
+
+[MITM]
+
+hostname = %APPEND% api.picsart.com, license.pdfexpert.com, api.textnow.me
+
+[Script]
+
+#Local
+Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
+
+#Local
+PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+
+#Local
+Textnow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.+,requires-body=1,max-size=0,script-path=Scripts/TextNow.js

@@ -1,3 +1,13 @@
+#AntiRevoke
+ocsp.apple.com = 127.0.0.1
+
+#Appstore
+su.itunes.apple.com = 127.0.0.1
+
+#OTA
+mesu.apple.com = 127.0.0.1
+gdmf.apple.com = 127.0.0.1
+
 //Luxysiv
 pagead2.googlesyndication.com = 127.0.0.1
 tpc.googlesyndication.com = 127.0.0.1
