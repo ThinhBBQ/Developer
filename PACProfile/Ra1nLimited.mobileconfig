@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/PACRa1n.PRO.js</string>
+			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/Ra1nLimited.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -42,7 +42,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>  PACRa1n PRO iOS Profile
+	<string>  Ra1nLimited iOS Profile
 
  ⚠ Blocking iOS updates (OTA)
  ⚠ Revoke a blocked Certificate
@@ -78,13 +78,13 @@
 		<key>vi</key>
 		<string>Please note:
 
-- Thiết lập Profile này, bạn đã có quyền kiểm soát các kết nối truy cập Internet
+- Thiết lập Profile này bạn đã có quyền kiểm soát các kết nối truy cập Internet
 
 * Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
 		<string>Please note:
 
-- Setting up this Profile, you have the right to control Internet access connections
+- Setting up this Profile you have the right to control Internet access connections
 
 * Important: no personal data was collected</string>
 		</dict>

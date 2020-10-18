@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/PACRa1n.js</string>
+			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/Ra1n.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -42,16 +42,20 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string> PACRa1n iOS Profile
-✮ Blocking iOS updates (OTA)
-✮ Revoke a blocked Certificate
-✮ Blocked app updates on the Appstore
+	<string>  PACRa1n iOS Profile
 
-✶ New feature: Coming soon...
+ ⚠ Blocking iOS updates (OTA)
+ ⚠ Revoke a blocked Certificate
+ ⚠ Blocked app updates on the Appstore
+ 
+ ⚑ New feature: Coming soon...
 
-❀ Surge: compatibility-mode = 1 or 3, tcp-connection = true, skip-server-cert-verify = true
+🔝 Surge Developer Tools
+ ☞ compatibility-mode = 1 or 3
+ ☞ tcp-connection = true
+ ☞ skip-server-cert-verify = true
 
-✆ Contact us: t.me/longthinh (Nicegram)</string>
+ ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
 	<string> PACRa1n</string>
@@ -74,13 +78,13 @@
 		<key>vi</key>
 		<string>Please note:
 
-- Thiết lập Profile này, bạn đã có quyền kiểm soát các kết nối truy cập Internet
+- Thiết lập Profile này bạn đã có quyền kiểm soát các kết nối truy cập Internet
 
 * Quan trọng: không có dữ liệu cá nhân nào bị thu thập</string>
 		<key>en</key>
 		<string>Please note:
 
-- Setting up this Profile, you have the right to control Internet access connections
+- Setting up this Profile you have the right to control Internet access connections
 
 * Important: no personal data was collected</string>
 		</dict>

@@ -1,12 +1,13 @@
-#AntiRevoke
-ocsp.apple.com = 127.0.0.1
-
-#Appstore
+//Appstore
+mesu.apple.com = 127.0.0.1
 su.itunes.apple.com = 127.0.0.1
 
-#OTA
-mesu.apple.com = 127.0.0.1
+//Certificate
+ocsp.apple.com = 127.0.0.1
+
+//iOS Firmware (OTA)
 gdmf.apple.com = 127.0.0.1
+xp.apple.com = 127.0.0.1
 
 //Luxysiv
 pagead2.googlesyndication.com = 127.0.0.1
@@ -166,7 +167,6 @@ onelink.appsflyer.com = 127.0.0.1
 zalo-ads.zadn.vn = 127.0.0.1
 stc.za.zaloapp.com = 127.0.0.1
 d.adsplay.net = 127.0.0.1
-xp.apple.com = 127.0.0.1
 discovery.api.zaloapp.com = 127.0.0.1
 shop.zaloapp.com = 127.0.0.1
 

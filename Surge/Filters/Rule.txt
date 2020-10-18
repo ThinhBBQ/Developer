@@ -204,7 +204,6 @@
 .zalo-ads.zadn.vn
 .stc.za.zaloapp.com
 .d.adsplay.net
-.xp.apple.com
 .discovery.api.zaloapp.com
 .shop.zaloapp.com
 .123c.vn
