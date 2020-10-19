@@ -47,6 +47,7 @@
 .umtrack
 .usage
 .vclick
+.app.appsflyer.com
 .pagead2.googlesyndication.com
 .tpc.googlesyndication.com
 .google-analytics.com
