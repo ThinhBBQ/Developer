@@ -171,6 +171,7 @@ discovery.api.zaloapp.com = 127.0.0.1
 shop.zaloapp.com = 127.0.0.1
 
 //hostVN
+app.appsflyer.com = 127.0.0.1
 123c.vn = 127.0.0.1
 24h*-ad.24hstatic.com = 127.0.0.1
 ad*.24hstatic.com = 127.0.0.1

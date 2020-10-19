@@ -8,4 +8,4 @@ RULE-SET,https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Filt
 ctier=[A-Z] citer=A 302
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com
+hostname = %APPEND% spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
