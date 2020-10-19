@@ -1,11 +1,11 @@
 #!name=YouTube, Spotify etc.
 #!desc=Unlock Youtube Premium etc.
 
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Filters/Rewrite.conf,🔐 Youtube,update-interval=7200
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
 
 [URL Rewrite]
 ctier=[A-Z] citer=A 302
 
-[MITM]
-hostname = %APPEND% spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Filters/Rewrite.conf,🔐 Youtube,update-interval=7200

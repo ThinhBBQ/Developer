@@ -75,7 +75,6 @@
 .images.startappservice.com
 .dts.startappservice.com
 .events.appsflyer.com
-.cf.iadsdk.apple.com
 .log.adtimaserver.vn
 .adtima-media.zadn.vn
 .api.adtimaserver.vn
@@ -778,7 +777,6 @@
 .advergine.ru
 .advertica.ae
 .advertising*.amazon.com
-.advertising.apple.com
 .advertising.com
 .advertising.microsoft.com
 .advertising.snapchat.com
@@ -875,7 +873,6 @@
 .backtrace.io
 .bam-x.com
 .banners-slb.mobile.yandex.net
-.banners.itunes.apple.com
 .banners.mobile.yandex.net
 .bannertrack.net
 .bat.bing.com
@@ -2646,7 +2643,6 @@
 .annonser.dagbladet.no
 .antiviruspro-vietnam.info
 .antvoice.com
-.anxiousapples.com
 .apathetictheory.com
 .apex-ad.com
 .aphycolourses.info

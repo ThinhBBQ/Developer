@@ -2,6 +2,13 @@
 mesu.apple.com = 127.0.0.1
 su.itunes.apple.com = 127.0.0.1
 
+//Apple Domains
+advertising.apple.com = 127.0.0.1
+banners.itunes.apple.com = 127.0.0.1
+
+//Apple Trust
+ppq.apple.com = 127.0.0.1
+
 //Certificate
 ocsp.apple.com = 127.0.0.1
 
@@ -37,7 +44,6 @@ click.startappservice.com = 127.0.0.1
 images.startappservice.com = 127.0.0.1
 dts.startappservice.com = 127.0.0.1
 events.appsflyer.com = 127.0.0.1
-cf.iadsdk.apple.com = 127.0.0.1
 log.adtimaserver.vn = 127.0.0.1
 adtima-media.zadn.vn = 127.0.0.1
 api.adtimaserver.vn = 127.0.0.1
@@ -743,7 +749,6 @@ advergine.com = 127.0.0.1
 advergine.ru = 127.0.0.1
 advertica.ae = 127.0.0.1
 advertising*.amazon.com = 127.0.0.1
-advertising.apple.com = 127.0.0.1
 advertising.com = 127.0.0.1
 advertising.microsoft.com = 127.0.0.1
 advertising.snapchat.com = 127.0.0.1
@@ -840,7 +845,6 @@ b2c.com = 127.0.0.1
 backtrace.io = 127.0.0.1
 bam-x.com = 127.0.0.1
 banners-slb.mobile.yandex.net = 127.0.0.1
-banners.itunes.apple.com = 127.0.0.1
 banners.mobile.yandex.net = 127.0.0.1
 bannertrack.net = 127.0.0.1
 bat.bing.com = 127.0.0.1
@@ -2611,7 +2615,6 @@ anm.intelli-direct.com = 127.0.0.1
 annonser.dagbladet.no = 127.0.0.1
 antiviruspro-vietnam.info = 127.0.0.1
 antvoice.com = 127.0.0.1
-anxiousapples.com = 127.0.0.1
 apathetictheory.com = 127.0.0.1
 apex-ad.com = 127.0.0.1
 aphycolourses.info = 127.0.0.1
