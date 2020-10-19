@@ -1,5 +1,5 @@
-#!name=YouTube, Spotify etc.
-#!desc=Unlock Youtube Premium etc.
+#!name=Social Ads Rewrite
+#!desc=Bypass Youtube, Spotify etc.
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com

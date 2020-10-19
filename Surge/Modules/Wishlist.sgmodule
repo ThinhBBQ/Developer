@@ -4,4 +4,5 @@
 
 [Script]
 
- Wishlist = type=cron,cronexp=*/15 */1 * * *,wake-system=true,timeout=600,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Wishlist.js,script-update-interval=7200
+//Remote
+ Wishlist = type=cron,cronexp=*/15 */1 * * *,wake-system=true,timeout=1800,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Wishlist.js,script-update-interval=7200
