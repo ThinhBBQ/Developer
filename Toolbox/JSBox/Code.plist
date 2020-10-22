@@ -23,7 +23,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>*.ipa</string>
+				<string>App (.ipa)</string>
 			</dict>
 		</dict>
 	</array>
