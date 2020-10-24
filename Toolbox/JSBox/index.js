@@ -4,7 +4,7 @@ const isgd = require("isgd");
 const fs = require("fs");
 const ui = require("ui");
 const port = 14302;
-const plist = `https://raw.githubusercontent.com/276523923/plist/master/ipa.plist`;
+const plist = `https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/JSBox/Test.plist`;
 const ipa = `http://127.0.0.1:${port}`;
 const safari = require("safari");
 
