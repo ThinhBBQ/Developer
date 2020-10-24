@@ -52,7 +52,7 @@ function startServer(port) {
 function fileCheck(data) {
   if (data && data.fileName) {
     var fileName = data.fileName;
-    if (fileName.indexOf(".ipa") == -1) {
+    if (fileName.indexOf("App(.ipa)") == -1) {
       $ui.error(fileName + $l10n("ftypeerror"))
       delayClose(2)
     } else {
@@ -83,7 +83,7 @@ function install(fileName, file) {
           style: "Cancel",
           handler: function() {
             $http.stopServer()
-            $file.delete("app.ipa")
+            $file.delete("App(.ipa)")
             delayClose(0.2)
           }
         },
@@ -91,7 +91,7 @@ function install(fileName, file) {
           title: "Done",
           handler: function() {
             $http.stopServer()
-            $file.delete("app.ipa")
+            $file.delete("App(.ipa)")
             delayClose(0.2)
           }
         }]
