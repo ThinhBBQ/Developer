@@ -1,6 +1,5 @@
 var domains = {
     "www.dropbox.com":1,
-    "www.cloudflare.com":1,
     "imap.gmail.com":1,
     "smtp.gmail.com":1,
     "pop.gmail.com":1,
