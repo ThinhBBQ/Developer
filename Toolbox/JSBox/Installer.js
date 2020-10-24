@@ -1,4 +1,4 @@
-var port_number = 14302
+var port_number = 8080
 var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/JSBox/Code.plist"
 
 $app.strings = {
