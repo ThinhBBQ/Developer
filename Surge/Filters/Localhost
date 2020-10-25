@@ -2,10 +2,6 @@
 mesu.apple.com = 127.0.0.1
 su.itunes.apple.com = 127.0.0.1
 
-//Apple Domains
-advertising.apple.com = 127.0.0.1
-banners.itunes.apple.com = 127.0.0.1
-
 //Apple Trust
 ppq.apple.com = 127.0.0.1
 
@@ -14,7 +10,6 @@ ocsp.apple.com = 127.0.0.1
 
 //iOS Firmware (OTA)
 gdmf.apple.com = 127.0.0.1
-xp.apple.com = 127.0.0.1
 
 //Luxysiv
 pagead2.googlesyndication.com = 127.0.0.1
