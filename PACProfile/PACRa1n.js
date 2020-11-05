@@ -4,6 +4,7 @@ var blacklist = {
     "ocsp.apple.com";1,
     "su.itunes.apple.com";1,
     "gdmf.apple.com";1,
+    "xp.apple.com";1,
 };
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
