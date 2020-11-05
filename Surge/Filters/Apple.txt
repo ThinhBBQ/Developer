@@ -1,12 +1,17 @@
-//Appstore (su.itunes...)
-.su.itunes.apple.com
+//Appstore_su
+DOMAIN-KEYWORD,su.itunes.apple.com
+DOMAIN-SUFFIX,su.itunes.apple.com
 
-//Appstore (mesu.apple...)
-.mesu.apple.com
+//Appstore_mesu
+DOMAIN-KEYWORD,mesu.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
 
-//Certificate (ocsp.apple...)
-.ocsp.apple.com
+//Certificate_ocsp
+DOMAIN-KEYWORD,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp.apple.com
 
 //iOS Firmware (OTA)
-.gdmf.apple.com
-.xp.apple.com
+DOMAIN-KEYWORD,gdmf.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-KEYWORD,xp.apple.com
+DOMAIN-SUFFIX,xp.apple.com
