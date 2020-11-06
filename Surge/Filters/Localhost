@@ -1,10 +1,10 @@
-//Appstore (su.itunes...)
+//Appstore_su
 su.itunes.apple.com = 127.0.0.1
 
-//Appstore (mesu.apple...)
+//Appstore_mesu
 meesu.apple.com = 127.0.0.1
 
-//Certificate (ocsp.apple...)
+//Certificate_ocsp
 ocsp.apple.com = 127.0.0.1
 
 //iOS Firmware (OTA)
