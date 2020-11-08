@@ -2,7 +2,7 @@
 su.itunes.apple.com = 127.0.0.1
 
 //Appstore_mesu
-meesu.apple.com = 127.0.0.1
+mesu.apple.com = 127.0.0.1
 
 //Certificate_ocsp
 ocsp.apple.com = 127.0.0.1
