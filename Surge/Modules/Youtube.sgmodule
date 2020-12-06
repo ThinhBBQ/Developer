@@ -20,4 +20,4 @@ RULE-SET,Toolbox/Rewrite,♨️ Youtube
 
 [MITM]
 
-hostname = %APPEND% *zalo.me, spclient.wg.spotify.com, *.googlevideo.com, *.youtube.com, *.googleapis.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, oa.zalo.me, api*.musical.ly, *-hl.snssdk.com
+hostname = %APPEND% *zalo.me, spclient.wg.spotify.com, *.googlevideo.com, *.youtube.com, *.googleapis.com, api*.tiktokv.com, api*.musical.ly, *-hl.snssdk.com
