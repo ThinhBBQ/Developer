@@ -5,6 +5,15 @@
 
 force-http-engine-hosts = %APPEND% *api.zaloapp.com
 
+[Proxy]
+
+👊🏼 Ads Rejected = reject-tinygif
+🔘 Direct = direct
+
+[Proxy Group]
+
+♨️ Youtube = select, 👊🏼 Ads Rejected, 🔘 Direct
+
 [MITM]
 
 hostname = %APPEND% *zalo.me, spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, oa.zalo.me, api*.musical.ly, *-hl.snssdk.com
