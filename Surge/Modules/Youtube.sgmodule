@@ -10,10 +10,6 @@
 
 ♨️ Youtube = select, 👊🏼 Ads Rejected, 🔘 Direct
 
-[MITM]
-
-hostname = %APPEND% *zalo.me, spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, oa.zalo.me, api*.musical.ly, *-hl.snssdk.com
-
 [URL Rewrite]
 
 ctier=[A-Z] citer=A 302
@@ -21,3 +17,7 @@ ctier=[A-Z] citer=A 302
 [Rule]
 
 RULE-SET,Toolbox/Rewrite,♨️ Youtube
+
+[MITM]
+
+hostname = %APPEND% *zalo.me, spclient.wg.spotify.com, *.googlevideo.com, s.youtube.com, www.youtube.com, www.googleapis.com, youtubei.googleapis.com, api*.tiktokv.com, oa.zalo.me, api*.musical.ly, *-hl.snssdk.com
