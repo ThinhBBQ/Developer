@@ -1,10 +1,6 @@
 #!name=Rewrite
 #!desc=AdBlock Youtube
 
-[General]
-
-force-http-engine-hosts = %APPEND% *api.zaloapp.com
-
 [Proxy]
 
 👊🏼 Ads Rejected = reject-tinygif
