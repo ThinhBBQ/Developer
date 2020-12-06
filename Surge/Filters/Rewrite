@@ -33,22 +33,15 @@ URL-REGEX,^https?://spclient.wg.spotify.com/.+promoted_offer
 URL-REGEX,^https?://spclient.wg.spotify.com/.+sponsored
 
 //Youtube & Google
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/videogoodput
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/.+get_ads
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/atr
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/qoe
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/csi_204
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/error_204
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
-URL-REGEX,^https?:\/\/.+\.googleapis.com/.+ad_break
-URL-REGEX,^https?:\/\/.+\.googleapis.com/adsmeasurement
+^https?:\/\/.+\.googlevideo\.com\/.+&oad
+^https?:\/\/.+\.googlevideo\.com\/(ptracking|videogoodput)
+^https?:\/\/r[0-9].+\.googlevideo\.com\/.+owc=
+^https?:\/\/.+\.youtube\.com\/(.+adformat|.+get_ads)
+^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|atr|qoe)
+^https?:\/\/.+\.youtube\.com\/(csi_204|gen_204|generate_204|get_midroll|pagead|ptracking)
+^https?:\/\/.+\.youtube\.com\/pcs\/activeview
+^https?:\/\/.+\.googleapis.com/.+ad_break
+^https?:\/\/.+\.googleapis.com/adsmeasurement
 
 //TikTok
 URL-REGEX,^https?:\/\/.+\.tiktokv\.com\/api\/ad\/
