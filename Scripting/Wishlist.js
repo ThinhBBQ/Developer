@@ -9,7 +9,7 @@ let apps = ["1470774095","896694807","1458212928","1065511007","1287395996","152
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
-let reg = "us"; /*vn us uk*/
+let reg = "vn"; /*vn us uk*/
 if ($.read("reg") != "" && $.read("reg") != undefined) {
   reg = $.read("reg");
 }
