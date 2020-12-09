@@ -10,4 +10,4 @@ hostname = %APPEND% buy.itunes.apple.com
 
 #Local
 
-Verify Receipt = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$|^https:\/\/www2\.https-proxy\.me\/verify$,requires-body=1,max-size=262144,script-path=Scripts/VerifyReceipt.js
+Verify Receipt = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=Scripts/VerifyReceipt.js
