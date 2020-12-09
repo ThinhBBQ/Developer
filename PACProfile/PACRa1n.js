@@ -1,4 +1,4 @@
-var DIRECT = "DIRECT";
+var DIRECT = "PROXY 127.0.0.1:6152; DIRECT";
 var PROXY = "PROXY 127.0.0.1:1080";
 var blacklist = {
     "ocsp.apple.com":1,
