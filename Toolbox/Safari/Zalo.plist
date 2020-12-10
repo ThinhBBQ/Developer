@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/s/m1orle0p8g39rjz/YouTube%2015.26.4.ipa</string>
+					<string>https://dl.dropboxusercontent.com/s/komuqiok62pp30l/Zalo%205.33.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Youtube.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Zalo.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,19 +27,19 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Youtube.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Zalo.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.google.ios.youtube</string>
+				<string>vn.com.vng.zingalo</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Youtube 15.26.4</string>
+				<string>Zalo 5.33</string>
 			</dict>
 		</dict>
 	</array>
