@@ -35,9 +35,6 @@
 ^https?:\/\/.+\.youtube\.com\/pagead url reject-img
 ^https?:\/\/.+\.youtube\.com\/pcs\/activeview url reject-img
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
-^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
-^https?:\/\/.+\.googleapis.com/.+log_event url reject-img
-^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-img
 
 ^https?:\/\/.+\.tiktokv\.com\/.+stats url reject-img
 ^https?:\/\/.+\.tiktokv\.com\/api\/ad url reject-img
