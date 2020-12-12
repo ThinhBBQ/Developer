@@ -22,11 +22,11 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
         for (var i = 0; i < appData.length; i++) {
             if (cacheData[appData[i].trackId]) {
                 if (appData[i].formattedPrice != cacheData[appData[i].trackId].price) {
-                    priceChanged = priceChanged + "💵 " + appData[i].trackName + " ✮ " + cacheData[appData[i].trackId].price + " ➵ " + appData[i].formattedPrice + "\n"
+                    priceChanged = priceChanged + "💰 " + appData[i].trackName + " ➵ " + cacheData[appData[i].trackId].price + " ➵ " + appData[i].formattedPrice + "\n"
                     cacheData[appData[i].trackId].price = appData[i].formattedPrice
                 }
             } else {
-                newAppAdded = newAppAdded + "💵 " + appData[i].trackName + " ✮ " + appData[i].formattedPrice + "\n"
+                newAppAdded = newAppAdded + "💰 " + appData[i].trackName + " ➵ " + appData[i].formattedPrice + "\n"
                 cacheData[appData[i].trackId] = {
                     name: appData[i].trackName,
                     price: appData[i].formattedPrice
@@ -34,10 +34,10 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
             }
         }
         if (priceChanged) {
-            $notification.post(" Apprice", "🥳 Price of apps has changed", priceChanged)
+            $notification.post("🥳 Price of apps has changed",priceChanged)
         }
         if (newAppAdded) {
-            $notification.post(" Apprice", "🤩 New apps have been added to the list", newAppAdded)
+            $notification.post("🎊 New apps have been added to the list",newAppAdded)
         }
         $persistentStore.write(JSON.stringify(cacheData))
         $done()
