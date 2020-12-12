@@ -79,21 +79,21 @@ async function post_data(d) {
                   ) {
                     if (x.version !== app_monitor[x.trackId].v) {
                       notifys.push(
-                        `${flag(k)} 🎉 ${x.trackName} ➵ ${x.version}`
+                        `${flag(k)} 🎉 ${x.trackName} ✮ ${x.version}`
                       );
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💰 ${x.trackName} ➵ ${x.formattedPrice}`
+                        `${flag(k)} 💰 ${x.trackName} ◉ ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)} 🎉 ${x.trackName} ➵ ${x.version}`
+                    `${flag(k)} 🎉 ${x.trackName} ✮ ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)} 💰 ${x.trackName} ➵ ${x.formattedPrice}`
+                    `${flag(k)} 💰 ${x.trackName} ◉ ${x.formattedPrice}`
                   );
                 }
               });
@@ -120,7 +120,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify("< Leͥgeͣnͫd/>",notifys);
+  $.notify(" Leͥgeͣnͫd", "", notifys);
   $.done;
 }
 function flag(x) {
