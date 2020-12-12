@@ -20,4 +20,4 @@ RULE-SET,Toolbox/Rewrite,♨️ Youtube
 
 [MITM]
 
-hostname = %APPEND% *.googlevideo.com, *.youtube.com, s.youtube.com, www.youtube.com, youtubei.googleapis.com, api*.tiktokv.com, spclient.wg.spotify.com
+hostname = %APPEND% *.googlevideo.com, *.youtube.com, s.youtube.com, www.youtube.com, youtubei.googleapis.com, api*.tiktokv.com

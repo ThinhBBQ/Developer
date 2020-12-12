@@ -7,34 +7,13 @@
 ^https?://www.facebook.com/adnw_logging url reject-img
 ^https?://www.facebook.com/adnw_sync url reject-img
 
-^https?://spclient.wg.spotify.com/ad-logic url reject-img
-^https?://spclient.wg.spotify.com/ads url reject-img
-^https?://spclient.wg.spotify.com/.+ad_slot url reject-img
-^https?://spclient.wg.spotify.com/.+banners url reject-img
-^https?://spclient.wg.spotify.com/.+crashlytics url reject-img
-^https?://spclient.wg.spotify.com/.+doubleclick url reject-img
-^https?://spclient.wg.spotify.com/.+enabled-tracks url reject-img
-^https?://spclient.wg.spotify.com/.+event url reject-img
-^https?://spclient.wg.spotify.com/.+promoted url reject-img
-^https?://spclient.wg.spotify.com/.+sponsored url reject-img
-
-^https?:\/\/.+\.googlevideo\.com\/.+oad= url reject-200
-^https?:\/\/.+\.googlevideo\.com\/.+owc= url reject-img
-^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
-^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-img
-^https?:\/\/.+\.youtube\.com\/.+adformat url reject-img
-^https?:\/\/.+\.youtube\.com\/.+get_ads url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/atr url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/qoe url reject-img
-^https?:\/\/.+\.youtube\.com\/csi_204 url reject-img
-^https?:\/\/.+\.youtube\.com\/error_204 url reject-img
-^https?:\/\/.+\.youtube\.com\/gen_204 url reject-img
-^https?:\/\/.+\.youtube\.com\/generate_204 url reject-img
-^https?:\/\/.+\.youtube\.com\/get_midroll url reject-img
-^https?:\/\/.+\.youtube\.com\/pagead url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-200
+^https?:\/\/.+\.googlevideo\.com\/(ptracking|videogoodput) url reject-img
+^https?:\/\/r[0-9].+\.googlevideo\.com\/.+owc= url reject-img
+^https?:\/\/.+\.youtube\.com\/(.+adformat|.+get_ads) url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|atr|qoe) url reject-img
+^https?:\/\/.+\.youtube\.com\/(csi_204|gen_204|generate_204|get_midroll|pagead|ptracking) url reject-img
 ^https?:\/\/.+\.youtube\.com\/pcs\/activeview url reject-img
-^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 
 ^https?:\/\/.+\.tiktokv\.com\/.+stats url reject-img
 ^https?:\/\/.+\.tiktokv\.com\/api\/ad url reject-img
