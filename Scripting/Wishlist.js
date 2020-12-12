@@ -5,7 +5,7 @@ apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620|vn","144398862
 
 //Using Surge & Quantumult X Cron
 const $ = new API(" Wishlist", true);
-let apps = ["814288775","1470774095","896694807","1065511007","1287395996","1527331911","1254940903","1446549608","1524166698","997102246","1432739728","1524435907","1510265452","1459055246","1443988620","1442620678","1523364368","952813813","904237743","1182987360"]; /*appid :hk /us -uk au |vn*/
+let apps = ["1312014438","814288775","1470774095","896694807","1065511007","1287395996","1527331911","1254940903","1446549608","1524166698","997102246","1432739728","1524435907","1510265452","1459055246","1443988620","1442620678","1523364368","952813813","904237743","1182987360"]; /*appid :hk /us -uk au |vn*/
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
@@ -79,21 +79,21 @@ async function post_data(d) {
                   ) {
                     if (x.version !== app_monitor[x.trackId].v) {
                       notifys.push(
-                        `${flag(k)} 🔝 ${x.trackName} ❀ ${x.version}`
+                        `${flag(k)} 🎉 ${x.trackName} ➵ ${x.version}`
                       );
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💵 ${x.trackName} ➵ ${x.formattedPrice}`
+                        `${flag(k)} 💰 ${x.trackName} ➵ ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)} 🔝 ${x.trackName} ❀ ${x.version}`
+                    `${flag(k)} 🎉 ${x.trackName} ➵ ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)} 💵 ${x.trackName} ➵ ${x.formattedPrice}`
+                    `${flag(k)} 💰 ${x.trackName} ➵ ${x.formattedPrice}`
                   );
                 }
               });
@@ -120,7 +120,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify(" Wishlist","🎉 Price or version app has changed ✮ Newapps added",notifys);
+  $.notify("< Leͥgeͣnͫd/>",notifys);
   $.done;
 }
 function flag(x) {

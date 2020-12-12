@@ -1,9 +1,0 @@
-#!name= Wishlist
-#!desc=Track price movements and version of the application
-#!system=ios
-
-[Script]
-
-#Remote
-
- Wishlist = type=cron,cronexp=*/15 */1 * * *,wake-system=true,timeout=default,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Scripting/Wishlist.js,script-update-interval=7200
