@@ -50,11 +50,6 @@
  
  ⚑ New feature: Coming soon...
 
-🔝 Surge Developer Tools
- ☞ compatibility-mode = 1 or 3
- ☞ tcp-connection = true
- ☞ skip-server-cert-verify = true
-
  ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
@@ -66,7 +61,7 @@
     <key>PayloadRebootSuggested</key>
     <true/>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
