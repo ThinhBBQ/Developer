@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/longthinh/Programer/master/PACProfile/Ra1nLimited.js</string>
+			<string>https://pastebin.com/raw/MpwcpAkA</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -42,18 +42,13 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string>  PACLimited iOS Profile
+	<string> 🎉 PACLimited iOS Profile
 
  ⚠ Blocking iOS updates (OTA)
  ⚠ Revoke a blocked Certificate
  ⚠ Blocked app updates on the Appstore
  
  ⚑ New feature: Coming soon...
-
-🔝 Surge Developer Tools
- ☞ compatibility-mode = 0
- ☞ tcp-connection = false
- ☞ skip-server-cert-verify = true
 
  ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
@@ -66,7 +61,7 @@
     <key>PayloadRebootSuggested</key>
     <true/>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
