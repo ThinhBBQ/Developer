@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://dl.dropboxusercontent.com/s/gk3u3uocw0yse6l/Journal%201.0.ipa</string>
+					<string>https://dl.dropboxusercontent.com/s/ukforbjp61w3b8c/Quantumult%20X%201.0.16.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Journal.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/QuantumultX.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Journal.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/QuantumultX.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -39,7 +39,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Journal 1.0</string>
+				<string>Quantumult X 1.0.16</string>
 			</dict>
 		</dict>
 	</array>
