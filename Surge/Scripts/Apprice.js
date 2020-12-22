@@ -1,7 +1,7 @@
 /* Only for Surge
 Using Surge Cron */
 const region = "us"
-const appIds = ["1537745821","1392434975","1476300963","1488691677"]
+const appIds = ["1048431763","1537745821","1392434975","1476300963","1488691677"]
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
@@ -37,7 +37,7 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
             $notification.post("🥳 Price of apps has changed", "", priceChanged)
         }
         if (newAppAdded) {
-            $notification.post("🎊 New apps have been added to the list", "", newAppAdded)
+            $notification.post("🎊 Apprice", "", newAppAdded)
         }
         $persistentStore.write(JSON.stringify(cacheData))
         $done()
