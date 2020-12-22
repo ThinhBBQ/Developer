@@ -1,7 +1,7 @@
 /* Only for Surge
 Using Surge Cron */
 const region = "us"
-const appIds = ["1048431763","1537745821","1392434975","1476300963","1488691677"]
+const appIds = ["1468459747","1048431763","1537745821","1392434975","1476300963","1488691677"]
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
