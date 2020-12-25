@@ -143,18 +143,18 @@ function weather() {
     $httpClient.get(info, async function (error, response, data) {
         if (error) {
             console.log(error);
-            $notification.post("Dark Sky", "Connection ERROR", error);
+            $notification.post("Dark Sky", "☠︎ Poor network quality", error);
         } else {
             var obj = JSON.parse(data);
             console.log(obj);
             var hour_summary = obj.hourly.summary;
             var icon_text = obj.hourly.icon;
-            var icon = "❓"
+            var icon = "⚠ Unknown"
             if (icon_text == "clear-day") icon = "☀️";
             if (icon_text == "partly-cloudy-day") icon = "🌤";
             if (icon_text == "cloudy") icon = "☁️";
             if (icon_text == "rain") icon = "⛈";
-            if (icon_text == "snow") icon = "❄️";
+            if (icon_text == "snow") icon = "☃︎";
             if (icon_text == "sleet") icon = "🌨";
             if (icon_text == "wind") icon = "🌬";
             if (icon_text == "fog") icon = "💨";

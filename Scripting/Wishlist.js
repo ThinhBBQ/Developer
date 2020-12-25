@@ -120,7 +120,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify(" Leͥgeͣnͫd", "", notifys);
+  $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
   $.done;
 }
 function flag(x) {
