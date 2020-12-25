@@ -10,4 +10,4 @@ hostname = %APPEND% api.revenuecat.com
 
 #Local
 
-AirMail = type=http-response,pattern=^https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=Scripts/Revenuecat.js
+Revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=Scripts/Revenuecat.js
