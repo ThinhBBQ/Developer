@@ -13,7 +13,7 @@ if (!cacheData) {
 $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + region, function (error, response, data) {
     if (error) {
         console.log(error);
-        $notification.post("", "☕︎ Poor network quality", error)
+        $notification.post(" Apprice - Leͥgeͣnͫd", "⚠ Poor network quality", error)
         $done()
     } else {
         let appData = JSON.parse(data).results
