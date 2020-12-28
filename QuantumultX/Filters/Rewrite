@@ -14,6 +14,3 @@
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|atr|qoe) url reject-img
 ^https?:\/\/.+\.youtube\.com\/(csi_204|gen_204|generate_204|get_midroll|pagead|ptracking) url reject-img
 ^https?:\/\/.+\.youtube\.com\/pcs\/activeview url reject-img
-
-^https?:\/\/.+\.tiktokv\.com\/.+stats url reject-img
-^https?:\/\/.+\.tiktokv\.com\/api\/ad url reject-img

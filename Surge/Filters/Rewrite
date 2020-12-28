@@ -14,6 +14,3 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/(.+adformat|.+get_ads)
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|atr|qoe)
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/(csi_204|gen_204|generate_204|get_midroll|pagead|ptracking)
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/pcs\/activeview
-
-URL-REGEX,^https?:\/\/.+\.tiktokv\.com\/.+stats
-URL-REGEX,^https?:\/\/.+\.tiktokv\.com\/api\/ad
