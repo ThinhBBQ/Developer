@@ -210,6 +210,7 @@ HOST-SUFFIX,discovery.api.zaloapp.com,REJECT
 HOST-SUFFIX,shop.zaloapp.com,REJECT
 
 //hostVN
+HOST-SUFFIX,apimboom2.globaldelight.net
 HOST-SUFFIX,common.iuuapp.com,REJECT
 HOST-SUFFIX,app.appsflyer.com,REJECT
 HOST-SUFFIX,123c.vn,REJECT
