@@ -1,16 +1,3 @@
-//Appstore_su
-su.itunes.apple.com = 127.0.0.1
-
-//Appstore_mesu
-mesu.apple.com = 127.0.0.1
-
-//Certificate_ocsp
-ocsp.apple.com = 127.0.0.1
-
-//iOS Firmware (OTA)
-gdmf.apple.com = 127.0.0.1
-xp.apple.com = 127.0.0.1
-
 //Luxysiv
 pagead2.googlesyndication.com = 127.0.0.1
 tpc.googlesyndication.com = 127.0.0.1
@@ -172,6 +159,7 @@ discovery.api.zaloapp.com = 127.0.0.1
 shop.zaloapp.com = 127.0.0.1
 
 //hostVN
+common.iuuapp.com = = 127.0.0.1
 app.appsflyer.com = 127.0.0.1
 123c.vn = 127.0.0.1
 24h*-ad.24hstatic.com = 127.0.0.1
