@@ -143,7 +143,7 @@ function weather() {
     $httpClient.get(info, async function (error, response, data) {
         if (error) {
             console.log(error);
-            $notification.post("Dark Sky", "☠︎ Poor network quality", error);
+            $notification.post("Dark Sky", "⚠ Request failed", error);
         } else {
             var obj = JSON.parse(data);
             console.log(obj);
