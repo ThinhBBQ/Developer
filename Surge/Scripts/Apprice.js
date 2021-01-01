@@ -1,7 +1,7 @@
 /* Only for Surge
 Using Surge Cron */
 const region = "us"
-const appIds = ["1048431763","1488691677","1392434975"]
+const appIds = ["1546719359","1048431763","1488691677","1392434975"]
 
 var cacheData = $persistentStore.read()
 if (!cacheData) {
@@ -13,7 +13,7 @@ if (!cacheData) {
 $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + region, function (error, response, data) {
     if (error) {
         console.log(error);
-        $notification.post(" Apprice - Leͥgeͣnͫd", error)
+        $notification.post(" Apprice - Leͥgeͣnͫd", "⚠ Request failed", error)
         $done()
     } else {
         let appData = JSON.parse(data).results
