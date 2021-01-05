@@ -4,8 +4,8 @@ apps=["1443988620:hk","1443988620/us","1443988620-uk","1443988620|vn","144398862
 */
 
 //Using Surge & Quantumult X Cron
-const $ = new API(" Wishlist", true);
-let apps = ["1534111101","1456401260","1527416109","1405459188","1282297037","364901807","1344204781","1465749029","1519405335","1527036273","1312014438","814288775","1470774095","896694807","1065511007","1287395996","1527331911","1254940903","1524166698","997102246","1524435907","1510265452","1459055246","1443988620","1442620678","952813813","904237743"]; /*appid :hk /us -uk au |vn*/
+const $ = new API(" Apprice", true);
+let apps = ["1533952008","1543280334","1529119045","1546719359","1048431763","1488691677","1392434975"]; /*appid :hk /us -uk au |vn*/
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
@@ -84,7 +84,7 @@ async function post_data(d) {
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💰 ${x.trackName} 💵 ${x.formattedPrice}`
+                        `${flag(k)} 💰 ${x.trackName} 💸 ${x.formattedPrice}`
                       );
                     }
                   }
@@ -93,7 +93,7 @@ async function post_data(d) {
                     `${flag(k)} 🎉 ${x.trackName} 🔝 ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)} 💰 ${x.trackName} 💵 ${x.formattedPrice}`
+                    `${flag(k)} 💰 ${x.trackName} 💸 ${x.formattedPrice}`
                   );
                 }
               });
@@ -106,11 +106,11 @@ async function post_data(d) {
       })
     );
     infos = JSON.stringify(infos);
-    $.write(infos, " Wishlist");
+    $.write(infos, " Apprice");
     if (notifys.length > 0) {
       notify(notifys);
     } else {
-      console.log("⚠️ Nothing...");
+      console.log("🥴 No change...");
       $.done;
     }
   } catch (e) {
@@ -120,7 +120,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(notifys);
-  $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
+  $.notify(" Apprice - Leͥgeͣnͫd", "", notifys);
   $.done;
 }
 function flag(x) {
