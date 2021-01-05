@@ -84,7 +84,7 @@ async function post_data(d) {
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💰 ${x.trackName} 💵 ${x.formattedPrice}`
+                        `${flag(k)} 💰 ${x.trackName} ✮ ${x.formattedPrice}`
                       );
                     }
                   }
@@ -93,7 +93,7 @@ async function post_data(d) {
                     `${flag(k)} 🎉 ${x.trackName} 🔝 ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)} 💰 ${x.trackName} 💵 ${x.formattedPrice}`
+                    `${flag(k)} 💰 ${x.trackName} ✮ ${x.formattedPrice}`
                   );
                 }
               });
