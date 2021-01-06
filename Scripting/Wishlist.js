@@ -240,8 +240,6 @@ function flag(x) {
   ]);
   return flags.get(x.toUpperCase());
 }
-
-//From  OpenAPI.js
 function ENV() {
   const e = "undefined" != typeof $task,
     t = "undefined" != typeof $loon,

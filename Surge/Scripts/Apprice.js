@@ -2,18 +2,16 @@
 Using Surge Cron */
 const region = "us"
 const appIds = ["1058024591","1533952008","1543280334","1529119045","1546719359","1048431763","1488691677","1392434975"]
-
 var cacheData = $persistentStore.read()
 if (!cacheData) {
     cacheData = {}
 } else {
     cacheData = JSON.parse(cacheData)
 }
-
 $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + region, function (error, response, data) {
     if (error) {
         console.log(error);
-        $notification.post(" Apprice - Leͥgeͣnͫd", "⚠ Request failed", error)
+        $notification.post(" Apprice - Leͥgeͣnͫd", "Oops! Request failed.", error)
         $done()
     } else {
         let appData = JSON.parse(data).results
@@ -34,7 +32,7 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
             }
         }
         if (priceChanged) {
-            $notification.post("🥳 Price of apps has changed", "", priceChanged)
+            $notification.post("Wow! Price of apps has changed.", "", priceChanged)
         }
         if (newAppAdded) {
             $notification.post(" Apprice - Leͥgeͣnͫd", "", newAppAdded)
