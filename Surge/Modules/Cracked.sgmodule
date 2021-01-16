@@ -14,7 +14,7 @@ Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api
 
 #Local
 
-Eggzy = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
+Eggzy = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
 
 #Local
 
