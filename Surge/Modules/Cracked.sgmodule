@@ -4,7 +4,7 @@
 
 [MITM]
 
-hostname = %APPEND% api.picsart.com, api.textnow.me, license.pdfexpert.com
+hostname = %APPEND% api.picsart.com, license.pdfexpert.com, subs.platforms.team
 
 [Script]
 
@@ -14,8 +14,8 @@ Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api
 
 #Local
 
-PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
+Eggzy = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
 
 #Local
 
-TextNow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.+,requires-body=1,max-size=0,script-path=Scripts/TextNow.js
+PicsArt = type=http-response,pattern=^https://api.picsart.com/users/show/me.json$,requires-body=1,max-size=0,script-path=Scripts/PicsArt.js
