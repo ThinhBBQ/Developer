@@ -4,17 +4,13 @@
 
 [MITM]
 
-hostname = %APPEND% api.picsart.com, license.pdfexpert.com, subs.platforms.team
+hostname = %APPEND% api.picsart.com, license.pdfexpert.com
 
 [Script]
 
 #Local
 
 Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
-
-#Local
-
-Eggzy = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
 
 #Local
 
