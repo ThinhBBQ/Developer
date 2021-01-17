@@ -1,0 +1,17 @@
+#!name=Cracked
+#!desc=Unlock In-app Purchases
+#!system=ios
+
+[MITM]
+
+hostname = %APPEND% api.textnow.com, subs.platforms.team
+
+[Script]
+
+#Local
+
+Eggzy = type=http-response,pattern=^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$,requires-body=1,max-size=0,script-path=Scripts/Eggzy.js
+
+#Local
+
+TextNow = type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.+,requires-body=1,max-size=0,script-path=Scripts/TextNow.js
