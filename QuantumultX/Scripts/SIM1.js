@@ -184,7 +184,7 @@ if(response.statusCode == 200){
 let obj= JSON.parse(data);
 if(obj["errorCode"] === "0"){
 var data= obj["data"][0];
-$notification.post("Subscription: " + data["pack_name"], "",  "Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\nRenewal: ⚠ " + data["expireDate"]);
+$notification.post("SIM 1: " + data["pack_name"], "",  "Available: " + data["remain_mb"]+"MB ~ " + Math.round(data["remain_mb"]/1024) + "GB\nRenewal: ⚠ " + data["expireDate"]);
 }
 }
 }
