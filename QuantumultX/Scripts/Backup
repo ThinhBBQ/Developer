@@ -1,7 +1,0 @@
-hostname = api.textnow.com, subs.platforms.team
-
-#Eggzy
-^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ url script-response-body Eggzy.js
-
-#TextNow
-^https:\/\/api\.textnow\.me\/api2.0\/users\/.+ url script-response-body TextNow.js

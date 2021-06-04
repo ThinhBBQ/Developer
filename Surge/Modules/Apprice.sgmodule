@@ -1,8 +1,0 @@
-#!name= Apprice
-#!desc=Tracking apps
-#!system=ios
-
-[Script]
-
-#Remote
- Apprice = type=cron,cronexp=*/15 */1 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Scripts/Apprice.js,script-update-interval=7200
