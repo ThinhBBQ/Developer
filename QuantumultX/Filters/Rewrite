@@ -7,10 +7,13 @@
 ^https?://www.facebook.com/adnw_logging url reject-img
 ^https?://www.facebook.com/adnw_sync url reject-img
 
-^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-200
-^https?:\/\/.+\.googlevideo\.com\/(ptracking|videogoodput) url reject-img
-^https?:\/\/r[0-9].+\.googlevideo\.com\/.+owc= url reject-img
-^https?:\/\/.+\.youtube\.com\/(.+adformat|.+get_ads) url reject-img
-^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|atr|qoe) url reject-img
-^https?:\/\/.+\.youtube\.com\/(csi_204|gen_204|generate_204|get_midroll|pagead|ptracking) url reject-img
-^https?:\/\/.+\.youtube\.com\/pcs\/activeview url reject-img
+^https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
+^https?:\/\/.+.youtube.com\/api\/stats\/ads,REJECT
+^https?:\/\/.+.youtube.com\/get_midroll_,REJECT
+^https?:\/\/.+.youtube.com\/pagead\/,REJECT
+^https?:\/\/.+.youtube.com\/ptracking\?,REJECT
+^https?:\/\/.+.youtube.com\/_get_ads,REJECT
+^https?:\/\/youtubei.googleapis.com\/.+ad_break,REJECT
+^https?:\/\/youtubei.googleapis.com\/youtubei\/.+(ad|log),REJECT
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adformat,REJECT
+^https?:\/\/[\w-]+\.googlevideo\.com\/.+&oad,REJECT-TINYGIF
