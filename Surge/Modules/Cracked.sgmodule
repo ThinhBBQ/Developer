@@ -4,13 +4,17 @@
 
 [MITM]
 
-hostname = %APPEND% api.picsart.com, license.pdfexpert.com
+hostname = %APPEND% api.picsart.com, license.pdfexpert.com, license.enpass.io
 
 [Script]
 
 #Local
 
 Documents 7 = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Scripts/Documents.js
+
+#Local
+
+Elpass = type=http-response,pattern=^https:\/\/license\.enpass\.io/api/.+/subscription/me,requires-body=1,max-size=0,control-api=1,script-path=Scripts/Elpass.js
 
 #Local
 
