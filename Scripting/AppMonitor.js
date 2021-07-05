@@ -1,12 +1,10 @@
-/*
-App monitor
-*/
 const $ = new API("App Monitor", true);
-let apps = ["1457369322","1344204781","1209349510","1459055246","1523364368","1254940903","1503446680","1547610115","1546719359","1520370235","1520371417","1524166698","1470774095","1282297037","364901807","918751511","796794370","1524435907","1527036273","1443988620","1442620678","1312014438","896694807","1510265452","904237743","1519405335","952813813"]; //appid
+let apps = ["1457369322","1344204781","1209349510","1459055246","1523364368","1254940903","1503446680","1547610115","1546719359","1520370235","1520371417","1524166698","1470774095","1282297037","364901807","918751511","1524435907","1527036273","1443988620","1442620678","1312014438","896694807","1510265452","904237743","1519405335","952813813"];
+
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
-let reg = "us"; //
+let reg = "us";
 if ($.read("reg") != "" && $.read("reg") != undefined) {
   reg = $.read("reg");
 }
@@ -33,10 +31,10 @@ function format_apps(x) {
           apps_f[n_n[1]].push(n_n[0]);
         }
       } else {
-        notifys.push(`ID wrong:【${n}】`);
+        notifys.push(`ID wrong: ${n}`);
       }
     } else {
-      notifys.push(`ID wrong:【${n}】`);
+      notifys.push(`ID wrong: ${n}`);
     }
   });
   if (Object.keys(apps_f).length > 0) {
@@ -76,21 +74,21 @@ async function post_data(d) {
                   ) {
                     if (x.version !== app_monitor[x.trackId].v) {
                       notifys.push(
-                        `${flag(k)}🧩${x.trackName}:upgrade【${x.version}】`
+                        `${flag(k)}🎉${x.trackName}:upgrade </> ${x.version}`
                       );
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`
+                        `${flag(k)}💰${x.trackName}:price </> ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)}🧩${x.trackName}:version【${x.version}】`
+                    `${flag(k)}🎉${x.trackName}:version </> ${x.version}`
                   );
                   notifys.push(
-                    `${flag(k)}💰${x.trackName}:price【${x.formattedPrice}】`
+                    `${flag(k)}💰${x.trackName}:price </> ${x.formattedPrice}`
                   );
                 }
               });
@@ -108,7 +106,7 @@ async function post_data(d) {
       notify(notifys);
       $.done();
     } else {
-      console.log("APP Monitor：No change version and price");
+      console.log("⚠️ Nothing...");
       $.done();
     }
   } catch (e) {
@@ -118,7 +116,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(JSON.stringify(notifys));
-  $.notify("APP Monitor", "", notifys);
+  $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
 }
 function flag(x) {
   var flags = new Map([
