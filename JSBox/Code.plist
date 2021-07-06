@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Images/Installing.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Safari/Images/Installing.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Toolbox/Safari/Installing.png</string>
+					<string>https://raw.githubusercontent.com/longthinh/Programer/master/Safari/Installing.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
