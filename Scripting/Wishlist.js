@@ -1,4 +1,4 @@
-const $ = new API("App Monitor", true);
+const $ = new API("AppMonitor", true);
 let apps = ["1457369322","1344204781","1209349510","1459055246","1523364368","1254940903","1503446680","1547610115","1546719359","1520370235","1520371417","1524166698","1470774095","1282297037","364901807","918751511","1524435907","1527036273","1443988620","1442620678","1312014438","896694807","1510265452","904237743","1519405335","952813813"];
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
@@ -47,7 +47,7 @@ async function post_data(d) {
       app_monitor = {};
     } else {
       app_monitor = JSON.parse(app_monitor);
-      console.log(JSON.stringify(app_monitor));
+      $.info(app_monitor)
     }
     let infos = {};
     await Promise.all(
@@ -105,7 +105,7 @@ async function post_data(d) {
       notify(notifys);
       $.done();
     } else {
-      console.log("⚠️ Nothing...");
+      console.log("APP Monitor：No change version and price");
       $.done();
     }
   } catch (e) {
@@ -115,7 +115,7 @@ async function post_data(d) {
 function notify(notifys) {
   notifys = notifys.join("\n");
   console.log(JSON.stringify(notifys));
-  $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
+  $.notify("APP Monitor", "", notifys);
 }
 function flag(x) {
   var flags = new Map([
