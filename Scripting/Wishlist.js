@@ -1,5 +1,5 @@
 const $ = new API("AppMonitor", true);
-let apps = ["1470774095","1531055735","1282297037","1014838705","1457369322","364901807","1534111101","918751511","579523206","1209349510","544007664","1547610115","1503446680","1510265452","1459055246","1524435907","1527036273","1443988620","1442620678","1312014438","896694807","1523364368","904237743","1519405335","1344204781","1254940903"];
+let apps = ["1050576070","1470774095","1531055735","1282297037","1014838705","1457369322","364901807","1534111101","918751511","579523206","1209349510","544007664","1547610115","1503446680","1510265452","1459055246","1524435907","1527036273","1443988620","1442620678","1312014438","896694807","1523364368","904237743","1519405335","1344204781","1254940903"];
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
@@ -105,7 +105,7 @@ async function post_data(d) {
       notify(notifys);
       $.done();
     } else {
-      console.log("APP Monitor：No change version and price");
+      console.log("⚠️ Nothing...");
       $.done();
     }
   } catch (e) {
@@ -114,8 +114,8 @@ async function post_data(d) {
 }
 function notify(notifys) {
   notifys = notifys.join("\n");
-  console.log(JSON.stringify(notifys));
-  $.notify("APP Monitor", "", notifys);
+  //console.log(JSON.stringify(notifys));
+  $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
 }
 function flag(x) {
   var flags = new Map([
