@@ -42,7 +42,7 @@ function format_apps(x) {
 }
 async function post_data(d) {
   try {
-    let app_monitor = $.read("app_monitor");
+    let app_monitor = $.read(" Wishlist - Leͥgeͣnͫd");
     if (app_monitor === "" || app_monitor === undefined) {
       app_monitor = {};
     } else {
@@ -100,7 +100,7 @@ async function post_data(d) {
       })
     );
     infos = JSON.stringify(infos);
-    $.write(infos, "app_monitor");
+    $.write(infos, " Wishlist - Leͥgeͣnͫd");
     if (notifys.length > 0) {
       notify(notifys);
       $.done();
@@ -114,7 +114,6 @@ async function post_data(d) {
 }
 function notify(notifys) {
   notifys = notifys.join("\n");
-  //console.log(JSON.stringify(notifys));
   $.notify(" Wishlist - Leͥgeͣnͫd", "", notifys);
 }
 function flag(x) {
