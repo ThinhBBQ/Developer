@@ -2,7 +2,7 @@ const $ = API("SHOPEE++", true);
 let cookie = $request.headers['Cookie'];
 if (cookie) {
 $.write($request.headers['Cookie'], "#shopeecookie");
-$.notify(`Shopee++: Done! 💯`, `#shopeecookie: ${cookie}`,``);
+$.notify(`Shopee++: 🥳 Successfully!`, `#shopeecookie: ${cookie}`,``);
   } else {
     $.notify(`⚠ Shoppe++: Oops! Please login web again`, ``, ``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"})
   }
