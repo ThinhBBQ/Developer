@@ -16,7 +16,7 @@ $.error(resp.body);
 $.notify(`𓆉 Shoppe++: Please try again Tomorrow!`,``,``);
 }
 }else{
-$.notify(`⚠️ Shoppe++: Oops!; Please try Login`,``,``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"});
+$.notify(`⚠ Shoppe++: Oops!; Please try Login`,``,``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"});
 }
 $.done();
 })

@@ -4,7 +4,7 @@ if (cookie) {
 $.write($request.headers['Cookie'], "#shopeecookie");
 $.notify(`Shopee++: Done! 💯`, `#shopeecookie: ${cookie}`,``);
   } else {
-    $.notify(`⚠️ Shoppe++: Oops! Please login web again`, ``, ``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"})
+    $.notify(`⚠ Shoppe++: Oops! Please login web again`, ``, ``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"})
   }
  $.done();
 

@@ -1,4 +1,4 @@
-#!name=VerifyReceipt
+#!name=Verify Receipt
 #!desc=⚠ Free Trial
 #!system=ios
 
@@ -10,4 +10,4 @@ hostname = %APPEND% buy.itunes.apple.com
 
 #Local
 
-Verify Receipt = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=Scripts/VerifyReceipt.js
+Verify Receipt* = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=Scripts/VerifyReceipt.js
