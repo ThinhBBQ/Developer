@@ -10,10 +10,10 @@ $.http.post(request).then(resp => {
 let json = JSON.parse(resp.body);
 if(resp.statusCode == 200){
 if(json.data.success){
-$.notify(`🎉 Shopee++: Congratulation get ${json.data.increase_coins} coins!`,``,``);
+$.notify(`🎉 Shopee++: Congratulations to get ${json.data.increase_coins} coins!`,``,``);
 }else{
 $.error(resp.body);
-$.notify(`⚠ Shoppe++: Please try again 𓆉 Tomorrow.`,``,``);
+$.notify(`⚠ Shoppe++: Sorry! Please try again 𓆉 Tomorrow.`,``,``);
 }
 }else{
 $.notify(`⚠ Shoppe++: Oops! Please try Re-login web.`,``,``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"});
