@@ -6,6 +6,6 @@
 hostname = %APPEND% shopee.vn
 
 [Script]
-⌛︎ Shopee++ = type=cron, cronexp= 0 5 * * *, timeout=default, script-path=Cron/Shopee++.js
+☕︎ Shopee++ = type=cron, cronexp= 0 5 * * *, timeout=default, script-path=Cron/Shopee++.js
 
 Shopee = type=http-request, pattern=^https:\/\/shopee\.vn\/api\/.+\/platform\/get_ft_v2\?userid,max-size=0, debug=1, script-path=Scripts/Shopee.js
