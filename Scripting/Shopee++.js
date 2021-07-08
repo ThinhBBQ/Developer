@@ -10,7 +10,7 @@ $.http.post(request).then(resp => {
 let json = JSON.parse(resp.body);
 if(resp.statusCode == 200){
 if(json.data.success){
-$.notify(`🎉 Shopee++: Congratulation get ${json.data.increase_coins} coins!.`,``,``);
+$.notify(`🎉 Shopee++: Congratulation get ${json.data.increase_coins} coins!`,``,``);
 }else{
 $.error(resp.body);
 $.notify(`⚠ Shoppe++: Please try again 𓆉 Tomorrow.`,``,``);
