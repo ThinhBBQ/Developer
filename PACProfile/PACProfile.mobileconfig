@@ -42,7 +42,7 @@
 		</dict>
 	</array>
       <key>PayloadDescription</key>
-	<string> 🎉 PACProfile
+	<string> 🎉 PACProfile iOS
 
  ⚠ Blocking iOS updates (OTA)
  
@@ -51,7 +51,7 @@
  ✆ Contact us: t.me/longthinh (Nicegram)</string>
 	
 	<key>PayloadDisplayName</key>
-	<string> PACProfile</string>
+	<string> Leͥgeͣnͫd</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
     <key>PayloadOrganization</key>
