@@ -22,5 +22,3 @@
 🇺🇸 US 114 = ss, 65.49.193.120, 502, encrypt-method=aes-256-cfb, password=bwhskrskr01, udp-relay=false
 🇺🇸 US 115 = ss, 104.243.30.27, 501, encrypt-method=aes-256-cfb, password=bwhskrskr03, udp-relay=false
 🇺🇸 US 117 = ss, 212.102.44.83, 40093, encrypt-method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, udp-relay=false
-🇿🇦 ZA 170 = vmess, 13.245.13.47, 45623, username=a443853f-ce89-4b7c-e6f5-a5ad018085bf, tls=false
-🇿🇦 ZA 171 = vmess, 13.245.16.126, 20404, username=559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, tls=false
