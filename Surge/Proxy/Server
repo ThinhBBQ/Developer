@@ -1,0 +1,19 @@
+🇦🇺 AU = ss, ss.au.sshmax.net, 1443, encrypt-method=chacha20-ietf-poly1305, password=kRAxb8hPUxS0, udp-relay=false
+🇨🇦 CA = ss, ss.sg.sshmax.net, 57478, encrypt-method=chacha20-ietf-poly1305, password=o4qygNrXw7cE, udp-relay=false
+🇩🇪 DE = ss, 45.134.224.15, 46642, encrypt-method=aes-256-gcm, password=gYL83DQWXuDbxmZAVVtUTXaK, udp-relay=false
+🇩🇪 DE = vmess, 18.193.122.123, 25275, username=eebfe76a-c71f-49e4-f983-983384d5dadf, tls=false
+🇫🇷 FR = ss, 51.195.62.220, 811, encrypt-method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, udp-relay=false
+🇫🇷 FR = ss, 51.195.149.30, 57478, encrypt-method=chacha20-ietf-poly1305, password=HgVDIN05O6bH, udp-relay=false
+🇫🇷 FR = vmess, 51.195.217.20, 80, username=6c0cb6a9-2389-4b5d-8bec-b14b076f4a4e, ws=true, tls=false, ws-path=/sshocean
+🇮🇳 IN = ss, 137.59.52.107, 40093, encrypt-method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, udp-relay=false
+🇮🇹 IT = ss, 84.17.58.134, 50168, encrypt-method=aes-256-gcm, password=WCuz7yrfZSCQQXSNrtGPz2HT, udp-relay=false
+🇰🇷 KR = ss, 52.79.60.0, 23290, encrypt-method=aes-256-gcm, password=boWiglZbWT, udp-relay=false
+🇷🇺 RU = ss, 5.189.202.9, 31572, encrypt-method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, udp-relay=false
+🇷🇺 RU = ss, 80.85.156.31, 37705, encrypt-method=chacha20-ietf-poly1305, password=xiaodongyoutuber, udp-relay=false
+🇷🇺 RU = vmess, 91.245.227.135, 38166, username=9551d4fd-610e-4bf3-9f93-1df5452c3654, ws=true, tls=false, ws-path=/
+🇷🇺 RU = vmess, 80.85.156.31, 40331, username=f3dc16e3-715c-4839-abd3-8e0c6df46064, tls=false
+🇬🇧 UK = ss, 195.206.169.203, 31572, encrypt-method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, udp-relay=false
+🇬🇧 UK = ss, 185.38.150.124, 31572, encrypt-method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, udp-relay=false
+🇬🇧 UK = ss, 81.19.214.37, 39772, encrypt-method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, udp-relay=false
+🇺🇸 US = ss, 84.17.35.86, 39772, encrypt-method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, udp-relay=false
+🇺🇸 US = ss, 212.102.44.83, 40093, encrypt-method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, udp-relay=false
