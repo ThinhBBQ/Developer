@@ -1,0 +1,13 @@
+#!name=♲ Proxy
+#!desc=➫ Fake IP Address
+#!system=ios
+
+[Proxy Group]
+
+♲ Proxy = select, policy-path=https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Proxy/Server, update-interval=7200, no-alert=0, hidden=0
+
+⚤ Service = select, ♲ Proxy, 🔘 Disable, no-alert=0, hidden=0
+
+[Rule]
+
+RULE-SET,https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Proxy/Private,⚤ Service
