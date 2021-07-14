@@ -1,0 +1,17 @@
+#!name=Viettel ∞
+#!desc=𓆣 Data Bugs
+#!system=ios
+
+[Proxy]
+
+◉ Normal = direct
+
+◉ VT1 = vmess, sg1.v2-ray.com, 80, username=8d5b2f96-d4a3-4b67-820f-c258a71b7c48, ws=true, ws-path=/fastssh?u=viettel&p=60eada6c1e20b&, ws-headers=Host:"videoakm1.tv360.vn"
+
+◉ VT2 = vmess, sg5.v2-ray.com, 80, username=5fc32973-a15e-404c-b1f7-707187f7fd6e, ws=true, ws-path=/fastssh?u=viettel21071&p=60eafb6854e79&, ws-headers=Host:"videoakm1.tv360.vn"
+
+◉ VT3 - Lifetime = vmess, 158.101.149.205, 80, username=37cfa5b1-ff5d-4edc-bf3d-8b6e91d73a3b, ws=true, ws-path=/, ws-headers=Host:"videoakm1.tv360.vn"
+
+[Proxy Group]
+
+⚡︎ Viettel++ = select, ◉ Normal, ◉ VT1, ◉ VT2, ◉ VT3 - Lifetime, no-alert=0, hidden=0
