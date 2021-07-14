@@ -1,13 +1,3 @@
 #!name=Proxy
 #!desc=➫ Fake IP Address
 #!system=ios
-
-[Proxy]
-
-🍷 The End = direct
-
-[Proxy Group]
-
-🛰 Proxy = select, policy-path=https://raw.githubusercontent.com/longthinh/Programer/master/Surge/Proxy/Server, update-interval=7200, no-alert=0, hidden=0
-
-⚤ Entertainment = select, 🛰 Proxy, 🍷 The End, no-alert=0, hidden=0
