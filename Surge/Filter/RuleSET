@@ -1,4 +1,4 @@
-//Keyword
+#Keyword
 DOMAIN-KEYWORD,adjust
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -49,7 +49,7 @@ DOMAIN-KEYWORD,umtrack
 DOMAIN-KEYWORD,usage
 DOMAIN-KEYWORD,vclick
 
-//Luxysiv
+#Luxysiv
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,google-analytics.com
@@ -209,7 +209,7 @@ DOMAIN-SUFFIX,d.adsplay.net
 DOMAIN-SUFFIX,discovery.api.zaloapp.com
 DOMAIN-SUFFIX,shop.zaloapp.com
 
-//hostVN
+#hostVN
 DOMAIN-SUFFIX,common.iuuapp.com
 DOMAIN-SUFFIX,app.appsflyer.com
 DOMAIN-SUFFIX,123c.vn

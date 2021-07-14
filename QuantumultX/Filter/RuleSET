@@ -1,4 +1,4 @@
-//Keyword
+#Keyword
 HOST-KEYWORD,adjust,REJECT
 HOST-KEYWORD,admarvel,REJECT
 HOST-KEYWORD,admaster,REJECT
@@ -49,7 +49,7 @@ HOST-KEYWORD,umtrack,REJECT
 HOST-KEYWORD,usage,REJECT
 HOST-KEYWORD,vclick,REJECT
 
-//Luxysiv
+#Luxysiv
 HOST-SUFFIX,pagead2.googlesyndication.com,REJECT
 HOST-SUFFIX,tpc.googlesyndication.com,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
@@ -209,7 +209,7 @@ HOST-SUFFIX,d.adsplay.net,REJECT
 HOST-SUFFIX,discovery.api.zaloapp.com,REJECT
 HOST-SUFFIX,shop.zaloapp.com,REJECT
 
-//hostVN
+#hostVN
 HOST-SUFFIX,common.iuuapp.com,REJECT
 HOST-SUFFIX,app.appsflyer.com,REJECT
 HOST-SUFFIX,123c.vn,REJECT

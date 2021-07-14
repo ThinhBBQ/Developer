@@ -1,5 +1,6 @@
 URL-REGEX,^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn)
 
+#Facebook
 URL-REGEX,^https?://graph.facebook.com/.+activities
 URL-REGEX,^https?://graph.facebook.com/.+advertiser_id=
 URL-REGEX,^https?://graph.facebook.com/.+events
@@ -7,6 +8,7 @@ URL-REGEX,^https?://graph.facebook.com/network_ads_common
 URL-REGEX,^https?://www.facebook.com/adnw_logging
 URL-REGEX,^https?://www.facebook.com/adnw_sync
 
+#Youtube
 URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/api\/stats\/ads,REJECT
 URL-REGEX,https?:\/\/.+.youtube.com\/get_midroll_,REJECT

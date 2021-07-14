@@ -1,4 +1,4 @@
-//Luxysiv
+#Luxysiv
 pagead2.googlesyndication.com = 127.0.0.1
 tpc.googlesyndication.com = 127.0.0.1
 google-analytics.com = 127.0.0.1
@@ -158,7 +158,7 @@ d.adsplay.net = 127.0.0.1
 discovery.api.zaloapp.com = 127.0.0.1
 shop.zaloapp.com = 127.0.0.1
 
-//hostVN
+#hostVN
 common.iuuapp.com = = 127.0.0.1
 app.appsflyer.com = 127.0.0.1
 123c.vn = 127.0.0.1
