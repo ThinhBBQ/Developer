@@ -1,7 +1,6 @@
 var DIRECT = "PROXY 127.0.0.1:6152; DIRECT";
 var PROXY = "PROXY 127.0.0.1:6153";
 var blacklist = {
-    "ocsp.apple.com":1,
     "su.itunes.apple.com":1,
     "gdmf.apple.com":1,
 };
